@@ -8,6 +8,7 @@ import requests
 from .sec import DATA_DIR
 
 CACHE = DATA_DIR / "cusip_tickers.json"
+OVERRIDES = DATA_DIR / "ticker_overrides.json"  # hand-kept {cusip: ticker} for OpenFIGI misses
 CACHE_VERSION = 2  # bump to re-resolve everything after changing the matching rules
 API_KEY = os.environ.get("OPENFIGI_API_KEY")
 # Without a key OpenFIGI allows 10 jobs/request and 25 requests/minute.
@@ -68,4 +69,8 @@ def resolve(cusips):
 
     CACHE.parent.mkdir(parents=True, exist_ok=True)
     CACHE.write_text(json.dumps({"_version": CACHE_VERSION, **dict(sorted(cache.items()))}, indent=1))
+
+    overrides = json.loads(OVERRIDES.read_text()) if OVERRIDES.exists() else {}
+    for cusip, ticker in overrides.items():
+        cache[cusip] = dict(cache.get(cusip) or {}, ticker=ticker)
     return cache

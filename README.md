@@ -29,6 +29,7 @@ docs/index.html     대시보드 (data.json을 읽는 정적 페이지)
 
 선택 사항:
 - `OPENFIGI_API_KEY`: 무료 키가 있으면 티커 변환이 빨라짐
+- 티커가 비거나 틀리면 `data/ticker_overrides.json` 에 `"CUSIP": "티커"` 를 추가
 
 ## 로컬 실행
 
