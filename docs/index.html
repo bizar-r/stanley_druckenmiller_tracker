@@ -113,6 +113,13 @@ a:hover { text-decoration: underline; }
 .hbar-row .track { height: 14px; }
 .hbar-row .fill { height: 100%; background: var(--series); border-radius: 0 4px 4px 0; min-width: 2px; }
 .hbar-row .lab { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-weight: 600; }
+.quote { color: var(--text-2); font-size: 12px; white-space: normal; min-width: 220px; max-width: 420px; text-align: left; }
+.conf { display: inline-block; width: 40px; height: 6px; border-radius: 3px; background: var(--grid); vertical-align: middle; margin-right: 6px; overflow: hidden; }
+.conf > i { display: block; height: 100%; background: var(--series); }
+.article { padding: 10px 0; border-bottom: 1px solid var(--grid); font-size: 13px; }
+.article:last-child { border-bottom: 0; }
+.article .meta { color: var(--muted); font-size: 12px; }
+.article p { margin: 4px 0 0; color: var(--text-2); }
 </style>
 </head>
 <body>
@@ -143,6 +150,21 @@ a:hover { text-decoration: underline; }
         <tbody></tbody>
       </table>
     </div>
+  </section>
+
+  <section class="card">
+    <h2>발언으로 본 포지션 <span class="sub">인터뷰·기사에서 본인이 말한 것 · 13F에 안 나오는 매크로 포함</span></h2>
+    <div class="table-wrap">
+      <table id="views">
+        <thead><tr><th>자산</th><th>방향</th><th>행동</th><th>신뢰도</th><th>발언일</th><th>13F</th><th style="text-align:left">근거</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="card">
+    <h2>최근 발언·기사</h2>
+    <div id="articles"></div>
   </section>
 
   <div class="grid two">
@@ -306,6 +328,40 @@ function selectPosition(key) {
   renderTable();
 }
 
+const STANCE = {
+  long: ["b-add", "▲ 롱"], bullish: ["b-add", "▲ 강세"], short: ["b-reduce", "▼ 숏"],
+  bearish: ["b-reduce", "▼ 약세"], neutral: ["b-same", "– 중립"], exited: ["b-same", "× 청산"],
+};
+const ACTION = { bought: "매수", added: "추가", sold: "매도", trimmed: "축소", holds: "보유", exited: "청산", opinion_only: "의견", unknown: "–" };
+const KIND = { interview_or_speech: "인터뷰·연설", reported_statement: "보도된 발언", "13f_coverage": "13F 기사", other: "기타" };
+
+function renderStatements(d) {
+  const views = d.views || [], articles = d.articles || [];
+  if (!views.length && !articles.length) {
+    $("#views tbody").innerHTML = '<tr><td colspan="7" class="empty">아직 수집된 발언이 없어요. ANTHROPIC_API_KEY Secret을 추가하면 매일 기사에서 자동으로 추출해요.</td></tr>';
+    $("#articles").innerHTML = '<div class="empty">–</div>';
+    return;
+  }
+  $("#views tbody").innerHTML = views.map((v) => {
+    const [cls, txt] = STANCE[v.stance] || ["b-same", v.stance];
+    return `<tr>
+      <td><span class="tk">${esc(v.ticker || v.asset)}</span>${v.ticker ? `<span class="nm">${esc(v.asset)}</span>` : ""}</td>
+      <td><span class="badge ${cls}">${txt}</span></td>
+      <td>${ACTION[v.action] || esc(v.action)}</td>
+      <td class="num" title="확신 ${esc(v.conviction)} · ${v.attribution === "direct_quote" ? "직접 인용" : "간접 인용"} · 오래될수록 낮아짐"><span class="conf"><i style="width:${v.confidence * 100}%"></i></span>${Math.round(v.confidence * 100)}</td>
+      <td class="num">${esc(v.date || "–")}</td>
+      <td>${v.in_13f ? '<span class="badge b-same">보유</span>' : ""}</td>
+      <td class="quote">“${esc(v.quote)}” <a href="${esc(v.url)}" target="_blank" rel="noopener">${esc(v.source)}</a></td>
+    </tr>`;
+  }).join("") || '<tr><td colspan="7" class="empty">기사는 있지만 본인이 밝힌 포지션은 아직 없어요.</td></tr>';
+  $("#articles").innerHTML = articles.slice(0, 10).map((a) => `
+    <div class="article">
+      <div class="meta">${esc(a.published || "")} · ${esc(a.source)} · ${KIND[a.article_kind] || ""}</div>
+      <a href="${esc(a.url)}" target="_blank" rel="noopener">${esc(a.title)}</a>
+      ${a.summary_ko ? `<p>${esc(a.summary_ko)}</p>` : ""}
+    </div>`).join("") || '<div class="empty">–</div>';
+}
+
 function render(d) {
   DATA = d;
   const L = d.latest;
@@ -346,6 +402,7 @@ function render(d) {
   $("#filings").innerHTML = d.recent_filings.slice(0, 12).map((f) => `
     <li><span><a href="${esc(f.url)}" target="_blank" rel="noopener">${esc(f.form)}</a>${f.period ? ` <span class="muted">${f.period} 기준</span>` : ""}</span><span class="num muted">${f.filed}</span></li>`).join("");
 
+  renderStatements(d);
   selectPosition(top[0].key);
 }
 

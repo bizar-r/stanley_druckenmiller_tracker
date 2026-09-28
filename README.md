@@ -9,6 +9,7 @@
 tracker/sec.py      EDGAR에서 공시 목록 + 13F 정보 테이블(XML) 수집·파싱 (data/filings/에 캐시)
 tracker/tickers.py  CUSIP → 티커 변환 (OpenFIGI, data/cusip_tickers.json에 캐시)
 tracker/prices.py   분기말 이후 주가 변동 (Yahoo Finance)
+tracker/media.py    Bing News에서 드러켄밀러 기사 수집 → Claude가 본인 발언 속 포지션만 추출 (data/statements.json)
 tracker/update.py   위를 묶어서 docs/data.json 생성
 docs/index.html     대시보드 (data.json을 읽는 정적 페이지)
 .github/workflows/update.yml   매일 07:17 KST 실행 → 데이터 커밋 → Pages 배포
@@ -18,6 +19,7 @@ docs/index.html     대시보드 (data.json을 읽는 정적 페이지)
 - 최신 13F 보유 종목 (비중, 가치, 주식 수, 전분기 대비 신규/증가/감소, 분기말 이후 주가, 추정 현재 비중)
 - 종목별 분기 추이, 상위 15종목 비중, 13F 총액 추이
 - 청산 종목, 최근 SEC 공시, 다음 13F 마감일
+- 발언으로 본 포지션: 인터뷰·기사에서 본인이 밝힌 롱/숏·강세/약세 (국채·통화 등 13F 밖 매크로 포함), 발언이 오래될수록 신뢰도 감소
 
 ## 처음 한 번 설정
 
@@ -28,6 +30,7 @@ docs/index.html     대시보드 (data.json을 읽는 정적 페이지)
 4. 완료되면 https://bizar-r.github.io/stanley_druckenmiller_tracker/ 에서 확인
 
 선택 사항:
+- `ANTHROPIC_API_KEY`: 있으면 매일 새 기사(최대 15건)에서 발언을 추출. 없으면 이 단계만 건너뜀
 - `OPENFIGI_API_KEY`: 무료 키가 있으면 티커 변환이 빨라짐
 - 티커가 비거나 틀리면 `data/ticker_overrides.json` 에 `"CUSIP": "티커"` 를 추가
 
@@ -42,4 +45,4 @@ python -m http.server -d docs 8000   # http://localhost:8000
 ## 한계
 
 13F에는 미국 상장 주식·ETF·옵션 롱만 나오고, 분기 말 기준으로 최대 45일 뒤에 공개된다.
-국채·통화·선물·공매도 같은 매크로 포지션은 인터뷰 발언 수집(다음 단계)으로 보완할 예정.
+국채·통화·선물·공매도 같은 매크로 포지션은 기사 속 발언으로 보완하지만, 유료 기사는 제목·요약만 보고 판단한다.

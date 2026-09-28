@@ -2,7 +2,7 @@
 import json
 from datetime import date, datetime, timedelta, timezone
 
-from . import prices, sec, tickers
+from . import media, prices, sec, tickers
 
 OUTPUT = sec.ROOT / "docs" / "data.json"
 
@@ -127,6 +127,21 @@ def main():
             })
         position_history[pos["key"]] = series
 
+    print("Collecting news statements...")
+    try:
+        store = media.update()
+    except Exception as exc:  # news is best-effort; never block the 13F refresh
+        print(f"  ! news step failed: {exc}")
+        store = media._load()
+    held = {p["ticker"] for p in positions if p["ticker"]}
+    views = media.latest_views(store)
+    for view in views:
+        view["in_13f"] = bool(view["ticker"]) and view["ticker"].upper() in held
+    articles = [
+        {k: a[k] for k in ("title", "url", "source", "published", "article_kind", "summary_ko", "views")}
+        for a in store["articles"] if a.get("relevant")
+    ][:30]
+
     latest_period = date.fromisoformat(latest["period"])
     next_period = _next_quarter_end(latest_period)
     data = {
@@ -151,6 +166,8 @@ def main():
         "history": history,
         "position_history": position_history,
         "recent_filings": filings[:40],
+        "views": views,
+        "articles": articles,
     }
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT.write_text(json.dumps(data, ensure_ascii=False, indent=1))
