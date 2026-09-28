@@ -12,7 +12,7 @@ jobs:
           SECRET_UA: ${{ secrets.SEC_USER_AGENT }}
         run: |
           probe() {
-            code=$(curl -s --max-time 20 -o /tmp/body -w "%{http_code}" -A "$2" -H "Accept-Encoding: gzip, deflate" "$3")
+            code=$(curl -s --max-time 20 -o /tmp/body -w "%{http_code}" -A "$2" -H "Accept-Encoding: gzip, deflate" "$3" || true)
             title=$(grep -o "<title>[^<]*" /tmp/body | head -1)
             echo "$1 | $code | $3 | $title"
           }
