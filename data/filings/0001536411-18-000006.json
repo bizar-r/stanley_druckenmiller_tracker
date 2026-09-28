@@ -1,0 +1,280 @@
+{
+ "accession": "0001536411-18-000006",
+ "form": "13F-HR",
+ "filed": "2018-02-14",
+ "period": "2017-12-31",
+ "amendment_type": null,
+ "has_table": true,
+ "holdings": [
+  {
+   "name": "Ac Immune Sa",
+   "title_of_class": "SHS",
+   "cusip": "H00263105",
+   "value": 30575000,
+   "shares": 2388700,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Alphabet Inc",
+   "title_of_class": "CAP STK CL A",
+   "cusip": "02079K305",
+   "value": 271092000,
+   "shares": 257350,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Amazon Com Inc",
+   "title_of_class": "COM",
+   "cusip": "023135106",
+   "value": 196474000,
+   "shares": 168003,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Andeavor",
+   "title_of_class": "COM",
+   "cusip": "03349M105",
+   "value": 20776000,
+   "shares": 181700,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Apache Corp",
+   "title_of_class": "COM",
+   "cusip": "037411105",
+   "value": 38125000,
+   "shares": 903000,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Bank Amer Corp",
+   "title_of_class": "COM",
+   "cusip": "060505104",
+   "value": 50701000,
+   "shares": 1717500,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Biogen Inc",
+   "title_of_class": "COM",
+   "cusip": "09062X103",
+   "value": 34852000,
+   "shares": 109400,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Cabot Oil & Gas Corp",
+   "title_of_class": "COM",
+   "cusip": "127097103",
+   "value": 29750000,
+   "shares": 1040200,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Concho Res Inc",
+   "title_of_class": "COM",
+   "cusip": "20605P101",
+   "value": 31005000,
+   "shares": 206400,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Ctrip Com Intl Ltd",
+   "title_of_class": "AMERICAN DEP SHS",
+   "cusip": "22943F100",
+   "value": 32144000,
+   "shares": 728900,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Devon Energy Corp New",
+   "title_of_class": "COM",
+   "cusip": "25179M103",
+   "value": 41806000,
+   "shares": 1009800,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Encana Corp",
+   "title_of_class": "COM",
+   "cusip": "292505104",
+   "value": 11283000,
+   "shares": 846400,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Eog Res Inc",
+   "title_of_class": "COM",
+   "cusip": "26875P101",
+   "value": 56620000,
+   "shares": 524700,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Facebook Inc",
+   "title_of_class": "CL A",
+   "cusip": "30303M102",
+   "value": 190965000,
+   "shares": 1082200,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Hdfc Bank Ltd",
+   "title_of_class": "ADR REPS 3 SHS",
+   "cusip": "40415F101",
+   "value": 13034000,
+   "shares": 128200,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Jd Com Inc",
+   "title_of_class": "SPON ADR CL A",
+   "cusip": "47215P106",
+   "value": 45487000,
+   "shares": 1098200,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Loma Negra Corp",
+   "title_of_class": "SPONSORED ADS",
+   "cusip": "54150E104",
+   "value": 3456000,
+   "shares": 150000,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Marathon Oil Corp",
+   "title_of_class": "COM",
+   "cusip": "565849106",
+   "value": 20773000,
+   "shares": 1227000,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Marathon Pete Corp",
+   "title_of_class": "COM",
+   "cusip": "56585A102",
+   "value": 21186000,
+   "shares": 321100,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Microsoft Corp",
+   "title_of_class": "COM",
+   "cusip": "594918104",
+   "value": 276106000,
+   "shares": 3227800,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Nektar Therapeutics",
+   "title_of_class": "COM",
+   "cusip": "640268108",
+   "value": 109526000,
+   "shares": 1834000,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Paypal Hldgs Inc",
+   "title_of_class": "COM",
+   "cusip": "70450Y103",
+   "value": 34241000,
+   "shares": 465100,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Salesforce Com Inc",
+   "title_of_class": "COM",
+   "cusip": "79466L302",
+   "value": 175253000,
+   "shares": 1714300,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Stamps Com Inc",
+   "title_of_class": "COM NEW",
+   "cusip": "852857200",
+   "value": 31584000,
+   "shares": 168000,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Time Warner Inc",
+   "title_of_class": "COM NEW",
+   "cusip": "887317303",
+   "value": 25438000,
+   "shares": 278100,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "United States Stl Corp New",
+   "title_of_class": "COM",
+   "cusip": "912909108",
+   "value": 24957000,
+   "shares": 709200,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Vale S A",
+   "title_of_class": "ADR",
+   "cusip": "91912E105",
+   "value": 20383000,
+   "shares": 1666600,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Wells Fargo Co New",
+   "title_of_class": "COM",
+   "cusip": "949746101",
+   "value": 51570000,
+   "shares": 850000,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Workday Inc",
+   "title_of_class": "CL A",
+   "cusip": "98138H101",
+   "value": 84699000,
+   "shares": 832500,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Yandex N V",
+   "title_of_class": "SHS CLASS A",
+   "cusip": "N97284108",
+   "value": 9956000,
+   "shares": 304000,
+   "share_type": "SH",
+   "put_call": null
+  }
+ ]
+}

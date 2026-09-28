@@ -1,0 +1,181 @@
+{
+ "accession": "0001536411-15-000008",
+ "form": "13F-HR",
+ "filed": "2015-11-13",
+ "period": "2015-09-30",
+ "amendment_type": null,
+ "has_table": true,
+ "holdings": [
+  {
+   "name": "Amazon.com Inc",
+   "title_of_class": "COM",
+   "cusip": "023135106",
+   "value": 49807000,
+   "shares": 97300,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Carnival Corp",
+   "title_of_class": "PAIRED CTF",
+   "cusip": "143658300",
+   "value": 19303000,
+   "shares": 388400,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Ctrip.com Int'l Ltd",
+   "title_of_class": "AMERICAN DEP SHS",
+   "cusip": "22943F100",
+   "value": 30364000,
+   "shares": 480600,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Dow Chemical Co",
+   "title_of_class": "COM",
+   "cusip": "260543103",
+   "value": 9998000,
+   "shares": 235800,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "EOG Resources Inc",
+   "title_of_class": "COM",
+   "cusip": "26875P101",
+   "value": 10046000,
+   "shares": 138000,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Expedia Inc",
+   "title_of_class": "COM",
+   "cusip": "30212P303",
+   "value": 20370000,
+   "shares": 173100,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Facebook Inc",
+   "title_of_class": "CL A",
+   "cusip": "30303M102",
+   "value": 367988000,
+   "shares": 4093300,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "HDFC Bank Ltd",
+   "title_of_class": "ADR REPS 3 SHS",
+   "cusip": "40415F101",
+   "value": 61310000,
+   "shares": 1003600,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Illumina Inc",
+   "title_of_class": "COM",
+   "cusip": "452327109",
+   "value": 27393000,
+   "shares": 155800,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "JD.Com Inc",
+   "title_of_class": "SPON ADR CL A",
+   "cusip": "47215P106",
+   "value": 28103000,
+   "shares": 1078400,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Microsoft Corp",
+   "title_of_class": "COM",
+   "cusip": "594918104",
+   "value": 61477000,
+   "shares": 1389000,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "PayPal Holdings Inc",
+   "title_of_class": "COM",
+   "cusip": "70450Y103",
+   "value": 17544000,
+   "shares": 565200,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Pioneer Nat'l Res's Co",
+   "title_of_class": "COM",
+   "cusip": "723787107",
+   "value": 10060000,
+   "shares": 82700,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Priceline Group Inc",
+   "title_of_class": "COM",
+   "cusip": "741503403",
+   "value": 19295000,
+   "shares": 15600,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "SPDR Gold Trust",
+   "title_of_class": "CALL",
+   "cusip": "78463V907",
+   "value": 307757000,
+   "shares": 2880000,
+   "share_type": "SH",
+   "put_call": "CALL"
+  },
+  {
+   "name": "Under Armour, Inc",
+   "title_of_class": "CL A",
+   "cusip": "904311107",
+   "value": 25143000,
+   "shares": 259800,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Wells Fargo & Co",
+   "title_of_class": "COM",
+   "cusip": "949746101",
+   "value": 61050000,
+   "shares": 1188900,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Workday Inc",
+   "title_of_class": "CL A",
+   "cusip": "98138H101",
+   "value": 30187000,
+   "shares": 438379,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Royal Carib'n Cruises Ltd",
+   "title_of_class": "COM",
+   "cusip": "V7780T103",
+   "value": 19021000,
+   "shares": 213500,
+   "share_type": "SH",
+   "put_call": null
+  }
+ ]
+}

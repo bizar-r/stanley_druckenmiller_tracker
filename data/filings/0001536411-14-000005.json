@@ -1,0 +1,199 @@
+{
+ "accession": "0001536411-14-000005",
+ "form": "13F-HR",
+ "filed": "2014-05-14",
+ "period": "2014-03-31",
+ "amendment_type": null,
+ "has_table": true,
+ "holdings": [
+  {
+   "name": "Adobe Systems Inc",
+   "title_of_class": "COM",
+   "cusip": "00724F101",
+   "value": 64208000,
+   "shares": 976700,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Alcoa Inc.",
+   "title_of_class": "COM",
+   "cusip": "013817101",
+   "value": 64350000,
+   "shares": 5000000,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Astrazeneca PLC",
+   "title_of_class": "SPONSORED ADR",
+   "cusip": "046353108",
+   "value": 23389000,
+   "shares": 360500,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Cameco Corp",
+   "title_of_class": "COM",
+   "cusip": "13321L108",
+   "value": 32706000,
+   "shares": 1428200,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "EQT Corp",
+   "title_of_class": "COM",
+   "cusip": "26884L109",
+   "value": 17057000,
+   "shares": 175900,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Google Inc.",
+   "title_of_class": "CL A",
+   "cusip": "38259P508",
+   "value": 289338000,
+   "shares": 259610,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Illumina Inc.",
+   "title_of_class": "COM",
+   "cusip": "452327109",
+   "value": 37656000,
+   "shares": 253300,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "ISh MSCI Australia Idx Fd",
+   "title_of_class": "MSCI AUST ETF",
+   "cusip": "464286103",
+   "value": 10270000,
+   "shares": 397000,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "ISh MSCI Chile Cap Inv Mkt Idx Fd",
+   "title_of_class": "MSCI CH CAP ETF",
+   "cusip": "464286640",
+   "value": 3052000,
+   "shares": 67000,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "ISh MSCI Phillipines Inv Mkt Idx Fd",
+   "title_of_class": "MSCI PHILIPS ETF",
+   "cusip": "46429B408",
+   "value": 2979000,
+   "shares": 87300,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Microsoft Corp",
+   "title_of_class": "COM",
+   "cusip": "594918104",
+   "value": 70675000,
+   "shares": 1724200,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Monsanto Co",
+   "title_of_class": "COM",
+   "cusip": "61166W101",
+   "value": 20194000,
+   "shares": 177500,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "SanDisk Corp",
+   "title_of_class": "COM",
+   "cusip": "80004C101",
+   "value": 10620000,
+   "shares": 130800,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Mat'ls Select Sctr SPDR Tst",
+   "title_of_class": "SBI MATERIALS",
+   "cusip": "81369Y100",
+   "value": 9882000,
+   "shares": 209000,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Hlth Care Select Sctr SPDR",
+   "title_of_class": "SBI HEALTHCARE",
+   "cusip": "81369Y209",
+   "value": 11306000,
+   "shares": 193300,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Fin'l Select Sector SPDR Fnd",
+   "title_of_class": "SBI INT-FINL",
+   "cusip": "81369Y605",
+   "value": 9999000,
+   "shares": 447600,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Teva Pharm Ind's Ltd",
+   "title_of_class": "ADR",
+   "cusip": "881624209",
+   "value": 65574000,
+   "shares": 1241000,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Walgreen Co",
+   "title_of_class": "COM",
+   "cusip": "931422109",
+   "value": 81877000,
+   "shares": 1240000,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Workday Inc.",
+   "title_of_class": "CL A",
+   "cusip": "98138H101",
+   "value": 39962000,
+   "shares": 437079,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "NXP Semiconductors NV",
+   "title_of_class": "COM",
+   "cusip": "N6596X109",
+   "value": 10551000,
+   "shares": 179400,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Sensata Technologies Hldng NV",
+   "title_of_class": "SHS",
+   "cusip": "N7902X106",
+   "value": 10579000,
+   "shares": 248100,
+   "share_type": "SH",
+   "put_call": null
+  }
+ ]
+}

@@ -1,0 +1,208 @@
+{
+ "accession": "0001536411-18-000008",
+ "form": "13F-HR",
+ "filed": "2018-05-15",
+ "period": "2018-03-31",
+ "amendment_type": null,
+ "has_table": true,
+ "holdings": [
+  {
+   "name": "Ac Immune Sa",
+   "title_of_class": "SHS",
+   "cusip": "H00263105",
+   "value": 24699000,
+   "shares": 2388700,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Adobe Sys Inc",
+   "title_of_class": "COM",
+   "cusip": "00724F101",
+   "value": 26470000,
+   "shares": 122500,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Alibaba Group Hldg Ltd",
+   "title_of_class": "SPONSORED ADS",
+   "cusip": "01609W102",
+   "value": 120659000,
+   "shares": 657400,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Alphabet Inc",
+   "title_of_class": "CAP STK CL A",
+   "cusip": "02079K305",
+   "value": 268775000,
+   "shares": 259150,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Amazon Com Inc",
+   "title_of_class": "COM",
+   "cusip": "023135106",
+   "value": 247282000,
+   "shares": 170853,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Ctrip Com Intl Ltd",
+   "title_of_class": "AMERICAN DEP SHS",
+   "cusip": "22943F100",
+   "value": 14252000,
+   "shares": 305700,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Intel Corp",
+   "title_of_class": "COM",
+   "cusip": "458140100",
+   "value": 128252000,
+   "shares": 2462600,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Intra Cellular Therapies Inc",
+   "title_of_class": "COM",
+   "cusip": "46116X101",
+   "value": 6252000,
+   "shares": 296986,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Jd Com Inc",
+   "title_of_class": "SPON ADR CL A",
+   "cusip": "47215P106",
+   "value": 72194000,
+   "shares": 1783000,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Micron Technology Inc",
+   "title_of_class": "COM",
+   "cusip": "595112103",
+   "value": 114056000,
+   "shares": 2187500,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Microsoft Corp",
+   "title_of_class": "COM",
+   "cusip": "594918104",
+   "value": 221804000,
+   "shares": 2430200,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Nektar Therapeutics",
+   "title_of_class": "COM",
+   "cusip": "640268108",
+   "value": 126694000,
+   "shares": 1192300,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Netflix Inc",
+   "title_of_class": "COM",
+   "cusip": "64110L106",
+   "value": 56028000,
+   "shares": 189700,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Pagseguro Digital Ltd Com",
+   "title_of_class": "CL A",
+   "cusip": "G68707101",
+   "value": 1341000,
+   "shares": 35000,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Qualcomm Inc",
+   "title_of_class": "COM",
+   "cusip": "747525103",
+   "value": 22774000,
+   "shares": 411000,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Salesforce Com Inc",
+   "title_of_class": "COM",
+   "cusip": "79466L302",
+   "value": 198326000,
+   "shares": 1705300,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Stamps Com Inc",
+   "title_of_class": "COM NEW",
+   "cusip": "852857200",
+   "value": 31766000,
+   "shares": 158000,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Sterling Bancorp Del",
+   "title_of_class": "COM",
+   "cusip": "85917A100",
+   "value": 9056000,
+   "shares": 401600,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Tal Ed Group",
+   "title_of_class": "SPONSORED ADS",
+   "cusip": "874080104",
+   "value": 25295000,
+   "shares": 682000,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Vipshop Hldgs Ltd",
+   "title_of_class": "SPONSORED ADR",
+   "cusip": "92763W103",
+   "value": 9520000,
+   "shares": 572800,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Workday Inc",
+   "title_of_class": "CL A",
+   "cusip": "98138H101",
+   "value": 72351000,
+   "shares": 569200,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Yandex N V",
+   "title_of_class": "SHS CLASS A",
+   "cusip": "N97284108",
+   "value": 11993000,
+   "shares": 304000,
+   "share_type": "SH",
+   "put_call": null
+  }
+ ]
+}

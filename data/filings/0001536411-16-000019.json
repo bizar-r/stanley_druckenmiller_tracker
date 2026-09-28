@@ -1,0 +1,379 @@
+{
+ "accession": "0001536411-16-000019",
+ "form": "13F-HR",
+ "filed": "2016-11-14",
+ "period": "2016-09-30",
+ "amendment_type": null,
+ "has_table": true,
+ "holdings": [
+  {
+   "name": "Abbott Labs",
+   "title_of_class": "COM",
+   "cusip": "002824100",
+   "value": 45166000,
+   "shares": 1068000,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Abbvie Inc",
+   "title_of_class": "COM",
+   "cusip": "00287Y109",
+   "value": 83563000,
+   "shares": 1324920,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Ac Immune Sa",
+   "title_of_class": "SHS",
+   "cusip": "H00263105",
+   "value": 24705000,
+   "shares": 1500000,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Activision Blizzard Inc",
+   "title_of_class": "COM",
+   "cusip": "00507V109",
+   "value": 33167000,
+   "shares": 748700,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Agilent Technologies Inc",
+   "title_of_class": "COM",
+   "cusip": "00846U101",
+   "value": 10374000,
+   "shares": 220300,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Agnico Eagle Mines Ltd",
+   "title_of_class": "COM",
+   "cusip": "008474108",
+   "value": 28759000,
+   "shares": 530800,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Agrium Inc",
+   "title_of_class": "COM",
+   "cusip": "008916108",
+   "value": 3535000,
+   "shares": 38974,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Alibaba Group Hldg Ltd",
+   "title_of_class": "SPONSORED ADS",
+   "cusip": "01609W102",
+   "value": 49785000,
+   "shares": 470600,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Alphabet Inc",
+   "title_of_class": "CAP STK CL A",
+   "cusip": "02079K305",
+   "value": 20102000,
+   "shares": 25000,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Amazon Com Inc",
+   "title_of_class": "COM",
+   "cusip": "023135106",
+   "value": 29976000,
+   "shares": 35800,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Applied Matls Inc",
+   "title_of_class": "COM",
+   "cusip": "038222105",
+   "value": 23442000,
+   "shares": 777500,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Bank Amer Corp",
+   "title_of_class": "COM",
+   "cusip": "060505104",
+   "value": 24722000,
+   "shares": 1579700,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Barrick Gold Corp",
+   "title_of_class": "COM",
+   "cusip": "067901108",
+   "value": 32474000,
+   "shares": 1832600,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Bhp Billiton Ltd",
+   "title_of_class": "SPONSORED ADR",
+   "cusip": "088606108",
+   "value": 11261000,
+   "shares": 325000,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Broadcom Ltd",
+   "title_of_class": "SHS",
+   "cusip": "Y09827109",
+   "value": 34832000,
+   "shares": 201900,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Eog Res Inc",
+   "title_of_class": "COM",
+   "cusip": "26875P101",
+   "value": 26141000,
+   "shares": 270300,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Facebook Inc",
+   "title_of_class": "CL A",
+   "cusip": "30303M102",
+   "value": 24101000,
+   "shares": 187894,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Freeport-Mcmoran Inc",
+   "title_of_class": "CL B",
+   "cusip": "35671D857",
+   "value": 52964000,
+   "shares": 4877000,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "General Dynamics Corp",
+   "title_of_class": "COM",
+   "cusip": "369550108",
+   "value": 16276000,
+   "shares": 104900,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Hdfc Bank Ltd",
+   "title_of_class": "ADR REPS 3 SHS",
+   "cusip": "40415F101",
+   "value": 27218000,
+   "shares": 378600,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Intel Corp",
+   "title_of_class": "COM",
+   "cusip": "458140100",
+   "value": 20657000,
+   "shares": 547200,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Ishares Tr",
+   "title_of_class": "MSCI EMG MKT ETF",
+   "cusip": "464287234",
+   "value": 169821000,
+   "shares": 4534600,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Ishares Tr",
+   "title_of_class": "NASDQ BIOTEC ETF",
+   "cusip": "464287556",
+   "value": 19580000,
+   "shares": 67800,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Juno Therapeutics Inc",
+   "title_of_class": "COM",
+   "cusip": "48205A109",
+   "value": 14795000,
+   "shares": 493000,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Lam Research Corp",
+   "title_of_class": "COM",
+   "cusip": "512807108",
+   "value": 16006000,
+   "shares": 169000,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Merck & Co Inc",
+   "title_of_class": "COM",
+   "cusip": "58933Y105",
+   "value": 42676000,
+   "shares": 683800,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Micron Technology Inc",
+   "title_of_class": "COM",
+   "cusip": "595112103",
+   "value": 16486000,
+   "shares": 927200,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Microsoft Corp",
+   "title_of_class": "COM",
+   "cusip": "594918104",
+   "value": 15247000,
+   "shares": 264700,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Nektar Therapeutics",
+   "title_of_class": "COM",
+   "cusip": "640268108",
+   "value": 9829000,
+   "shares": 572100,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Nucor Corp",
+   "title_of_class": "COM",
+   "cusip": "670346105",
+   "value": 9939000,
+   "shares": 201000,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Nvidia Corp",
+   "title_of_class": "COM",
+   "cusip": "67066G104",
+   "value": 15335000,
+   "shares": 223800,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Pioneer Nat Res Co",
+   "title_of_class": "COM",
+   "cusip": "723787107",
+   "value": 10099000,
+   "shares": 54400,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Pnc Finl Svcs Group Inc",
+   "title_of_class": "COM",
+   "cusip": "693475105",
+   "value": 6261000,
+   "shares": 69500,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Post Hldgs Inc",
+   "title_of_class": "COM",
+   "cusip": "737446104",
+   "value": 22472000,
+   "shares": 291200,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Priceline Grp Inc",
+   "title_of_class": "COM NEW",
+   "cusip": "741503403",
+   "value": 20277000,
+   "shares": 13780,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Pure Storage Inc",
+   "title_of_class": "CL A",
+   "cusip": "74624M102",
+   "value": 26891000,
+   "shares": 1984600,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Rockwell Automation Inc",
+   "title_of_class": "COM",
+   "cusip": "773903109",
+   "value": 15916000,
+   "shares": 130100,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Williams Cos Inc Del",
+   "title_of_class": "COM",
+   "cusip": "969457100",
+   "value": 8555000,
+   "shares": 278400,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Wisdomtree Tr",
+   "title_of_class": "INDIA ERNGS FD",
+   "cusip": "97717W422",
+   "value": 20600000,
+   "shares": 952800,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Workday Inc",
+   "title_of_class": "CL A",
+   "cusip": "98138H101",
+   "value": 21978000,
+   "shares": 239700,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Zoetis Inc",
+   "title_of_class": "CL A",
+   "cusip": "98978V103",
+   "value": 24856000,
+   "shares": 477900,
+   "share_type": "SH",
+   "put_call": null
+  }
+ ]
+}

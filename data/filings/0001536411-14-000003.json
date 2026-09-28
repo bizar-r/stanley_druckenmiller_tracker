@@ -1,0 +1,388 @@
+{
+ "accession": "0001536411-14-000003",
+ "form": "13F-HR",
+ "filed": "2014-02-14",
+ "period": "2013-12-31",
+ "amendment_type": null,
+ "has_table": true,
+ "holdings": [
+  {
+   "name": "Adobe Systems Inc",
+   "title_of_class": "COM",
+   "cusip": "00724F101",
+   "value": 20167000,
+   "shares": 336800,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Alcoa Inc.",
+   "title_of_class": "COM",
+   "cusip": "013817101",
+   "value": 42520000,
+   "shares": 4000000,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Amazon.com Inc.",
+   "title_of_class": "COM",
+   "cusip": "023135106",
+   "value": 62889000,
+   "shares": 157700,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Amgen Inc.",
+   "title_of_class": "COM",
+   "cusip": "031162100",
+   "value": 26352000,
+   "shares": 231000,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Astrazeneca PLC",
+   "title_of_class": "SPONS ADR",
+   "cusip": "046353108",
+   "value": 21403000,
+   "shares": 360500,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Baker Hughes Inc.",
+   "title_of_class": "COM",
+   "cusip": "057224107",
+   "value": 14810000,
+   "shares": 268000,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Biogen Idec Inc.",
+   "title_of_class": "COM",
+   "cusip": "09062X103",
+   "value": 25581000,
+   "shares": 91500,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Boeing Co",
+   "title_of_class": "COM",
+   "cusip": "097023105",
+   "value": 13540000,
+   "shares": 99200,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Bristol-Myers Squibb Co",
+   "title_of_class": "COM",
+   "cusip": "110122108",
+   "value": 50716000,
+   "shares": 954200,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "CBS Corp",
+   "title_of_class": "CL B",
+   "cusip": "124857202",
+   "value": 30704000,
+   "shares": 481700,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Cheniere Energy Inc.",
+   "title_of_class": "CL B",
+   "cusip": "16411R208",
+   "value": 13074000,
+   "shares": 303200,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Crwn Castle Int'l Corp.",
+   "title_of_class": "COM",
+   "cusip": "228227104",
+   "value": 39667000,
+   "shares": 540200,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Cubist Pharms Inc.",
+   "title_of_class": "COM",
+   "cusip": "229678107",
+   "value": 28443000,
+   "shares": 413000,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Delta Air Lines Inc.",
+   "title_of_class": "CL B",
+   "cusip": "247361702",
+   "value": 85432000,
+   "shares": 3110000,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "DISH Network Corp",
+   "title_of_class": "CL A",
+   "cusip": "25470M109",
+   "value": 29829000,
+   "shares": 515000,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "EQT Corp",
+   "title_of_class": "COM",
+   "cusip": "26884L109",
+   "value": 25578000,
+   "shares": 284900,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Endo Health Sol'ns Inc.",
+   "title_of_class": "COM",
+   "cusip": "29264F205",
+   "value": 35551000,
+   "shares": 527000,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Federal Express Corp.",
+   "title_of_class": "COM",
+   "cusip": "31428X106",
+   "value": 51312000,
+   "shares": 356900,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Gilead Sciences Inc.",
+   "title_of_class": "COM",
+   "cusip": "375558103",
+   "value": 45864000,
+   "shares": 610700,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Google Inc.",
+   "title_of_class": "CL A",
+   "cusip": "38259P508",
+   "value": 261406000,
+   "shares": 233250,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Halliburton Co",
+   "title_of_class": "COM",
+   "cusip": "406216101",
+   "value": 41955000,
+   "shares": 826700,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Illumina Inc.",
+   "title_of_class": "COM",
+   "cusip": "452327109",
+   "value": 56036000,
+   "shares": 506700,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "JetBlue Airways Corp",
+   "title_of_class": "COM",
+   "cusip": "477143101",
+   "value": 8540000,
+   "shares": 1000000,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Johnson & Johnson",
+   "title_of_class": "COM",
+   "cusip": "478160104",
+   "value": 21524000,
+   "shares": 235000,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Marathon Petroleum Corp",
+   "title_of_class": "COM",
+   "cusip": "56585A102",
+   "value": 28978000,
+   "shares": 315900,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Pioneer Nat'l Res's Co",
+   "title_of_class": "COM",
+   "cusip": "723787107",
+   "value": 36409000,
+   "shares": 197800,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "SBA Comms Corp",
+   "title_of_class": "COM",
+   "cusip": "78388J106",
+   "value": 35702000,
+   "shares": 397400,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "SPDR S&P 500 ETF Trust",
+   "title_of_class": "TR UNIT",
+   "cusip": "78462F103",
+   "value": 10046000,
+   "shares": 54400,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Schlumberger Ltd.",
+   "title_of_class": "COM",
+   "cusip": "806857108",
+   "value": 89479000,
+   "shares": 993000,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Hlth Car Select Sctr SPDR Fnd",
+   "title_of_class": "SBI HLTHCAR",
+   "cusip": "81369Y209",
+   "value": 10439000,
+   "shares": 188300,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Cons Disc Sel Sctr SPDR Fnd",
+   "title_of_class": "SBI CONS DISCR",
+   "cusip": "81369Y407",
+   "value": 11415000,
+   "shares": 170800,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Fin'l Select Sctr SPDR Fnd",
+   "title_of_class": "SBI INT-FINL",
+   "cusip": "81369Y605",
+   "value": 15280000,
+   "shares": 699000,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Ind'l Select Sctr SPDR Fnd",
+   "title_of_class": "SBI INT-INDS",
+   "cusip": "81369Y704",
+   "value": 11649000,
+   "shares": 222900,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Tech Car Select Sctr SPDR Fnd",
+   "title_of_class": "SBI TECH",
+   "cusip": "81369Y803",
+   "value": 10211000,
+   "shares": 285700,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Sunpower Corp",
+   "title_of_class": "COM",
+   "cusip": "867652406",
+   "value": 13191000,
+   "shares": 442500,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Teva Pharm Ind's Ltd",
+   "title_of_class": "ADR",
+   "cusip": "881624209",
+   "value": 49739000,
+   "shares": 1241000,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Towers Watson & Co.",
+   "title_of_class": "CL A",
+   "cusip": "891894107",
+   "value": 11268000,
+   "shares": 88300,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Valero Energy Corp",
+   "title_of_class": "COM",
+   "cusip": "91913Y100",
+   "value": 29177000,
+   "shares": 578900,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "The Wendy's Co",
+   "title_of_class": "COM",
+   "cusip": "95058W100",
+   "value": 17440000,
+   "shares": 2000000,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "WisdomTree Jpn Hdgd Eq Fnd",
+   "title_of_class": "JAPN HDGE EQT",
+   "cusip": "97717W851",
+   "value": 15430000,
+   "shares": 303500,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Workday Inc.",
+   "title_of_class": "CL A",
+   "cusip": "98138H101",
+   "value": 42037000,
+   "shares": 505500,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Mellanox Tech's Ltd.",
+   "title_of_class": "SHS",
+   "cusip": "M51363113",
+   "value": 10052000,
+   "shares": 251500,
+   "share_type": "SH",
+   "put_call": null
+  }
+ ]
+}

@@ -1,0 +1,307 @@
+{
+ "accession": "0001536411-18-000011",
+ "form": "13F-HR",
+ "filed": "2018-08-14",
+ "period": "2018-06-30",
+ "amendment_type": null,
+ "has_table": true,
+ "holdings": [
+  {
+   "name": "AC IMMUNE SA",
+   "title_of_class": "SHS",
+   "cusip": "H00263105",
+   "value": 22263000,
+   "shares": 2388700,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "ACTIVISION BLIZZARD INC",
+   "title_of_class": "COM",
+   "cusip": "00507V109",
+   "value": 25735000,
+   "shares": 337200,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "ADOBE SYS INC",
+   "title_of_class": "COM",
+   "cusip": "00724F101",
+   "value": 29867000,
+   "shares": 122500,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "ALIBABA GROUP HLDG LTD",
+   "title_of_class": "SPONSORED ADS",
+   "cusip": "01609W102",
+   "value": 149222000,
+   "shares": 804300,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "ALPHABET INC",
+   "title_of_class": "CAP STK CL A",
+   "cusip": "02079K305",
+   "value": 192414000,
+   "shares": 170400,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "AMAZON COM INC",
+   "title_of_class": "COM",
+   "cusip": "023135106",
+   "value": 263899000,
+   "shares": 155253,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "AUTODESK INC",
+   "title_of_class": "COM",
+   "cusip": "052769106",
+   "value": 33336000,
+   "shares": 254300,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "CENOVUS ENERGY INC",
+   "title_of_class": "COM",
+   "cusip": "15135U109",
+   "value": 10238000,
+   "shares": 986300,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "CLOVIS ONCOLOGY INC",
+   "title_of_class": "COM",
+   "cusip": "189464100",
+   "value": 21917000,
+   "shares": 482000,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "COUPA SOFTWARE INC",
+   "title_of_class": "COM",
+   "cusip": "22266L106",
+   "value": 10263000,
+   "shares": 164900,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "CTRIP COM INTL LTD",
+   "title_of_class": "AMERICAN DEP SHS",
+   "cusip": "22943F100",
+   "value": 20057000,
+   "shares": 421100,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "DEVON ENERGY CORP NEW",
+   "title_of_class": "COM",
+   "cusip": "25179M103",
+   "value": 32561000,
+   "shares": 740700,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "ELECTRONIC ARTS INC",
+   "title_of_class": "COM",
+   "cusip": "285512109",
+   "value": 15174000,
+   "shares": 107600,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "FACEBOOK INC",
+   "title_of_class": "CL A",
+   "cusip": "30303M102",
+   "value": 178386000,
+   "shares": 918000,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "FREEPORT-MCMORAN INC",
+   "title_of_class": "CL B",
+   "cusip": "35671D857",
+   "value": 14809000,
+   "shares": 858000,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "GILEAD SCIENCES INC",
+   "title_of_class": "COM",
+   "cusip": "375558103",
+   "value": 85383000,
+   "shares": 1205300,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "HOME DEPOT INC",
+   "title_of_class": "COM",
+   "cusip": "437076102",
+   "value": 24680000,
+   "shares": 126500,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "INTRA CELLULAR THERAPIES INC",
+   "title_of_class": "COM",
+   "cusip": "46116X101",
+   "value": 5248000,
+   "shares": 296986,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "ISHARES TR",
+   "title_of_class": "NASDAQ BIOTECH",
+   "cusip": "464287556",
+   "value": 20339000,
+   "shares": 183900,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "MARATHON PETE CORP",
+   "title_of_class": "COM",
+   "cusip": "56585A102",
+   "value": 34827000,
+   "shares": 496400,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "MERCADOLIBRE INC",
+   "title_of_class": "COM",
+   "cusip": "58733R102",
+   "value": 5052000,
+   "shares": 16900,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "MICROSOFT CORP",
+   "title_of_class": "COM",
+   "cusip": "594918104",
+   "value": 294528000,
+   "shares": 2986800,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "NABORS INDUSTRIES LTD",
+   "title_of_class": "SHS",
+   "cusip": "G6359F103",
+   "value": 7538000,
+   "shares": 1176000,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "NETFLIX INC",
+   "title_of_class": "COM",
+   "cusip": "64110L106",
+   "value": 74254000,
+   "shares": 189700,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "PAGSEGURO DIGITAL LTD COM",
+   "title_of_class": "CL A",
+   "cusip": "G68707101",
+   "value": 5966000,
+   "shares": 215000,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "SALESFORCE COM INC",
+   "title_of_class": "COM",
+   "cusip": "79466L302",
+   "value": 232603000,
+   "shares": 1705300,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "SELECT SECTOR SPDR TR",
+   "title_of_class": "ENERGY",
+   "cusip": "81369Y506",
+   "value": 24726000,
+   "shares": 325600,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "SPLUNK INC",
+   "title_of_class": "COM",
+   "cusip": "848637104",
+   "value": 33955000,
+   "shares": 342600,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "SQUARE INC",
+   "title_of_class": "CL A",
+   "cusip": "852234103",
+   "value": 15225000,
+   "shares": 247000,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "STAMPS COM INC",
+   "title_of_class": "COM NEW",
+   "cusip": "852857200",
+   "value": 39122000,
+   "shares": 154600,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "TAL ED GROUP",
+   "title_of_class": "SPONSORED ADS",
+   "cusip": "874080104",
+   "value": 25098000,
+   "shares": 682000,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "VANECK VECTORS ETF TR",
+   "title_of_class": "OIL SVCS ETF",
+   "cusip": "92189F718",
+   "value": 44139000,
+   "shares": 1680200,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "WORKDAY INC",
+   "title_of_class": "CL A",
+   "cusip": "98138H101",
+   "value": 78789000,
+   "shares": 650500,
+   "share_type": "SH",
+   "put_call": null
+  }
+ ]
+}

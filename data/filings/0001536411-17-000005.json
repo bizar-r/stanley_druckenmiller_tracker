@@ -1,0 +1,298 @@
+{
+ "accession": "0001536411-17-000005",
+ "form": "13F-HR",
+ "filed": "2017-02-14",
+ "period": "2016-12-31",
+ "amendment_type": null,
+ "has_table": true,
+ "holdings": [
+  {
+   "name": "Abbvie Inc",
+   "title_of_class": "COM",
+   "cusip": "00287Y109",
+   "value": 76504000,
+   "shares": 1221723,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Ac Immune Sa",
+   "title_of_class": "SHS",
+   "cusip": "H00263105",
+   "value": 20496000,
+   "shares": 1579031,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Agrium Inc",
+   "title_of_class": "COM",
+   "cusip": "008916108",
+   "value": 3919000,
+   "shares": 38974,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Alcoa Corp",
+   "title_of_class": "COM",
+   "cusip": "013872106",
+   "value": 33718000,
+   "shares": 1200800,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Aspen Technology Inc",
+   "title_of_class": "COM",
+   "cusip": "045327103",
+   "value": 11477000,
+   "shares": 209900,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Bank Amer Corp",
+   "title_of_class": "COM",
+   "cusip": "060505104",
+   "value": 56629000,
+   "shares": 2562400,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Bhp Billiton Ltd",
+   "title_of_class": "SPONSORED ADR",
+   "cusip": "088606108",
+   "value": 11629000,
+   "shares": 325000,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Cabot Oil & Gas Corp",
+   "title_of_class": "COM",
+   "cusip": "127097103",
+   "value": 10038000,
+   "shares": 429700,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Citigroup Inc",
+   "title_of_class": "COM NEW",
+   "cusip": "172967424",
+   "value": 55098000,
+   "shares": 927100,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Dover Corp",
+   "title_of_class": "COM",
+   "cusip": "260003108",
+   "value": 10161000,
+   "shares": 135600,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Emerson Elec Co",
+   "title_of_class": "COM",
+   "cusip": "291011104",
+   "value": 9756000,
+   "shares": 175000,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Eog Res Inc",
+   "title_of_class": "COM",
+   "cusip": "26875P101",
+   "value": 38499000,
+   "shares": 380800,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Eqt Corp",
+   "title_of_class": "COM",
+   "cusip": "26884L109",
+   "value": 9300000,
+   "shares": 142200,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Freeport-Mcmoran Inc",
+   "title_of_class": "CL B",
+   "cusip": "35671D857",
+   "value": 38021000,
+   "shares": 2882600,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Halliburton Co",
+   "title_of_class": "COM",
+   "cusip": "406216101",
+   "value": 56324000,
+   "shares": 1041300,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Ishares Tr",
+   "title_of_class": "RUSSELL 2000 ETF",
+   "cusip": "464287655",
+   "value": 133758000,
+   "shares": 991900,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Jpmorgan Chase & Co",
+   "title_of_class": "COM",
+   "cusip": "46625H100",
+   "value": 28260000,
+   "shares": 327500,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Lyondellbasell Industries N",
+   "title_of_class": "SHS - A -",
+   "cusip": "N53745100",
+   "value": 48766000,
+   "shares": 568500,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Merck & Co Inc",
+   "title_of_class": "COM",
+   "cusip": "58933Y105",
+   "value": 40255000,
+   "shares": 683800,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Nucor Corp",
+   "title_of_class": "COM",
+   "cusip": "670346105",
+   "value": 21546000,
+   "shares": 362000,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Pioneer Nat Res Co",
+   "title_of_class": "COM",
+   "cusip": "723787107",
+   "value": 20222000,
+   "shares": 112300,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Pnc Finl Svcs Group Inc",
+   "title_of_class": "COM",
+   "cusip": "693475105",
+   "value": 54503000,
+   "shares": 466000,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Pure Storage Inc",
+   "title_of_class": "CL A",
+   "cusip": "74624M102",
+   "value": 10475000,
+   "shares": 926133,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Range Res Corp",
+   "title_of_class": "COM",
+   "cusip": "75281A109",
+   "value": 9277000,
+   "shares": 270000,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Select Sector Spdr Tr",
+   "title_of_class": "SBI INT-FINL",
+   "cusip": "81369Y605",
+   "value": 55742000,
+   "shares": 2397500,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Select Sector Spdr Tr",
+   "title_of_class": "SBI INT-INDS",
+   "cusip": "81369Y704",
+   "value": 51462000,
+   "shares": 827100,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Southwestern Energy Co",
+   "title_of_class": "COM",
+   "cusip": "845467109",
+   "value": 8967000,
+   "shares": 828700,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Transocean Ltd",
+   "title_of_class": "REG SHS",
+   "cusip": "H8817H100",
+   "value": 10343000,
+   "shares": 701700,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "United States Stl Corp New",
+   "title_of_class": "COM",
+   "cusip": "912909108",
+   "value": 9078000,
+   "shares": 275000,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Wells Fargo & Co New",
+   "title_of_class": "COM",
+   "cusip": "949746101",
+   "value": 52928000,
+   "shares": 960400,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Williams Cos Inc Del",
+   "title_of_class": "COM",
+   "cusip": "969457100",
+   "value": 10192000,
+   "shares": 327300,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Yahoo Inc",
+   "title_of_class": "COM",
+   "cusip": "984332106",
+   "value": 18681000,
+   "shares": 483100,
+   "share_type": "SH",
+   "put_call": null
+  }
+ ]
+}

@@ -1,0 +1,289 @@
+{
+ "accession": "0001536411-19-000002",
+ "form": "13F-HR",
+ "filed": "2019-02-14",
+ "period": "2018-12-31",
+ "amendment_type": null,
+ "has_table": true,
+ "holdings": [
+  {
+   "name": "Alibaba Group Hldg Ltd",
+   "title_of_class": "SPONSORED ADS",
+   "cusip": "01609W102",
+   "value": 23905000,
+   "shares": 174400,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Alphabet Inc",
+   "title_of_class": "CAP STK CL A",
+   "cusip": "02079K305",
+   "value": 11807000,
+   "shares": 11299,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Amazon Com Inc",
+   "title_of_class": "COM",
+   "cusip": "023135106",
+   "value": 147836000,
+   "shares": 98428,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "American Airls Group Inc",
+   "title_of_class": "COM",
+   "cusip": "02376R102",
+   "value": 16855000,
+   "shares": 524900,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Ishares Tr",
+   "title_of_class": "MSCI EMG MKT ETF",
+   "cusip": "464287234",
+   "value": 65609000,
+   "shares": 1679700,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Ishares Tr",
+   "title_of_class": "NASDAQ BIOTECH",
+   "cusip": "464287556",
+   "value": 33779000,
+   "shares": 350300,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Microsoft Corp",
+   "title_of_class": "COM",
+   "cusip": "594918104",
+   "value": 469098000,
+   "shares": 4618471,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Paypal Hldgs Inc",
+   "title_of_class": "COM",
+   "cusip": "70450Y103",
+   "value": 34354000,
+   "shares": 408535,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Abbott Labs",
+   "title_of_class": "COM",
+   "cusip": "002824100",
+   "value": 93718000,
+   "shares": 1295700,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Ac Immune Sa",
+   "title_of_class": "SHS",
+   "cusip": "H00263105",
+   "value": 23545000,
+   "shares": 2491517,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Adobe Inc",
+   "title_of_class": "COM",
+   "cusip": "00724F101",
+   "value": 68102000,
+   "shares": 301015,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Agilent Technologies Inc",
+   "title_of_class": "COM",
+   "cusip": "00846U101",
+   "value": 14929000,
+   "shares": 221300,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Autodesk Inc",
+   "title_of_class": "COM",
+   "cusip": "052769106",
+   "value": 3433000,
+   "shares": 26690,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Coupa Software Inc",
+   "title_of_class": "COM",
+   "cusip": "22266L106",
+   "value": 71095000,
+   "shares": 1131000,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Delta Air Lines Inc Del",
+   "title_of_class": "COM NEW",
+   "cusip": "247361702",
+   "value": 31267000,
+   "shares": 626600,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Gilead Sciences Inc",
+   "title_of_class": "COM",
+   "cusip": "375558103",
+   "value": 64010000,
+   "shares": 1023345,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Hologic Inc",
+   "title_of_class": "COM",
+   "cusip": "436440101",
+   "value": 13838000,
+   "shares": 336700,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Illumina Inc",
+   "title_of_class": "COM",
+   "cusip": "452327109",
+   "value": 41840000,
+   "shares": 139500,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Intuitive Surgical Inc",
+   "title_of_class": "COM NEW",
+   "cusip": "46120E602",
+   "value": 52825000,
+   "shares": 110300,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Kohls Corp",
+   "title_of_class": "COM",
+   "cusip": "500255104",
+   "value": 9785000,
+   "shares": 147500,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Medtronic Plc",
+   "title_of_class": "SHS",
+   "cusip": "G5960L103",
+   "value": 33883000,
+   "shares": 372500,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Mercadolibre Inc",
+   "title_of_class": "COM",
+   "cusip": "58733R102",
+   "value": 21676000,
+   "shares": 74016,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Netflix Inc",
+   "title_of_class": "COM",
+   "cusip": "64110L106",
+   "value": 17668000,
+   "shares": 66010,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Okta Inc",
+   "title_of_class": "CL A",
+   "cusip": "679295105",
+   "value": 11095000,
+   "shares": 173900,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Tesla Inc",
+   "title_of_class": "COM",
+   "cusip": "88160R101",
+   "value": 99773000,
+   "shares": 299800,
+   "share_type": "SH",
+   "put_call": "PUT"
+  },
+  {
+   "name": "Salesforce Com Inc",
+   "title_of_class": "COM",
+   "cusip": "79466L302",
+   "value": 146912000,
+   "shares": 1072585,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Servicenow Inc",
+   "title_of_class": "COM",
+   "cusip": "81762P102",
+   "value": 14636000,
+   "shares": 82200,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Barrick Gold Corp",
+   "title_of_class": "COM",
+   "cusip": "067901108",
+   "value": 2022000,
+   "shares": 149300,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Elastic N V",
+   "title_of_class": "ORD SHS",
+   "cusip": "N14506104",
+   "value": 715000,
+   "shares": 10000,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Workday Inc",
+   "title_of_class": "CL A",
+   "cusip": "98138H101",
+   "value": 83896000,
+   "shares": 525400,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Zendesk Inc",
+   "title_of_class": "COM",
+   "cusip": "98936J101",
+   "value": 3362000,
+   "shares": 57600,
+   "share_type": "SH",
+   "put_call": null
+  }
+ ]
+}

@@ -1,0 +1,325 @@
+{
+ "accession": "0001536411-15-000002",
+ "form": "13F-HR",
+ "filed": "2015-02-12",
+ "period": "2014-12-31",
+ "amendment_type": null,
+ "has_table": true,
+ "holdings": [
+  {
+   "name": "Alcoa Inc",
+   "title_of_class": "COM",
+   "cusip": "013817101",
+   "value": 29616000,
+   "shares": 1875600,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Alibaba Group Hldg Ltd",
+   "title_of_class": "SPON ADS",
+   "cusip": "01609W102",
+   "value": 26390000,
+   "shares": 253900,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "American Air Grp Inc",
+   "title_of_class": "COM",
+   "cusip": "02376R102",
+   "value": 22235000,
+   "shares": 414600,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Amer Eagle Outfitters Inc",
+   "title_of_class": "COM",
+   "cusip": "02553E106",
+   "value": 19837000,
+   "shares": 1429200,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Biogen Idec Inc",
+   "title_of_class": "COM",
+   "cusip": "09062X103",
+   "value": 121998000,
+   "shares": 359400,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Bluebird Bio Inc",
+   "title_of_class": "COM",
+   "cusip": "09609G100",
+   "value": 32597000,
+   "shares": 355400,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Celgene Corp",
+   "title_of_class": "COM",
+   "cusip": "151020104",
+   "value": 48558000,
+   "shares": 434100,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Cognizant Tech Sol'ns Corp",
+   "title_of_class": "CL A",
+   "cusip": "192446102",
+   "value": 19463000,
+   "shares": 369600,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Costco Wholesale Corp",
+   "title_of_class": "COM",
+   "cusip": "22160K105",
+   "value": 40399000,
+   "shares": 285000,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Crown Castle Int'l Corp",
+   "title_of_class": "COM",
+   "cusip": "22822V101",
+   "value": 9365000,
+   "shares": 119000,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Delta Air Lines Inc",
+   "title_of_class": "COM",
+   "cusip": "247361702",
+   "value": 20655000,
+   "shares": 419900,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Facebook Inc",
+   "title_of_class": "CL A",
+   "cusip": "30303M102",
+   "value": 33549000,
+   "shares": 430000,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Foot Locker Inc",
+   "title_of_class": "COM",
+   "cusip": "344849104",
+   "value": 11820000,
+   "shares": 210400,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Goldman Sachs Grp Inc",
+   "title_of_class": "COM",
+   "cusip": "38141G104",
+   "value": 25682000,
+   "shares": 132500,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "HDFC Bank Ltd",
+   "title_of_class": "ADR REPS 3 SHS",
+   "cusip": "40415F101",
+   "value": 50933000,
+   "shares": 1003600,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Home Depot Inc",
+   "title_of_class": "COM",
+   "cusip": "437076102",
+   "value": 55540000,
+   "shares": 529100,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Illumina Inc",
+   "title_of_class": "COM",
+   "cusip": "452327109",
+   "value": 75696000,
+   "shares": 410100,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Infosys Ltd",
+   "title_of_class": "SPON ADR",
+   "cusip": "456788108",
+   "value": 19622000,
+   "shares": 623700,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Juno Therapeutics Inc",
+   "title_of_class": "COM",
+   "cusip": "48205A109",
+   "value": 3655000,
+   "shares": 70000,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Kohl's Corp",
+   "title_of_class": "COM",
+   "cusip": "500255104",
+   "value": 14033000,
+   "shares": 229900,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "L Brands Inc",
+   "title_of_class": "COM",
+   "cusip": "501797104",
+   "value": 23507000,
+   "shares": 271600,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Lowe's Companies Inc",
+   "title_of_class": "COM",
+   "cusip": "548661107",
+   "value": 46041000,
+   "shares": 669200,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Macrogenics Inc",
+   "title_of_class": "COM",
+   "cusip": "556099109",
+   "value": 16571000,
+   "shares": 472500,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Macy's, Inc",
+   "title_of_class": "COM",
+   "cusip": "55616P104",
+   "value": 16451000,
+   "shares": 250200,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Mattress Firm Hldg Corp",
+   "title_of_class": "COM",
+   "cusip": "57722W106",
+   "value": 10234000,
+   "shares": 176200,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Morgan Stanley",
+   "title_of_class": "COM",
+   "cusip": "617446448",
+   "value": 25752000,
+   "shares": 663700,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Nektar Therapeutics",
+   "title_of_class": "COM",
+   "cusip": "640268108",
+   "value": 10153000,
+   "shares": 655000,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Nordstrom Inc",
+   "title_of_class": "COM",
+   "cusip": "655664100",
+   "value": 34090000,
+   "shares": 429400,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Southwest Airlines Co",
+   "title_of_class": "COM",
+   "cusip": "844741108",
+   "value": 11426000,
+   "shares": 270000,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Target Corp",
+   "title_of_class": "COM",
+   "cusip": "87612E106",
+   "value": 57737000,
+   "shares": 760600,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Virgin America Inc",
+   "title_of_class": "COM VTG",
+   "cusip": "92765X208",
+   "value": 350000,
+   "shares": 8100,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Wells Fargo & Co",
+   "title_of_class": "COM",
+   "cusip": "949746101",
+   "value": 24833000,
+   "shares": 453000,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Williams-Sonoma Inc",
+   "title_of_class": "COM",
+   "cusip": "969904101",
+   "value": 26306000,
+   "shares": 347600,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Workday Inc",
+   "title_of_class": "CL A",
+   "cusip": "98138H101",
+   "value": 26987000,
+   "shares": 330679,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "YPF S.A.",
+   "title_of_class": "SPON ADR CL D",
+   "cusip": "984245100",
+   "value": 7912000,
+   "shares": 298900,
+   "share_type": "SH",
+   "put_call": null
+  }
+ ]
+}

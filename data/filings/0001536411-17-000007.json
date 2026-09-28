@@ -1,0 +1,433 @@
+{
+ "accession": "0001536411-17-000007",
+ "form": "13F-HR",
+ "filed": "2017-05-15",
+ "period": "2017-03-31",
+ "amendment_type": null,
+ "has_table": true,
+ "holdings": [
+  {
+   "name": "Ac Immune Sa",
+   "title_of_class": "SHS",
+   "cusip": "H00263105",
+   "value": 24747000,
+   "shares": 2388700,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Activision Blizzard Inc",
+   "title_of_class": "COM",
+   "cusip": "00507V109",
+   "value": 26790000,
+   "shares": 537300,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Agnico Eagle Mines Ltd",
+   "title_of_class": "COM",
+   "cusip": "008474108",
+   "value": 37470000,
+   "shares": 882900,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Alcoa Corp",
+   "title_of_class": "COM",
+   "cusip": "013872106",
+   "value": 47146000,
+   "shares": 1370511,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Alphabet Inc",
+   "title_of_class": "CAP STK CL A",
+   "cusip": "02079K305",
+   "value": 85119000,
+   "shares": 100400,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Amazon Com Inc",
+   "title_of_class": "COM",
+   "cusip": "023135106",
+   "value": 63033000,
+   "shares": 71100,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "American Airls Group Inc",
+   "title_of_class": "COM",
+   "cusip": "02376R102",
+   "value": 8591000,
+   "shares": 203100,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Aspen Technology Inc",
+   "title_of_class": "COM",
+   "cusip": "045327103",
+   "value": 12367000,
+   "shares": 209900,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Autodesk Inc",
+   "title_of_class": "COM",
+   "cusip": "052769106",
+   "value": 13692000,
+   "shares": 158349,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Bank Amer Corp",
+   "title_of_class": "COM",
+   "cusip": "060505104",
+   "value": 49782000,
+   "shares": 2110300,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Barrick Gold Corp",
+   "title_of_class": "COM",
+   "cusip": "067901108",
+   "value": 54122000,
+   "shares": 2850000,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Cabot Oil & Gas Corp",
+   "title_of_class": "COM",
+   "cusip": "127097103",
+   "value": 22848000,
+   "shares": 955588,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Celgene Corp",
+   "title_of_class": "COM",
+   "cusip": "151020104",
+   "value": 10253000,
+   "shares": 82400,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Cheniere Energy Inc",
+   "title_of_class": "COM NEW",
+   "cusip": "16411R208",
+   "value": 21089000,
+   "shares": 446145,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Comcast Corp New",
+   "title_of_class": "CL A",
+   "cusip": "20030N101",
+   "value": 25802000,
+   "shares": 686400,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Ctrip Com Intl Ltd",
+   "title_of_class": "AMERICAN DEP SHS",
+   "cusip": "22943F100",
+   "value": 44835000,
+   "shares": 912200,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Electronic Arts Inc",
+   "title_of_class": "COM",
+   "cusip": "285512109",
+   "value": 51358000,
+   "shares": 573700,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Eqt Corp",
+   "title_of_class": "COM",
+   "cusip": "26884L109",
+   "value": 8688000,
+   "shares": 142200,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Expedia Inc Del",
+   "title_of_class": "COM NEW",
+   "cusip": "30212P303",
+   "value": 25713000,
+   "shares": 203800,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Facebook Inc",
+   "title_of_class": "CL A",
+   "cusip": "30303M102",
+   "value": 57658000,
+   "shares": 405900,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Halliburton Co",
+   "title_of_class": "COM",
+   "cusip": "406216101",
+   "value": 14842000,
+   "shares": 301600,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Ishares Tr",
+   "title_of_class": "MSCI EMG MKT ETF",
+   "cusip": "464287234",
+   "value": 98436000,
+   "shares": 2499000,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Jd Com Inc",
+   "title_of_class": "SPON ADR CL A",
+   "cusip": "47215P106",
+   "value": 19848000,
+   "shares": 638000,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Las Vegas Sands Corp",
+   "title_of_class": "COM",
+   "cusip": "517834107",
+   "value": 15791000,
+   "shares": 276700,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Lyondellbasell Industries N",
+   "title_of_class": "SHS - A -",
+   "cusip": "N53745100",
+   "value": 105625000,
+   "shares": 1158300,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Microsoft Corp",
+   "title_of_class": "COM",
+   "cusip": "594918104",
+   "value": 106970000,
+   "shares": 1624200,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Nektar Therapeutics",
+   "title_of_class": "COM",
+   "cusip": "640268108",
+   "value": 15622000,
+   "shares": 665600,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Netease Inc",
+   "title_of_class": "SPONSORED ADR",
+   "cusip": "64110W102",
+   "value": 14796000,
+   "shares": 52100,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Netflix Inc",
+   "title_of_class": "COM",
+   "cusip": "64110L106",
+   "value": 10435000,
+   "shares": 70600,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Nucor Corp",
+   "title_of_class": "COM",
+   "cusip": "670346105",
+   "value": 9376000,
+   "shares": 157000,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Paypal Hldgs Inc",
+   "title_of_class": "COM",
+   "cusip": "70450Y103",
+   "value": 24689000,
+   "shares": 573900,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Pioneer Nat Res Co",
+   "title_of_class": "COM",
+   "cusip": "723787107",
+   "value": 23949000,
+   "shares": 128600,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Potash Corp Sask Inc",
+   "title_of_class": "COM",
+   "cusip": "73755L107",
+   "value": 35757000,
+   "shares": 2093500,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Priceline Grp Inc",
+   "title_of_class": "COM NEW",
+   "cusip": "741503403",
+   "value": 72445000,
+   "shares": 40700,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Ptc Inc",
+   "title_of_class": "COM",
+   "cusip": "69370C100",
+   "value": 43601000,
+   "shares": 829700,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Pure Storage Inc",
+   "title_of_class": "CL A",
+   "cusip": "74624M102",
+   "value": 9104000,
+   "shares": 926133,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Rice Energy Inc",
+   "title_of_class": "COM",
+   "cusip": "762760106",
+   "value": 7737000,
+   "shares": 326455,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Rockwell Automation Inc",
+   "title_of_class": "COM",
+   "cusip": "773903109",
+   "value": 15415000,
+   "shares": 99000,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Salesforce Com Inc",
+   "title_of_class": "COM",
+   "cusip": "79466L302",
+   "value": 79595000,
+   "shares": 964900,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Sprint Corp",
+   "title_of_class": "COM SER 1",
+   "cusip": "85207U105",
+   "value": 14439000,
+   "shares": 1663500,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Symantec Corp",
+   "title_of_class": "COM",
+   "cusip": "871503108",
+   "value": 16920000,
+   "shares": 551500,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "T Mobile Us Inc",
+   "title_of_class": "COM",
+   "cusip": "872590104",
+   "value": 15676000,
+   "shares": 242700,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Twitter Inc",
+   "title_of_class": "COM",
+   "cusip": "90184L102",
+   "value": 9045000,
+   "shares": 605000,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "United Contl Hldgs Inc",
+   "title_of_class": "COM",
+   "cusip": "910047109",
+   "value": 9296000,
+   "shares": 131600,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Vulcan Matls Co",
+   "title_of_class": "COM",
+   "cusip": "929160109",
+   "value": 14699000,
+   "shares": 122000,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Williams Cos Inc Del",
+   "title_of_class": "COM",
+   "cusip": "969457100",
+   "value": 9685000,
+   "shares": 327300,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Workday Inc",
+   "title_of_class": "CL A",
+   "cusip": "98138H101",
+   "value": 19429000,
+   "shares": 233300,
+   "share_type": "SH",
+   "put_call": null
+  }
+ ]
+}

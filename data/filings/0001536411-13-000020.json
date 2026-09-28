@@ -1,0 +1,163 @@
+{
+ "accession": "0001536411-13-000020",
+ "form": "13F-HR/A",
+ "filed": "2013-08-14",
+ "period": "2013-06-30",
+ "amendment_type": "RESTATEMENT",
+ "has_table": true,
+ "holdings": [
+  {
+   "name": "Biogen Idec Inc.",
+   "title_of_class": "COM",
+   "cusip": "09062X103",
+   "value": 19691000,
+   "shares": 91500,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Boeing Co",
+   "title_of_class": "COM",
+   "cusip": "097023105",
+   "value": 10162000,
+   "shares": 99200,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Boston Scientific Corp",
+   "title_of_class": "COM",
+   "cusip": "101137107",
+   "value": 9270000,
+   "shares": 1000000,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "CBS Corp",
+   "title_of_class": "CL B",
+   "cusip": "124857202",
+   "value": 99890000,
+   "shares": 2044000,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Charter Comm's Inc",
+   "title_of_class": "CL A",
+   "cusip": "16117M305",
+   "value": 33687000,
+   "shares": 272000,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Cubist Pharms Inc.",
+   "title_of_class": "COM",
+   "cusip": "229678107",
+   "value": 19944000,
+   "shares": 413000,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Delta Air Lines Inc.",
+   "title_of_class": "COM",
+   "cusip": "247361702",
+   "value": 72249000,
+   "shares": 3861500,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Select Sector SPDR TR",
+   "title_of_class": "SBI INT-FINL",
+   "cusip": "81369Y605",
+   "value": 10616000,
+   "shares": 544700,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Gilead Sciences Inc.",
+   "title_of_class": "COM",
+   "cusip": "375558103",
+   "value": 31311000,
+   "shares": 610700,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Google Inc.",
+   "title_of_class": "CL A",
+   "cusip": "38259P508",
+   "value": 196543000,
+   "shares": 223250,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Johnson & Johnson",
+   "title_of_class": "COM",
+   "cusip": "478160104",
+   "value": 11076000,
+   "shares": 129000,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Procter & Gamble Co",
+   "title_of_class": "COM",
+   "cusip": "742718109",
+   "value": 43599000,
+   "shares": 566300,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Select Sector SPDR TR",
+   "title_of_class": "TECHNOLOGY",
+   "cusip": "81369Y803",
+   "value": 6256000,
+   "shares": 204500,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "US Airways Group Inc.",
+   "title_of_class": "COM",
+   "cusip": "90341W108",
+   "value": 38817000,
+   "shares": 2364000,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Verizon Comm's Inc.",
+   "title_of_class": "COM",
+   "cusip": "92343V104",
+   "value": 23811000,
+   "shares": 473000,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Workday Inc.",
+   "title_of_class": "CL A",
+   "cusip": "98138H101",
+   "value": 32397000,
+   "shares": 505500,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "LyondellBasell Ind's NV",
+   "title_of_class": "SHS - A",
+   "cusip": "N53745100",
+   "value": 14445000,
+   "shares": 218000,
+   "share_type": "SH",
+   "put_call": null
+  }
+ ]
+}

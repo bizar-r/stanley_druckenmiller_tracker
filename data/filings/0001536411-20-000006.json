@@ -1,0 +1,658 @@
+{
+ "accession": "0001536411-20-000006",
+ "form": "13F-HR",
+ "filed": "2020-08-14",
+ "period": "2020-06-30",
+ "amendment_type": null,
+ "has_table": true,
+ "holdings": [
+  {
+   "name": "Activision Blizzard Inc",
+   "title_of_class": "COM",
+   "cusip": "00507V109",
+   "value": 16037000,
+   "shares": 211290,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Alibaba Group Hldg Ltd",
+   "title_of_class": "SPONSORED ADS",
+   "cusip": "01609W102",
+   "value": 93743000,
+   "shares": 434601,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Alnylam Pharmaceuticals Inc",
+   "title_of_class": "COM",
+   "cusip": "02043Q107",
+   "value": 54567000,
+   "shares": 368419,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Alphabet Inc",
+   "title_of_class": "CAP STK CL A",
+   "cusip": "02079K305",
+   "value": 122664000,
+   "shares": 86502,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Amazon Com Inc",
+   "title_of_class": "COM",
+   "cusip": "023135106",
+   "value": 235148000,
+   "shares": 85235,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Anaplan Inc",
+   "title_of_class": "COM",
+   "cusip": "03272L108",
+   "value": 9638000,
+   "shares": 212716,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Autozone Inc",
+   "title_of_class": "COM",
+   "cusip": "053332102",
+   "value": 21321000,
+   "shares": 18900,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Barrick Gold Corporation",
+   "title_of_class": "COM",
+   "cusip": "067901108",
+   "value": 115077000,
+   "shares": 4271600,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Beigene Ltd",
+   "title_of_class": "SPONSORED ADR",
+   "cusip": "07725L102",
+   "value": 4932000,
+   "shares": 26180,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Bill Com Hldgs Inc",
+   "title_of_class": "COM",
+   "cusip": "090043100",
+   "value": 5341000,
+   "shares": 59205,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Biomarin Pharmaceutical Inc",
+   "title_of_class": "COM",
+   "cusip": "09061G101",
+   "value": 23768000,
+   "shares": 192700,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Biontech Se",
+   "title_of_class": "SPONSORED ADS",
+   "cusip": "09075V102",
+   "value": 13645000,
+   "shares": 204450,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Booking Holdings Inc",
+   "title_of_class": "COM",
+   "cusip": "09857L108",
+   "value": 59490000,
+   "shares": 37360,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Carmax Inc",
+   "title_of_class": "COM",
+   "cusip": "143130102",
+   "value": 5614000,
+   "shares": 62695,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Carnival Corp",
+   "title_of_class": "UNIT 99/99/9999",
+   "cusip": "143658300",
+   "value": 45955000,
+   "shares": 2798725,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Chubb Limited",
+   "title_of_class": "COM",
+   "cusip": "H1467J104",
+   "value": 35786000,
+   "shares": 282625,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Crowdstrike Hldgs Inc",
+   "title_of_class": "CL A",
+   "cusip": "22788C105",
+   "value": 19005000,
+   "shares": 189503,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "D R Horton Inc",
+   "title_of_class": "COM",
+   "cusip": "23331A109",
+   "value": 2577000,
+   "shares": 46470,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Delta Air Lines Inc Del",
+   "title_of_class": "COM NEW",
+   "cusip": "247361702",
+   "value": 9118000,
+   "shares": 325050,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Dish Network Corporation",
+   "title_of_class": "CL A",
+   "cusip": "25470M109",
+   "value": 13551000,
+   "shares": 392679,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Disney Walt Co",
+   "title_of_class": "COM",
+   "cusip": "254687106",
+   "value": 15979000,
+   "shares": 143300,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Disney Walt Co",
+   "title_of_class": "COM",
+   "cusip": "254687106",
+   "value": 3334000,
+   "shares": 29900,
+   "share_type": "SH",
+   "put_call": "CALL"
+  },
+  {
+   "name": "Docusign Inc",
+   "title_of_class": "COM",
+   "cusip": "256163106",
+   "value": 3020000,
+   "shares": 17535,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Draftkings Inc",
+   "title_of_class": "COM CL A",
+   "cusip": "26142R104",
+   "value": 9246000,
+   "shares": 278000,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Facebook Inc",
+   "title_of_class": "CL A",
+   "cusip": "30303M102",
+   "value": 52680000,
+   "shares": 231998,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Fastly Inc",
+   "title_of_class": "CL A",
+   "cusip": "31188V100",
+   "value": 25249000,
+   "shares": 296593,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Fidelity Natl Information Sv",
+   "title_of_class": "COM",
+   "cusip": "31620M106",
+   "value": 22471000,
+   "shares": 167580,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Fleetcor Technologies Inc",
+   "title_of_class": "COM",
+   "cusip": "339041105",
+   "value": 9961000,
+   "shares": 39600,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Flex Ltd",
+   "title_of_class": "ORD",
+   "cusip": "Y2573F102",
+   "value": 7290000,
+   "shares": 711240,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Ford Mtr Co Del",
+   "title_of_class": "COM",
+   "cusip": "345370860",
+   "value": 3025000,
+   "shares": 497500,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Freeport-Mcmoran Inc",
+   "title_of_class": "CL B",
+   "cusip": "35671D857",
+   "value": 74814000,
+   "shares": 6466200,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "General Electric Co",
+   "title_of_class": "COM",
+   "cusip": "369604103",
+   "value": 29887000,
+   "shares": 4375778,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "General Electric Co",
+   "title_of_class": "COM",
+   "cusip": "369604103",
+   "value": 2873000,
+   "shares": 420700,
+   "share_type": "SH",
+   "put_call": "CALL"
+  },
+  {
+   "name": "Guidewire Software Inc",
+   "title_of_class": "COM",
+   "cusip": "40171V100",
+   "value": 6446000,
+   "shares": 58150,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Home Depot Inc",
+   "title_of_class": "COM",
+   "cusip": "437076102",
+   "value": 77433000,
+   "shares": 309100,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Insmed Inc",
+   "title_of_class": "COM",
+   "cusip": "457669307",
+   "value": 33803000,
+   "shares": 1227400,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Intelsat S A",
+   "title_of_class": "COM",
+   "cusip": "L5140P101",
+   "value": 14000,
+   "shares": 25000,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Iqvia Hldgs Inc",
+   "title_of_class": "COM",
+   "cusip": "46266C105",
+   "value": 10174000,
+   "shares": 71710,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Jd.Com Inc",
+   "title_of_class": "SPON ADR CL A",
+   "cusip": "47215P106",
+   "value": 89833000,
+   "shares": 1492740,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Jpmorgan Chase & Co",
+   "title_of_class": "COM",
+   "cusip": "46625H100",
+   "value": 151619000,
+   "shares": 1611940,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Las Vegas Sands Corp",
+   "title_of_class": "COM",
+   "cusip": "517834107",
+   "value": 4453000,
+   "shares": 97776,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Lennar Corp",
+   "title_of_class": "CL A",
+   "cusip": "526057104",
+   "value": 11392000,
+   "shares": 184872,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Live Nation Entertainment In",
+   "title_of_class": "COM",
+   "cusip": "538034109",
+   "value": 36752000,
+   "shares": 829051,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Marriott Intl Inc New",
+   "title_of_class": "CL A",
+   "cusip": "571903202",
+   "value": 21198000,
+   "shares": 247264,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Mercadolibre Inc",
+   "title_of_class": "COM",
+   "cusip": "58733R102",
+   "value": 35197000,
+   "shares": 35705,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Microsoft Corp",
+   "title_of_class": "COM",
+   "cusip": "594918104",
+   "value": 366282000,
+   "shares": 1799825,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Netflix Inc",
+   "title_of_class": "COM",
+   "cusip": "64110L106",
+   "value": 140824000,
+   "shares": 309477,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Nextcure Inc",
+   "title_of_class": "COM",
+   "cusip": "65343E108",
+   "value": 3033000,
+   "shares": 141459,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Onemain Hldgs Inc",
+   "title_of_class": "COM",
+   "cusip": "68268W103",
+   "value": 5135000,
+   "shares": 209265,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Paypal Hldgs Inc",
+   "title_of_class": "COM",
+   "cusip": "70450Y103",
+   "value": 133897000,
+   "shares": 768510,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Penn Natl Gaming Inc",
+   "title_of_class": "COM",
+   "cusip": "707569109",
+   "value": 31969000,
+   "shares": 1046794,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Penske Automotive Grp Inc",
+   "title_of_class": "COM",
+   "cusip": "70959W103",
+   "value": 1548000,
+   "shares": 40000,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Reata Pharmaceuticals Inc",
+   "title_of_class": "CL A",
+   "cusip": "75615P103",
+   "value": 83140000,
+   "shares": 532878,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Regeneron Pharmaceuticals",
+   "title_of_class": "COM",
+   "cusip": "75886F107",
+   "value": 24135000,
+   "shares": 38700,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Sarepta Therapeutics Inc",
+   "title_of_class": "COM",
+   "cusip": "803607100",
+   "value": 27154000,
+   "shares": 169350,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Sea Ltd",
+   "title_of_class": "SPONSORED ADS",
+   "cusip": "81141R100",
+   "value": 106214000,
+   "shares": 990437,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Smartsheet Inc",
+   "title_of_class": "COM CL A",
+   "cusip": "83200N103",
+   "value": 51783000,
+   "shares": 1016955,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Spdr Ser Tr",
+   "title_of_class": "S&P BIOTECH",
+   "cusip": "78464A870",
+   "value": 122608000,
+   "shares": 1095200,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Starbucks Corp",
+   "title_of_class": "COM",
+   "cusip": "855244109",
+   "value": 66666000,
+   "shares": 905915,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Synchrony Financial",
+   "title_of_class": "COM",
+   "cusip": "87165B103",
+   "value": 15579000,
+   "shares": 703013,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Tal Education Group",
+   "title_of_class": "SPONSORED ADS",
+   "cusip": "874080104",
+   "value": 21355000,
+   "shares": 312300,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "T-Mobile Us Inc",
+   "title_of_class": "COM",
+   "cusip": "872590104",
+   "value": 163653000,
+   "shares": 1571324,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "T-Mobile Us Inc",
+   "title_of_class": "RIGHT 07/27/2020",
+   "cusip": "872590112",
+   "value": 177000,
+   "shares": 1052289,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Tricida Inc",
+   "title_of_class": "COM",
+   "cusip": "89610F101",
+   "value": 18916000,
+   "shares": 688344,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Us Bancorp Del",
+   "title_of_class": "COM",
+   "cusip": "902973304",
+   "value": 8524000,
+   "shares": 231500,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Vapotherm Inc",
+   "title_of_class": "COM",
+   "cusip": "922107107",
+   "value": 969000,
+   "shares": 23635,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Verizon Communications Inc",
+   "title_of_class": "COM",
+   "cusip": "92343V104",
+   "value": 8858000,
+   "shares": 160675,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Wells Fargo Co New",
+   "title_of_class": "COM",
+   "cusip": "949746101",
+   "value": 39642000,
+   "shares": 1548500,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Wendys Co",
+   "title_of_class": "COM",
+   "cusip": "95058W100",
+   "value": 22497000,
+   "shares": 1032909,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Workday Inc",
+   "title_of_class": "CL A",
+   "cusip": "98138H101",
+   "value": 130446000,
+   "shares": 696230,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Yum Brands Inc",
+   "title_of_class": "COM",
+   "cusip": "988498101",
+   "value": 13134000,
+   "shares": 151124,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Zimmer Biomet Holdings Inc",
+   "title_of_class": "COM",
+   "cusip": "98956P102",
+   "value": 14580000,
+   "shares": 122150,
+   "share_type": "SH",
+   "put_call": null
+  }
+ ]
+}

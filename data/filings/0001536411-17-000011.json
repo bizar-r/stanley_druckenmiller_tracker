@@ -1,0 +1,343 @@
+{
+ "accession": "0001536411-17-000011",
+ "form": "13F-HR",
+ "filed": "2017-11-14",
+ "period": "2017-09-30",
+ "amendment_type": null,
+ "has_table": true,
+ "holdings": [
+  {
+   "name": "Ac Immune Sa",
+   "title_of_class": "SHS",
+   "cusip": "H00263105",
+   "value": 26992000,
+   "shares": 2388700,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Activision Blizzard Inc",
+   "title_of_class": "COM",
+   "cusip": "00507V109",
+   "value": 46067000,
+   "shares": 714100,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Alibaba Group Hldg Ltd",
+   "title_of_class": "SPONSORED ADS",
+   "cusip": "01609W102",
+   "value": 134265000,
+   "shares": 777400,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Alphabet Inc",
+   "title_of_class": "CAP STK CL A",
+   "cusip": "02079K305",
+   "value": 225757000,
+   "shares": 231850,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Amazon Com Inc",
+   "title_of_class": "COM",
+   "cusip": "023135106",
+   "value": 140168000,
+   "shares": 145803,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Bank New York Mellon Corp",
+   "title_of_class": "COM",
+   "cusip": "064058100",
+   "value": 19936000,
+   "shares": 376000,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Biogen Inc",
+   "title_of_class": "COM",
+   "cusip": "09062X103",
+   "value": 15030000,
+   "shares": 48000,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Celgene Corp",
+   "title_of_class": "COM",
+   "cusip": "151020104",
+   "value": 27429000,
+   "shares": 188100,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Cf Inds Hldgs Inc",
+   "title_of_class": "COM",
+   "cusip": "125269100",
+   "value": 13779000,
+   "shares": 391900,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Chubb Limited",
+   "title_of_class": "COM",
+   "cusip": "H1467J104",
+   "value": 29451000,
+   "shares": 206600,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Citigroup Inc",
+   "title_of_class": "COM NEW",
+   "cusip": "172967424",
+   "value": 79665000,
+   "shares": 1095200,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Ctrip Com Intl Ltd",
+   "title_of_class": "AMERICAN DEP SHS",
+   "cusip": "22943F100",
+   "value": 74479000,
+   "shares": 1412200,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Despegar Com Corp",
+   "title_of_class": "ORD SHS",
+   "cusip": "G27358103",
+   "value": 9600000,
+   "shares": 300000,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Electronic Arts Inc",
+   "title_of_class": "COM",
+   "cusip": "285512109",
+   "value": 84283000,
+   "shares": 713900,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Expedia Inc Del",
+   "title_of_class": "COM NEW",
+   "cusip": "30212P303",
+   "value": 46620000,
+   "shares": 323884,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Facebook Inc",
+   "title_of_class": "CL A",
+   "cusip": "30303M102",
+   "value": 185155000,
+   "shares": 1083600,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Grupo Financiero Galicia S A",
+   "title_of_class": "SP ADR 10 SH B",
+   "cusip": "399909100",
+   "value": 10308000,
+   "shares": 200000,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Hdfc Bank Ltd",
+   "title_of_class": "ADR REPS 3 SHS",
+   "cusip": "40415F101",
+   "value": 12355000,
+   "shares": 128200,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Incyte Corp",
+   "title_of_class": "COM",
+   "cusip": "45337C102",
+   "value": 8802000,
+   "shares": 75400,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Ishares Tr",
+   "title_of_class": "NASDAQ BIOTECH",
+   "cusip": "464287556",
+   "value": 36928000,
+   "shares": 110700,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Jd Com Inc",
+   "title_of_class": "SPON ADR CL A",
+   "cusip": "47215P106",
+   "value": 83471000,
+   "shares": 2185100,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Las Vegas Sands Corp",
+   "title_of_class": "COM",
+   "cusip": "517834107",
+   "value": 39426000,
+   "shares": 614500,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Mastercard Incorporated",
+   "title_of_class": "CL A",
+   "cusip": "57636Q104",
+   "value": 23326000,
+   "shares": 165200,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Microsoft Corp",
+   "title_of_class": "COM",
+   "cusip": "594918104",
+   "value": 216475000,
+   "shares": 2906100,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Nektar Therapeutics",
+   "title_of_class": "COM",
+   "cusip": "640268108",
+   "value": 27986000,
+   "shares": 1166100,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Netflix Inc",
+   "title_of_class": "COM",
+   "cusip": "64110L106",
+   "value": 20765000,
+   "shares": 114500,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Nvidia Corp",
+   "title_of_class": "COM",
+   "cusip": "67066G104",
+   "value": 16357000,
+   "shares": 91500,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Paypal Hldgs Inc",
+   "title_of_class": "COM",
+   "cusip": "70450Y103",
+   "value": 59241000,
+   "shares": 925200,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Potash Corp Sask Inc",
+   "title_of_class": "COM",
+   "cusip": "73755L107",
+   "value": 11734000,
+   "shares": 609900,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Praxair Inc",
+   "title_of_class": "COM",
+   "cusip": "74005P104",
+   "value": 25810000,
+   "shares": 184700,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Priceline Grp Inc",
+   "title_of_class": "COM NEW",
+   "cusip": "741503403",
+   "value": 135645000,
+   "shares": 74090,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Regeneron Pharmaceuticals",
+   "title_of_class": "COM",
+   "cusip": "75886F107",
+   "value": 14218000,
+   "shares": 31800,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Salesforce Com Inc",
+   "title_of_class": "COM",
+   "cusip": "79466L302",
+   "value": 142606000,
+   "shares": 1526500,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Vale S A",
+   "title_of_class": "ADR",
+   "cusip": "91912E105",
+   "value": 24962000,
+   "shares": 2478800,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Visa Inc",
+   "title_of_class": "COM CL A",
+   "cusip": "92826C839",
+   "value": 22774000,
+   "shares": 216400,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Workday Inc",
+   "title_of_class": "CL A",
+   "cusip": "98138H101",
+   "value": 82794000,
+   "shares": 785600,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Yum China Hldgs Inc",
+   "title_of_class": "COM",
+   "cusip": "98850P109",
+   "value": 23870000,
+   "shares": 597200,
+   "share_type": "SH",
+   "put_call": null
+  }
+ ]
+}

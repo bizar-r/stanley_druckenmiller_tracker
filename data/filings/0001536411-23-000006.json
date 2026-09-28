@@ -1,0 +1,487 @@
+{
+ "accession": "0001536411-23-000006",
+ "form": "13F-HR",
+ "filed": "2023-08-14",
+ "period": "2023-06-30",
+ "amendment_type": null,
+ "has_table": true,
+ "holdings": [
+  {
+   "name": "Abcellera Biologics Inc",
+   "title_of_class": "COM",
+   "cusip": "00288U106",
+   "value": 4262,
+   "shares": 659750,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Acadia Pharmaceuticals Inc",
+   "title_of_class": "COM",
+   "cusip": "004225108",
+   "value": 1782,
+   "shares": 74400,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Amazon Com Inc",
+   "title_of_class": "COM",
+   "cusip": "023135106",
+   "value": 28468,
+   "shares": 218380,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Arista Networks Inc",
+   "title_of_class": "COM",
+   "cusip": "040413106",
+   "value": 15230,
+   "shares": 93980,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Builders Firstsource Inc",
+   "title_of_class": "COM",
+   "cusip": "12008R107",
+   "value": 42201,
+   "shares": 310300,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Cadence Design System Inc",
+   "title_of_class": "COM",
+   "cusip": "127387108",
+   "value": 17682,
+   "shares": 75395,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Cameco Corp",
+   "title_of_class": "COM",
+   "cusip": "13321L108",
+   "value": 27249,
+   "shares": 869740,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Canadian Pacific Kansas City",
+   "title_of_class": "COM",
+   "cusip": "13646K108",
+   "value": 9986,
+   "shares": 123600,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Carlisle Cos Inc",
+   "title_of_class": "COM",
+   "cusip": "142339100",
+   "value": 5336,
+   "shares": 20800,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Ccc Intelligent Solutions Hl",
+   "title_of_class": "COM",
+   "cusip": "12510Q100",
+   "value": 3160,
+   "shares": 281879,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Charter Communications Inc N",
+   "title_of_class": "CL A",
+   "cusip": "16119P108",
+   "value": 10837,
+   "shares": 29500,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Chevron Corp New",
+   "title_of_class": "COM",
+   "cusip": "166764100",
+   "value": 35168,
+   "shares": 223500,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Compass Inc",
+   "title_of_class": "CL A",
+   "cusip": "20464U100",
+   "value": 1397,
+   "shares": 399100,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Coupang Inc",
+   "title_of_class": "CL A",
+   "cusip": "22266T109",
+   "value": 363727,
+   "shares": 20903865,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Doordash Inc",
+   "title_of_class": "CL A",
+   "cusip": "25809K105",
+   "value": 15811,
+   "shares": 206900,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "First Solar Inc",
+   "title_of_class": "COM",
+   "cusip": "336433107",
+   "value": 4700,
+   "shares": 24725,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Fuller H B Co",
+   "title_of_class": "COM",
+   "cusip": "359694106",
+   "value": 5399,
+   "shares": 75500,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "General Electric Co",
+   "title_of_class": "COM NEW",
+   "cusip": "369604301",
+   "value": 80860,
+   "shares": 736095,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Grove Collaborative Hold Inc",
+   "title_of_class": "COM CL A",
+   "cusip": "39957D201",
+   "value": 348,
+   "shares": 196571,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Ihs Holding Limited",
+   "title_of_class": "ORD SHS",
+   "cusip": "G4701H109",
+   "value": 6027,
+   "shares": 770310,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Illumina Inc",
+   "title_of_class": "COM",
+   "cusip": "452327109",
+   "value": 10290,
+   "shares": 54885,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Iqvia Hldgs Inc",
+   "title_of_class": "COM",
+   "cusip": "46266C105",
+   "value": 44675,
+   "shares": 198760,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Jacobs Solutions Inc",
+   "title_of_class": "COM",
+   "cusip": "46982L108",
+   "value": 5160,
+   "shares": 43400,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Joby Aviation Inc",
+   "title_of_class": "COMMON STOCK",
+   "cusip": "G65163100",
+   "value": 115,
+   "shares": 11246,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Kbr Inc",
+   "title_of_class": "COM",
+   "cusip": "48242W106",
+   "value": 32898,
+   "shares": 505658,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Lamb Weston Hldgs Inc",
+   "title_of_class": "COM",
+   "cusip": "513272104",
+   "value": 237557,
+   "shares": 2066610,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Lilly Eli & Co",
+   "title_of_class": "COM",
+   "cusip": "532457108",
+   "value": 251582,
+   "shares": 536445,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Marvell Technology Inc",
+   "title_of_class": "COM",
+   "cusip": "573874104",
+   "value": 18790,
+   "shares": 314320,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Meta Platforms Inc",
+   "title_of_class": "CL A",
+   "cusip": "30303M102",
+   "value": 15688,
+   "shares": 54665,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Micron Technology Inc",
+   "title_of_class": "COM",
+   "cusip": "595112103",
+   "value": 14023,
+   "shares": 222200,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Microsoft Corp",
+   "title_of_class": "COM",
+   "cusip": "594918104",
+   "value": 282294,
+   "shares": 828960,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Natera Inc",
+   "title_of_class": "COM",
+   "cusip": "632307104",
+   "value": 43455,
+   "shares": 893030,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "News Corp New",
+   "title_of_class": "CL A",
+   "cusip": "65249B109",
+   "value": 88228,
+   "shares": 4524525,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "News Corp New",
+   "title_of_class": "CL B",
+   "cusip": "65249B208",
+   "value": 14409,
+   "shares": 730700,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Nvidia Corporation",
+   "title_of_class": "COM",
+   "cusip": "67066G104",
+   "value": 401901,
+   "shares": 950075,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Opendoor Technologies Inc",
+   "title_of_class": "COM",
+   "cusip": "683712103",
+   "value": 6183,
+   "shares": 1538085,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Option Care Health Inc",
+   "title_of_class": "COM NEW",
+   "cusip": "68404L201",
+   "value": 142669,
+   "shares": 4391174,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Oracle Corp",
+   "title_of_class": "COM",
+   "cusip": "68389X105",
+   "value": 32305,
+   "shares": 271265,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Ptc Inc",
+   "title_of_class": "COM",
+   "cusip": "69370C100",
+   "value": 38910,
+   "shares": 273434,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Recursion Pharmaceuticals In",
+   "title_of_class": "CL A",
+   "cusip": "75629V104",
+   "value": 10353,
+   "shares": 1385950,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Rpm Intl Inc",
+   "title_of_class": "COM",
+   "cusip": "749685103",
+   "value": 5294,
+   "shares": 59000,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Sensei Biotherapeutics Inc",
+   "title_of_class": "COM",
+   "cusip": "81728A108",
+   "value": 114,
+   "shares": 100000,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Skechers U S A Inc",
+   "title_of_class": "CL A",
+   "cusip": "830566105",
+   "value": 19543,
+   "shares": 371125,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Taiwan Semiconductor Mfg Ltd",
+   "title_of_class": "SPONSORED ADS",
+   "cusip": "874039100",
+   "value": 49066,
+   "shares": 486190,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Teck Resources Ltd",
+   "title_of_class": "CL B",
+   "cusip": "878742204",
+   "value": 143846,
+   "shares": 3416742,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Tempur Sealy Intl Inc",
+   "title_of_class": "COM",
+   "cusip": "88023U101",
+   "value": 21039,
+   "shares": 525050,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "T-Mobile Us Inc",
+   "title_of_class": "COM",
+   "cusip": "872590104",
+   "value": 163841,
+   "shares": 1179562,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Ubs Group Ag",
+   "title_of_class": "SHS",
+   "cusip": "H42097107",
+   "value": 15370,
+   "shares": 759500,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Vertiv Holdings Co",
+   "title_of_class": "COM CL A",
+   "cusip": "92537N108",
+   "value": 30560,
+   "shares": 1233755,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Vornado Rlty Tr",
+   "title_of_class": "SH BEN INT",
+   "cusip": "929042109",
+   "value": 10782,
+   "shares": 594400,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Warby Parker Inc",
+   "title_of_class": "CL A COM",
+   "cusip": "93403J106",
+   "value": 12440,
+   "shares": 1064139,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Wesco Intl Inc",
+   "title_of_class": "COM",
+   "cusip": "95082P105",
+   "value": 20932,
+   "shares": 116900,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "World Wrestling Entmt Inc",
+   "title_of_class": "CL A",
+   "cusip": "98156Q108",
+   "value": 10670,
+   "shares": 98365,
+   "share_type": "SH",
+   "put_call": null
+  }
+ ]
+}

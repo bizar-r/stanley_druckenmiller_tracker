@@ -1,0 +1,307 @@
+{
+ "accession": "0001536411-16-000012",
+ "form": "13F-HR",
+ "filed": "2016-05-16",
+ "period": "2016-03-31",
+ "amendment_type": null,
+ "has_table": true,
+ "holdings": [
+  {
+   "name": "Agnico Eagle Mines Ltd",
+   "title_of_class": "COM",
+   "cusip": "008474108",
+   "value": 15726000,
+   "shares": 434900,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Alphabet Inc.",
+   "title_of_class": "CAP STK CL A",
+   "cusip": "02079K305",
+   "value": 42494000,
+   "shares": 55700,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Amazon.com Inc.",
+   "title_of_class": "COM",
+   "cusip": "023135106",
+   "value": 45829000,
+   "shares": 77200,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Am Elect Pwr Co Inc.",
+   "title_of_class": "COM",
+   "cusip": "025537101",
+   "value": 10637000,
+   "shares": 160200,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Barrick Gold Corp",
+   "title_of_class": "COM",
+   "cusip": "067901108",
+   "value": 24887000,
+   "shares": 1832600,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Caterpillar Inc.",
+   "title_of_class": "COM",
+   "cusip": "149123101",
+   "value": 25258000,
+   "shares": 330000,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Coca-Cola Co",
+   "title_of_class": "COM",
+   "cusip": "191216100",
+   "value": 64431000,
+   "shares": 1388900,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Consolidated Edison Inc.",
+   "title_of_class": "COM",
+   "cusip": "209115104",
+   "value": 10872000,
+   "shares": 141900,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Duke Energy Corp",
+   "title_of_class": "COM",
+   "cusip": "26441C204",
+   "value": 52369000,
+   "shares": 649100,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Emerson Electric Inc.",
+   "title_of_class": "COM",
+   "cusip": "291011104",
+   "value": 29963000,
+   "shares": 551000,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Facebook Inc.",
+   "title_of_class": "CL A",
+   "cusip": "30303M102",
+   "value": 230903000,
+   "shares": 2023694,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "HDFC Bank Ltd.",
+   "title_of_class": "ADR REPS 3 SHS",
+   "cusip": "40415F101",
+   "value": 7753000,
+   "shares": 125800,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Home Depot Inc.",
+   "title_of_class": "COM",
+   "cusip": "437076102",
+   "value": 20108000,
+   "shares": 150700,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "IShrs MSCI Emg'g Mkt Idx",
+   "title_of_class": "MSCI EMG MKT ETF",
+   "cusip": "464287234",
+   "value": 101757000,
+   "shares": 2971000,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "JD.Com Inc.",
+   "title_of_class": "SPON ADR CL A",
+   "cusip": "47215P106",
+   "value": 9445000,
+   "shares": 356400,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "The Estee Lauder Co Inc.",
+   "title_of_class": "CL A",
+   "cusip": "518439104",
+   "value": 10553000,
+   "shares": 111900,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "McDonald's Corp",
+   "title_of_class": "COM",
+   "cusip": "580135101",
+   "value": 19883000,
+   "shares": 158200,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Microsoft Corp",
+   "title_of_class": "COM",
+   "cusip": "594918104",
+   "value": 28559000,
+   "shares": 517100,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "PPL Corp",
+   "title_of_class": "COM",
+   "cusip": "69351T106",
+   "value": 37107000,
+   "shares": 974700,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Pepsico Inc.",
+   "title_of_class": "COM",
+   "cusip": "713448108",
+   "value": 36206000,
+   "shares": 353300,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Philip Morris Int'l Inc.",
+   "title_of_class": "COM",
+   "cusip": "718172109",
+   "value": 54431000,
+   "shares": 554800,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Post Holdings Inc.",
+   "title_of_class": "COM",
+   "cusip": "737446104",
+   "value": 20026000,
+   "shares": 291200,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Pure Storage Inc.",
+   "title_of_class": "CL A",
+   "cusip": "74624M102",
+   "value": 27169000,
+   "shares": 1984600,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "SPDR Gold Trust",
+   "title_of_class": "GOLD SHS",
+   "cusip": "78463V907",
+   "value": 237162000,
+   "shares": 2016000,
+   "share_type": "SH",
+   "put_call": "CALL"
+  },
+  {
+   "name": "Southern Co",
+   "title_of_class": "COM",
+   "cusip": "842587107",
+   "value": 52630000,
+   "shares": 1017400,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Southwest Airlines Co.",
+   "title_of_class": "COM",
+   "cusip": "844741108",
+   "value": 22086000,
+   "shares": 493000,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Tempur Sealy Int'l Inc.",
+   "title_of_class": "COM",
+   "cusip": "88023U101",
+   "value": 7629000,
+   "shares": 125500,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Verizon Comms Inc.",
+   "title_of_class": "COM",
+   "cusip": "92343V104",
+   "value": 21632000,
+   "shares": 400000,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "WEC Energy Grp Inc.",
+   "title_of_class": "COM",
+   "cusip": "92939U106",
+   "value": 10692000,
+   "shares": 178000,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "WhiteWave Foods Co",
+   "title_of_class": "COM",
+   "cusip": "966244105",
+   "value": 14793000,
+   "shares": 364000,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Williams Co's Inc.",
+   "title_of_class": "COM",
+   "cusip": "969457100",
+   "value": 4474000,
+   "shares": 278400,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Workday Inc.",
+   "title_of_class": "CL A",
+   "cusip": "98138H101",
+   "value": 19955000,
+   "shares": 259700,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Zoetis Inc.",
+   "title_of_class": "CL A",
+   "cusip": "98978V103",
+   "value": 21185000,
+   "shares": 477900,
+   "share_type": "SH",
+   "put_call": null
+  }
+ ]
+}
