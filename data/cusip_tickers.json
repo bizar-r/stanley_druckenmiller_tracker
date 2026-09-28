@@ -1,4 +1,5 @@
 {
+ "_version": 2,
  "000899104": {
   "ticker": "ADMA",
   "figi_name": "ADMA BIOLOGICS INC",
@@ -2805,54 +2806,230 @@
  },
  "G04553106": null,
  "G06242104": null,
- "G0896C103": null,
- "G11448100": null,
+ "G0896C103": {
+  "ticker": "TBBB",
+  "figi_name": "BBB FOODS INC-CLASS A",
+  "security_type": "Common Stock"
+ },
+ "G11448100": {
+  "ticker": "BTDR",
+  "figi_name": "BITDEER TECHNOLOGIES GROUP-A",
+  "security_type": "Common Stock"
+ },
  "G2007L105": null,
- "G25508105": null,
- "G27358103": null,
- "G28302100": null,
- "G29183103": null,
- "G3643J108": null,
- "G3730V105": null,
- "G4412G101": null,
- "G4701H109": null,
- "G47567105": null,
+ "G25508105": {
+  "ticker": "CRH",
+  "figi_name": "CRH PLC",
+  "security_type": "Common Stock"
+ },
+ "G27358103": {
+  "ticker": "DESP1EUR",
+  "figi_name": "DESPEGAR.COM CORP",
+  "security_type": "Common Stock"
+ },
+ "G28302100": {
+  "ticker": "CCC",
+  "figi_name": "CCC INTELLIGENT SOLUTIONS HO",
+  "security_type": "Common Stock"
+ },
+ "G29183103": {
+  "ticker": "ETN",
+  "figi_name": "EATON CORP PLC",
+  "security_type": "Common Stock"
+ },
+ "G3643J108": {
+  "ticker": "FLUT",
+  "figi_name": "FLUTTER ENTERTAINMENT PLC-DI",
+  "security_type": "Common Stock"
+ },
+ "G3730V105": {
+  "ticker": "FTAI",
+  "figi_name": "FTAI AVIATION LTD",
+  "security_type": "Common Stock"
+ },
+ "G4412G101": {
+  "ticker": "HLF",
+  "figi_name": "HERBALIFE LTD",
+  "security_type": "Common Stock"
+ },
+ "G4701H109": {
+  "ticker": "IHS",
+  "figi_name": "IHS HOLDING LTD",
+  "security_type": "Common Stock"
+ },
+ "G47567105": {
+  "ticker": "MRKTEUR",
+  "figi_name": "IHS MARKIT LTD",
+  "security_type": "Common Stock"
+ },
  "G47791101": null,
  "G5494J103": null,
- "G54950103": null,
- "G5960L103": null,
- "G61188101": null,
- "G61188127": null,
- "G6359F103": null,
- "G65163100": null,
- "G6683N103": null,
- "G6700G107": null,
- "G68707101": null,
- "G7997R103": null,
- "G85158106": null,
- "G98239109": null,
- "H00263105": null,
- "H1467J104": null,
- "H42097107": null,
- "H8817H100": null,
- "L5140P101": null,
- "L8681T102": null,
- "M2682V108": null,
- "M3760D101": null,
- "M51363113": null,
- "M5216V106": null,
- "M87915274": null,
- "N14506104": null,
- "N4732M103": null,
- "N53745100": null,
- "N62509109": null,
- "N6596X109": null,
+ "G54950103": {
+  "ticker": "LIN",
+  "figi_name": "LINDE PLC",
+  "security_type": "Common Stock"
+ },
+ "G5960L103": {
+  "ticker": "MDT",
+  "figi_name": "MEDTRONIC PLC",
+  "security_type": "Common Stock"
+ },
+ "G61188101": {
+  "ticker": "LBTYA",
+  "figi_name": "LIBERTY GLOBAL LTD-A",
+  "security_type": "Common Stock"
+ },
+ "G61188127": {
+  "ticker": "LBTYK",
+  "figi_name": "LIBERTY GLOBAL LTD-C",
+  "security_type": "Common Stock"
+ },
+ "G6359F103": {
+  "ticker": "NBR",
+  "figi_name": "NABORS INDUSTRIES LTD",
+  "security_type": "Common Stock"
+ },
+ "G65163100": {
+  "ticker": "JOBY",
+  "figi_name": "JOBY AVIATION INC",
+  "security_type": "Common Stock"
+ },
+ "G6683N103": {
+  "ticker": "NU",
+  "figi_name": "NU HOLDINGS LTD/CAYMAN ISL-A",
+  "security_type": "Common Stock"
+ },
+ "G6700G107": {
+  "ticker": "NVT",
+  "figi_name": "NVENT ELECTRIC PLC",
+  "security_type": "Common Stock"
+ },
+ "G68707101": {
+  "ticker": "PAGS",
+  "figi_name": "PAGSEGURO DIGITAL LTD-CL A",
+  "security_type": "Common Stock"
+ },
+ "G7997R103": {
+  "ticker": "STX",
+  "figi_name": "SEAGATE TECHNOLOGY HOLDINGS",
+  "security_type": "Common Stock"
+ },
+ "G85158106": {
+  "ticker": "STNE",
+  "figi_name": "STONECO LTD-A",
+  "security_type": "Common Stock"
+ },
+ "G98239109": {
+  "ticker": "XP",
+  "figi_name": "XP INC - CLASS A",
+  "security_type": "Common Stock"
+ },
+ "H00263105": {
+  "ticker": "ACIU",
+  "figi_name": "AC IMMUNE SA",
+  "security_type": "Common Stock"
+ },
+ "H1467J104": {
+  "ticker": "CB",
+  "figi_name": "CHUBB LTD",
+  "security_type": "Common Stock"
+ },
+ "H42097107": {
+  "ticker": "UBS",
+  "figi_name": "UBS GROUP AG-REG",
+  "security_type": "Common Stock"
+ },
+ "H8817H100": {
+  "ticker": "RIG",
+  "figi_name": "TRANSOCEAN LTD",
+  "security_type": "Common Stock"
+ },
+ "L5140P101": {
+  "ticker": "I2EUR",
+  "figi_name": "INTELSAT SA",
+  "security_type": "Common Stock"
+ },
+ "L8681T102": {
+  "ticker": "SPOT",
+  "figi_name": "SPOTIFY TECHNOLOGY SA",
+  "security_type": "Common Stock"
+ },
+ "M2682V108": {
+  "ticker": "CYBR",
+  "figi_name": "CYBERARK SOFTWARE LTD/ISRAEL",
+  "security_type": "Common Stock"
+ },
+ "M3760D101": {
+  "ticker": "ESLT",
+  "figi_name": "ELBIT SYSTEMS LTD",
+  "security_type": "Common Stock"
+ },
+ "M51363113": {
+  "ticker": "MLNXEUR",
+  "figi_name": "MELLANOX TECHNOLOGIES LTD",
+  "security_type": "Common Stock"
+ },
+ "M5216V106": {
+  "ticker": "GLBE",
+  "figi_name": "GLOBAL-E ONLINE LTD",
+  "security_type": "Common Stock"
+ },
+ "M87915274": {
+  "ticker": "TSEM",
+  "figi_name": "TOWER SEMICONDUCTOR LTD",
+  "security_type": "Common Stock"
+ },
+ "N14506104": {
+  "ticker": "ESTC",
+  "figi_name": "ELASTIC NV",
+  "security_type": "Common Stock"
+ },
+ "N4732M103": {
+  "ticker": "JBS",
+  "figi_name": "JBS NV-A",
+  "security_type": "Common Stock"
+ },
+ "N53745100": {
+  "ticker": "LYB",
+  "figi_name": "LYONDELLBASELL INDU-CL A",
+  "security_type": "Common Stock"
+ },
+ "N62509109": {
+  "ticker": "NAMS",
+  "figi_name": "NEWAMSTERDAM PHARMA CO NV",
+  "security_type": "Common Stock"
+ },
+ "N6596X109": {
+  "ticker": "NXPI",
+  "figi_name": "NXP SEMICONDUCTORS NV",
+  "security_type": "Common Stock"
+ },
  "N7902X106": null,
- "N82405106": null,
- "N97284108": null,
- "Q4982L109": null,
- "V7780T103": null,
+ "N82405106": {
+  "ticker": "STLA",
+  "figi_name": "STELLANTIS NV",
+  "security_type": "Common Stock"
+ },
+ "N97284108": {
+  "ticker": "NBIS",
+  "figi_name": "NEBIUS GROUP NV",
+  "security_type": "Common Stock"
+ },
+ "Q4982L109": {
+  "ticker": "IREN",
+  "figi_name": "IREN LTD",
+  "security_type": "Common Stock"
+ },
+ "V7780T103": {
+  "ticker": "RCL",
+  "figi_name": "ROYAL CARIBBEAN CRUISES LTD",
+  "security_type": "Common Stock"
+ },
  "Y09827109": null,
- "Y2573F102": null,
+ "Y2573F102": {
+  "ticker": "FLEX",
+  "figi_name": "FLEX LTD",
+  "security_type": "Common Stock"
+ },
  "Y95308105": null
 }
