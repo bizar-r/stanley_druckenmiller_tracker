@@ -12,7 +12,7 @@ jobs:
           SECRET_UA: ${{ secrets.SEC_USER_AGENT }}
         run: |
           probe() {
-            code=$(curl -s -o /tmp/body -w "%{http_code}" -A "$2" -H "Accept-Encoding: gzip, deflate" "$3")
+            code=$(curl -s --max-time 20 -o /tmp/body -w "%{http_code}" -A "$2" -H "Accept-Encoding: gzip, deflate" "$3")
             title=$(grep -o "<title>[^<]*" /tmp/body | head -1)
             echo "$1 | $code | $3 | $title"
           }
@@ -26,4 +26,4 @@ jobs:
             probe name-gmail "John Smith jsmith@gmail.com" "$url"
             sleep 1
           done
-          echo "13f.info: $(curl -s -o /dev/null -w '%{http_code}' https://13f.info/manager/0001536411-duquesne-family-office-llc)"
+          echo "13f.info: $(curl -s --max-time 20 -o /dev/null -w '%{http_code}' https://13f.info/manager/0001536411-duquesne-family-office-llc)"
