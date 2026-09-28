@@ -7,23 +7,24 @@ jobs:
   probe:
     runs-on: ubuntu-latest
     steps:
-      - name: Probe SEC endpoints with different User-Agents
+      - name: Probe which User-Agent shapes SEC accepts
         env:
           SECRET_UA: ${{ secrets.SEC_USER_AGENT }}
         run: |
+          url="https://data.sec.gov/submissions/CIK0001536411.json"
           probe() {
-            code=$(curl -s --max-time 20 -o /tmp/body -w "%{http_code}" -A "$2" -H "Accept-Encoding: gzip, deflate" "$3" || true)
-            title=$(grep -o "<title>[^<]*" /tmp/body | head -1)
-            echo "$1 | $code | $3 | $title"
+            code=$(curl -s --max-time 20 -o /dev/null -w "%{http_code}" -A "$2" "$url" || true)
+            echo "$code | $1"
+            sleep 0.5
           }
-          echo "secret UA length: ${#SECRET_UA}, non-ascii: $(printf '%s' "$SECRET_UA" | LC_ALL=C grep -c '[^ -~]')"
-          for url in \
-            "https://data.sec.gov/submissions/CIK0001536411.json" \
-            "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1536411&type=13F-HR&output=atom" \
-            "https://www.sec.gov/Archives/edgar/data/1536411/"; do
-            probe secret "$SECRET_UA" "$url"
-            probe sec-doc-example "Sample Company Name AdminContact@sample.com" "$url"
-            probe name-gmail "John Smith jsmith@gmail.com" "$url"
-            sleep 1
-          done
-          echo "13f.info: $(curl -s --max-time 20 -o /dev/null -w '%{http_code}' https://13f.info/manager/0001536411-duquesne-family-office-llc)"
+          email=$(printf '%s' "$SECRET_UA" | grep -oE '[^ <>]+@[^ <>]+' | head -1 || true)
+          words=$(printf '%s' "$SECRET_UA" | wc -w)
+          echo "secret: words=$words has_email=$([ -n "$email" ] && echo yes || echo no) has_hyphen=$(printf '%s' "$SECRET_UA" | grep -c -- - || true) has_digit_in_name=$(printf '%s' "${SECRET_UA%%$email*}" | grep -c '[0-9]' || true)"
+          probe "secret as-is" "$SECRET_UA"
+          probe "Druckenmiller Tracker + secret email" "Druckenmiller Tracker $email"
+          probe "Jane Doe + secret email" "Jane Doe $email"
+          probe "secret email only" "$email"
+          probe "hyphenated name + gmail" "druckenmiller-tracker jsmith@gmail.com"
+          probe "plain name + noreply" "Druckenmiller Tracker bizar-r@users.noreply.github.com"
+          probe "old default" "stanley-druckenmiller-tracker bizar-r@users.noreply.github.com"
+          probe "plain name + gmail" "Druckenmiller Tracker jsmith@gmail.com"
