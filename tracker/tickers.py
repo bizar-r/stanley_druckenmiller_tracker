@@ -8,6 +8,7 @@ import requests
 from .sec import DATA_DIR
 
 CACHE = DATA_DIR / "cusip_tickers.json"
+CACHE_VERSION = 2  # bump to re-resolve everything after changing the matching rules
 API_KEY = os.environ.get("OPENFIGI_API_KEY")
 # Without a key OpenFIGI allows 10 jobs/request and 25 requests/minute.
 BATCH = 100 if API_KEY else 10
@@ -15,14 +16,23 @@ PAUSE = 0.3 if API_KEY else 2.6
 
 
 def _load():
-    return json.loads(CACHE.read_text()) if CACHE.exists() else {}
+    cache = json.loads(CACHE.read_text()) if CACHE.exists() else {}
+    return cache if cache.pop("_version", None) == CACHE_VERSION else {}
 
 
 def _pick(data):
-    for match in data:
-        if match.get("exchCode") == "US":
-            return match
+    # Prefer the US composite listing; among several, the plainest ticker
+    # (e.g. TEVA over TEVAN).
+    us = [m for m in data if m.get("exchCode") == "US" and m.get("ticker")]
+    if us:
+        return min(us, key=lambda m: len(m["ticker"]))
     return data[0] if data else None
+
+
+def _id_type(cusip):
+    # Non-US issuers carry CINS codes (leading letter), which OpenFIGI only
+    # matches under their own id type.
+    return "ID_CINS" if cusip[0].isalpha() else "ID_CUSIP"
 
 
 def resolve(cusips):
@@ -34,7 +44,7 @@ def resolve(cusips):
 
     for i in range(0, len(missing), BATCH):
         chunk = missing[i:i + BATCH]
-        jobs = [{"idType": "ID_CUSIP", "idValue": c} for c in chunk]
+        jobs = [{"idType": _id_type(c), "idValue": c} for c in chunk]
         for attempt in range(4):
             try:
                 r = requests.post("https://api.openfigi.com/v3/mapping", json=jobs, headers=headers, timeout=30)
@@ -57,5 +67,5 @@ def resolve(cusips):
         time.sleep(PAUSE)
 
     CACHE.parent.mkdir(parents=True, exist_ok=True)
-    CACHE.write_text(json.dumps(dict(sorted(cache.items())), indent=1))
+    CACHE.write_text(json.dumps({"_version": CACHE_VERSION, **dict(sorted(cache.items()))}, indent=1))
     return cache

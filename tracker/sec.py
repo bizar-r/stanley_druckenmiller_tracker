@@ -18,9 +18,6 @@ FILINGS_DIR = DATA_DIR / "filings"
 # Set it via the SEC_USER_AGENT secret, e.g. "Your Name you@gmail.com".
 USER_AGENT = os.environ.get("SEC_USER_AGENT") or "Druckenmiller Tracker"
 
-# 13F filings made on/after this date report value in dollars, earlier ones in thousands.
-DOLLAR_VALUES_SINCE = "2023-01-03"
-
 FORMS_13F = ("13F-HR", "13F-HR/A")
 
 _session = requests.Session()
@@ -94,17 +91,30 @@ def _num(value):
     return int(float(value.replace(",", ""))) if value else 0
 
 
-def _parse_info_table(root, in_thousands):
+def _normalize_units(holdings):
+    """Scale thousands-denominated reports to dollars; idempotent.
+
+    SEC switched 13F values from thousands to dollars in 2023, but some filers
+    (Duquesne included) kept reporting thousands, so infer the unit from the
+    median value per share instead of the filing date.
+    """
+    per_share = sorted(h["value"] / h["shares"] for h in holdings if h["share_type"] == "SH" and h["shares"])
+    if per_share and per_share[len(per_share) // 2] < 1:
+        for h in holdings:
+            h["value"] *= 1000
+    return holdings
+
+
+def _parse_info_table(root):
     rows = []
     for item in root:
         if _local(item.tag) != "infoTable":
             continue
-        value = _num(_text(item, "value"))
         rows.append({
             "name": _text(item, "nameOfIssuer"),
             "title_of_class": _text(item, "titleOfClass"),
             "cusip": (_text(item, "cusip") or "").upper(),
-            "value": value * 1000 if in_thousands else value,
+            "value": _num(_text(item, "value")),
             "shares": _num(_text(item, "sshPrnamt")),
             "share_type": _text(item, "sshPrnamtType"),
             "put_call": (_text(item, "putCall") or "").upper() or None,
@@ -116,7 +126,9 @@ def load_13f(filing):
     """Parse one 13F filing's information table, cached under data/filings/."""
     cache = FILINGS_DIR / f"{filing['accession']}.json"
     if cache.exists():
-        return json.loads(cache.read_text())
+        parsed = json.loads(cache.read_text())
+        _normalize_units(parsed["holdings"])
+        return parsed
 
     base = folder_url(filing["accession"])
     items = _get(base + "index.json").json()["directory"]["item"]
@@ -132,7 +144,8 @@ def load_13f(filing):
             amendment_type = (_text(root, "amendmentType") or "").upper() or None
         elif tag == "informationTable":
             has_table = True
-            holdings += _parse_info_table(root, filing["filed"] < DOLLAR_VALUES_SINCE)
+            holdings += _parse_info_table(root)
+    _normalize_units(holdings)
 
     parsed = {
         "accession": filing["accession"],
