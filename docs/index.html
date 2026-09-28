@@ -1,0 +1,370 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>드러켄밀러 트래커</title>
+<style>
+:root {
+  color-scheme: light;
+  --bg: #f4f4f2;
+  --surface: #fcfcfb;
+  --border: #e3e2de;
+  --grid: #ecebe7;
+  --text: #0b0b0b;
+  --text-2: #52514e;
+  --muted: #8a8984;
+  --series: #2a78d6;
+  --series-soft: #2a78d61f;
+  --good: #0a7a3d;
+  --good-bg: #0a7a3d14;
+  --bad: #c2332f;
+  --bad-bg: #c2332f14;
+  --new: #6a4fd1;
+  --new-bg: #6a4fd114;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --bg: #111110;
+    --surface: #1a1a19;
+    --border: #2d2d2b;
+    --grid: #262624;
+    --text: #ffffff;
+    --text-2: #c3c2b7;
+    --muted: #8f8e86;
+    --series: #3987e5;
+    --series-soft: #3987e526;
+    --good: #45c27d;
+    --good-bg: #45c27d1a;
+    --bad: #f07470;
+    --bad-bg: #f074701a;
+    --new: #a494f2;
+    --new-bg: #a494f21a;
+  }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: #111110; --surface: #1a1a19; --border: #2d2d2b; --grid: #262624;
+  --text: #ffffff; --text-2: #c3c2b7; --muted: #8f8e86;
+  --series: #3987e5; --series-soft: #3987e526;
+  --good: #45c27d; --good-bg: #45c27d1a; --bad: #f07470; --bad-bg: #f074701a;
+  --new: #a494f2; --new-bg: #a494f21a;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; background: var(--bg); color: var(--text);
+  font: 14px/1.5 -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Pretendard", "Noto Sans KR", "Segoe UI", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+main { max-width: 1120px; margin: 0 auto; padding: 24px 16px 64px; }
+header { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: end; gap: 8px 24px; margin-bottom: 20px; }
+h1 { font-size: 22px; margin: 0; letter-spacing: -0.01em; }
+h2 { font-size: 15px; margin: 0 0 12px; }
+.sub { color: var(--text-2); font-size: 13px; }
+.num { font-variant-numeric: tabular-nums; }
+.card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 16px; }
+.grid { display: grid; gap: 12px; }
+.kpis { grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); margin-bottom: 12px; }
+.kpi .label { color: var(--text-2); font-size: 12px; }
+.kpi .value { font-size: 22px; font-weight: 650; margin-top: 2px; letter-spacing: -0.01em; }
+.kpi .note { color: var(--muted); font-size: 12px; }
+.two { grid-template-columns: 1fr 1fr; margin-bottom: 12px; }
+@media (max-width: 800px) { .two { grid-template-columns: 1fr; } }
+section { margin-bottom: 12px; }
+.table-wrap { overflow-x: auto; margin: 0 -16px; padding: 0 16px; }
+table { width: 100%; border-collapse: collapse; font-size: 13px; }
+th, td { padding: 8px 8px; text-align: right; border-bottom: 1px solid var(--grid); white-space: nowrap; }
+th:first-child, td:first-child { text-align: left; }
+th { color: var(--text-2); font-weight: 550; font-size: 12px; cursor: pointer; user-select: none; position: sticky; top: 0; background: var(--surface); }
+th[data-sort]::after { content: ""; }
+th.asc::after { content: " ↑"; } th.desc::after { content: " ↓"; }
+tbody tr { cursor: pointer; }
+tbody tr:hover, tbody tr.sel { background: var(--series-soft); }
+.tk { font-weight: 650; }
+.nm { color: var(--text-2); font-size: 12px; max-width: 220px; overflow: hidden; text-overflow: ellipsis; display: block; }
+.badge { display: inline-block; font-size: 11px; font-weight: 600; padding: 1px 7px; border-radius: 999px; }
+.b-new { color: var(--new); background: var(--new-bg); }
+.b-add, .up { color: var(--good); } .b-add { background: var(--good-bg); }
+.b-reduce, .down { color: var(--bad); } .b-reduce { background: var(--bad-bg); }
+.b-same { color: var(--muted); }
+.b-opt { color: var(--text-2); border: 1px solid var(--border); margin-left: 4px; }
+.wbar { display: inline-block; height: 6px; border-radius: 0 3px 3px 0; background: var(--series); vertical-align: middle; margin-right: 6px; }
+.chart { position: relative; }
+.chart svg { display: block; width: 100%; height: auto; overflow: visible; }
+.chart .axis text { fill: var(--muted); font-size: 11px; }
+.chart .gridline { stroke: var(--grid); }
+.chart .line { fill: none; stroke: var(--series); stroke-width: 2; stroke-linejoin: round; }
+.chart .area { fill: var(--series-soft); }
+.chart .dot { fill: var(--series); stroke: var(--surface); stroke-width: 2; }
+.chart .cross { stroke: var(--muted); stroke-dasharray: 3 3; }
+.tip { position: absolute; pointer-events: none; background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 6px 10px; font-size: 12px; box-shadow: 0 4px 16px #0002; white-space: nowrap; display: none; z-index: 2; }
+.tip b { display: block; }
+.list { list-style: none; margin: 0; padding: 0; }
+.list li { display: flex; justify-content: space-between; gap: 12px; padding: 7px 0; border-bottom: 1px solid var(--grid); font-size: 13px; }
+.list li:last-child { border-bottom: 0; }
+a { color: var(--series); text-decoration: none; }
+a:hover { text-decoration: underline; }
+.muted { color: var(--muted); }
+.note-box { color: var(--text-2); font-size: 12.5px; line-height: 1.6; }
+.note-box ul { margin: 6px 0 0; padding-left: 18px; }
+.empty { color: var(--muted); padding: 24px 0; text-align: center; }
+.hbar-row { display: grid; grid-template-columns: 72px 1fr 52px; gap: 8px; align-items: center; font-size: 12.5px; padding: 3px 0; }
+.hbar-row .track { height: 14px; }
+.hbar-row .fill { height: 100%; background: var(--series); border-radius: 0 4px 4px 0; min-width: 2px; }
+.hbar-row .lab { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-weight: 600; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <div>
+      <h1>스탠리 드러켄밀러 트래커</h1>
+      <div class="sub" id="entity">Duquesne Family Office · SEC 13F</div>
+    </div>
+    <div class="sub" id="updated"></div>
+  </header>
+
+  <div class="grid kpis" id="kpis"></div>
+
+  <section class="card">
+    <h2>보유 종목 <span class="sub" id="holdings-sub"></span></h2>
+    <div class="table-wrap">
+      <table id="holdings">
+        <thead><tr>
+          <th data-sort="ticker">종목</th>
+          <th data-sort="weight">비중</th>
+          <th data-sort="value">13F 가치</th>
+          <th data-sort="shares">주식 수</th>
+          <th data-sort="share_change_pct">전분기 대비</th>
+          <th data-sort="price_change_pct">분기말 이후 주가</th>
+          <th data-sort="est_weight">추정 현재 비중</th>
+        </tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </section>
+
+  <div class="grid two">
+    <section class="card">
+      <h2 id="pos-title">종목 추이</h2>
+      <div class="sub" id="pos-sub" style="margin:-8px 0 8px">표에서 종목을 누르면 분기별 보유 가치를 보여줘요</div>
+      <div class="chart" id="pos-chart"></div>
+    </section>
+    <section class="card">
+      <h2>상위 15종목 비중</h2>
+      <div id="weights"></div>
+    </section>
+  </div>
+
+  <div class="grid two">
+    <section class="card">
+      <h2>13F 총액 추이</h2>
+      <div class="chart" id="total-chart"></div>
+    </section>
+    <section class="card">
+      <h2>청산한 종목 <span class="sub" id="exits-sub"></span></h2>
+      <ul class="list" id="exits"></ul>
+    </section>
+  </div>
+
+  <div class="grid two">
+    <section class="card">
+      <h2>최근 SEC 공시</h2>
+      <ul class="list" id="filings"></ul>
+    </section>
+    <section class="card note-box">
+      <h2>읽을 때 주의할 점</h2>
+      <ul>
+        <li>13F는 <b>미국 상장 주식·ETF·옵션 롱</b>만 공개돼요. 국채·통화·선물·공매도·해외주식 같은 매크로 포지션은 빠져 있어요.</li>
+        <li>분기 말 기준이고 제출은 최대 45일 뒤라, 지금 포지션과는 차이가 있을 수 있어요.</li>
+        <li>옵션(CALL/PUT)의 가치는 프리미엄이 아니라 <b>기초자산 기준 명목금액</b>이에요. PUT은 하락 베팅이에요.</li>
+        <li>'추정 현재 비중'은 분기 말 이후 주가 변동만 반영한 값이에요. 그 사이의 매매는 반영되지 않아요.</li>
+        <li>매일 아침 자동으로 SEC를 확인해서 업데이트돼요.</li>
+      </ul>
+    </section>
+  </div>
+</main>
+<div class="tip" id="tip"></div>
+
+<script>
+const $ = (s) => document.querySelector(s);
+const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+
+function money(v) {
+  const a = Math.abs(v);
+  if (a >= 1e9) return "$" + (v / 1e9).toFixed(2) + "B";
+  if (a >= 1e6) return "$" + (v / 1e6).toFixed(1) + "M";
+  if (a >= 1e3) return "$" + (v / 1e3).toFixed(0) + "K";
+  return "$" + v.toFixed(0);
+}
+const pct = (v, d = 1) => (v * 100).toFixed(d) + "%";
+const signed = (v, d = 1) => v == null ? "–" : (v > 0 ? "+" : "") + v.toFixed(d) + "%";
+const int = (v) => v.toLocaleString("en-US");
+const quarter = (iso) => { const [y, m] = iso.split("-"); return `${y} Q${Math.ceil(+m / 3)}`; };
+const label = (p) => p.ticker || p.name;
+
+const tip = $("#tip");
+function showTip(html, x, y) {
+  tip.innerHTML = html; tip.style.display = "block";
+  const w = tip.offsetWidth;
+  tip.style.left = Math.min(x + 14, window.scrollX + document.documentElement.clientWidth - w - 8) + "px";
+  tip.style.top = (y - 10 - tip.offsetHeight) + "px";
+}
+const hideTip = () => (tip.style.display = "none");
+
+function lineChart(el, points, fmtY) {
+  // points: [{x: label, y: number}]
+  const W = 520, H = 220, L = 56, R = 12, T = 12, B = 26;
+  if (!points.length) { el.innerHTML = '<div class="empty">데이터 없음</div>'; return; }
+  const maxY = Math.max(...points.map((p) => p.y)) || 1;
+  const nice = Math.pow(10, Math.floor(Math.log10(maxY)));
+  const top = Math.ceil(maxY / nice) * nice;
+  const xs = (i) => L + (points.length === 1 ? (W - L - R) / 2 : (i * (W - L - R)) / (points.length - 1));
+  const ys = (v) => T + (H - T - B) * (1 - v / top);
+  let svg = `<svg viewBox="0 0 ${W} ${H}" role="img">`;
+  svg += '<g class="axis">';
+  for (let k = 0; k <= 4; k++) {
+    const v = (top * k) / 4, y = ys(v);
+    svg += `<line class="gridline" x1="${L}" x2="${W - R}" y1="${y}" y2="${y}"/><text x="${L - 6}" y="${y + 4}" text-anchor="end">${fmtY(v)}</text>`;
+  }
+  const step = Math.max(1, Math.ceil(points.length / 6));
+  points.forEach((p, i) => {
+    if (i % step === 0 || i === points.length - 1)
+      svg += `<text x="${xs(i)}" y="${H - 6}" text-anchor="middle">${esc(p.x)}</text>`;
+  });
+  svg += "</g>";
+  const d = points.map((p, i) => `${i ? "L" : "M"}${xs(i).toFixed(1)},${ys(p.y).toFixed(1)}`).join("");
+  svg += `<path class="area" d="${d}L${xs(points.length - 1)},${ys(0)}L${xs(0)},${ys(0)}Z"/>`;
+  svg += `<path class="line" d="${d}"/>`;
+  const last = points.length - 1;
+  svg += `<circle class="dot" r="4" cx="${xs(last)}" cy="${ys(points[last].y)}"/>`;
+  svg += `<line class="cross" y1="${T}" y2="${H - B}" style="display:none"/><circle class="dot hov" r="5" style="display:none"/>`;
+  svg += `<rect x="${L}" y="0" width="${W - L - R}" height="${H}" fill="transparent"/></svg>`;
+  el.innerHTML = svg;
+  const s = el.querySelector("svg"), cross = s.querySelector(".cross"), hov = s.querySelector(".hov");
+  s.addEventListener("mousemove", (e) => {
+    const r = s.getBoundingClientRect();
+    const vx = ((e.clientX - r.left) / r.width) * W;
+    let i = Math.round(((vx - L) / (W - L - R)) * (points.length - 1));
+    i = Math.max(0, Math.min(last, i));
+    const p = points[i];
+    cross.setAttribute("x1", xs(i)); cross.setAttribute("x2", xs(i)); cross.style.display = "";
+    hov.setAttribute("cx", xs(i)); hov.setAttribute("cy", ys(p.y)); hov.style.display = "";
+    showTip(`<b>${esc(p.x)}</b>${p.tip || fmtY(p.y)}`, e.pageX, e.pageY);
+  });
+  s.addEventListener("mouseleave", () => { cross.style.display = hov.style.display = "none"; hideTip(); });
+}
+
+function changeBadge(p) {
+  if (p.change === "new") return '<span class="badge b-new">★ 신규</span>';
+  if (p.change === "add") return `<span class="badge b-add">▲ ${signed(p.share_change_pct, 0)}</span>`;
+  if (p.change === "reduce") return `<span class="badge b-reduce">▼ ${signed(p.share_change_pct, 0)}</span>`;
+  return '<span class="badge b-same">– 유지</span>';
+}
+const optBadge = (p) => p.put_call ? `<span class="badge b-opt">${p.put_call}</span>` : "";
+
+let DATA, sortKey = "weight", sortDir = -1, selected = null;
+
+function renderTable() {
+  const rows = [...DATA.latest.positions].sort((a, b) => {
+    let x = a[sortKey], y = b[sortKey];
+    if (sortKey === "ticker") { x = label(a).toLowerCase(); y = label(b).toLowerCase(); return x < y ? -sortDir : x > y ? sortDir : 0; }
+    if (sortKey === "share_change_pct") { x = a.change === "new" ? Infinity : x; y = b.change === "new" ? Infinity : y; }
+    x = x ?? -Infinity; y = y ?? -Infinity;
+    return (x - y) * sortDir;
+  });
+  const maxW = Math.max(...rows.map((p) => p.weight));
+  $("#holdings tbody").innerHTML = rows.map((p) => `
+    <tr data-key="${esc(p.key)}" class="${p.key === selected ? "sel" : ""}">
+      <td><span class="tk">${esc(p.ticker || "—")}</span>${optBadge(p)}<span class="nm" title="${esc(p.name)}">${esc(p.name)}</span></td>
+      <td class="num"><span class="wbar" style="width:${(p.weight / maxW) * 48}px"></span>${pct(p.weight)}</td>
+      <td class="num">${money(p.value)}</td>
+      <td class="num">${int(p.shares)}</td>
+      <td>${changeBadge(p)}</td>
+      <td class="num ${p.price_change_pct > 0 ? "up" : p.price_change_pct < 0 ? "down" : ""}">${signed(p.price_change_pct)}</td>
+      <td class="num">${pct(p.est_weight)}</td>
+    </tr>`).join("");
+  document.querySelectorAll("#holdings th").forEach((th) => {
+    th.classList.toggle("asc", th.dataset.sort === sortKey && sortDir === 1);
+    th.classList.toggle("desc", th.dataset.sort === sortKey && sortDir === -1);
+  });
+}
+
+function selectPosition(key) {
+  selected = key;
+  const p = DATA.latest.positions.find((x) => x.key === key);
+  const series = DATA.position_history[key] || [];
+  const firstHeld = series.findIndex((s) => s.value > 0);
+  const pts = series.slice(Math.max(0, firstHeld - 1)).map((s) => ({
+    x: quarter(s.period), y: s.value,
+    tip: s.value ? `${money(s.value)} · ${int(s.shares)}주` : "미보유",
+  }));
+  $("#pos-title").textContent = `${label(p)} 추이`;
+  $("#pos-sub").textContent = `${p.name}${p.put_call ? " · " + p.put_call + " 옵션" : ""} · 분기별 13F 보유 가치`;
+  lineChart($("#pos-chart"), pts, money);
+  renderTable();
+}
+
+function render(d) {
+  DATA = d;
+  const L = d.latest;
+  const updated = new Date(d.generated_at);
+  $("#updated").textContent = `마지막 확인 ${updated.toLocaleString("ko-KR", { dateStyle: "medium", timeStyle: "short" })}`;
+  $("#entity").textContent = `${d.entity} · CIK ${d.cik} · SEC 13F`;
+  $("#holdings-sub").textContent = `${quarter(L.period)} 기준 (${L.period}, ${L.filed} 제출)`;
+
+  const nNew = L.positions.filter((p) => p.change === "new").length;
+  const daysLeft = Math.ceil((new Date(d.next_13f.due) - new Date()) / 864e5);
+  const kpis = [
+    ["13F 총액", money(L.total_value), `${quarter(L.period)} 말 기준`],
+    ["추정 현재 가치", money(L.est_total_value), `분기말 이후 주가 반영 ${signed((L.est_total_value / L.total_value - 1) * 100)}`],
+    ["보유 종목", `${L.count}개`, `신규 ${nNew} · 청산 ${L.exits.length}`],
+    ["다음 13F", quarter(d.next_13f.period), daysLeft >= 0 ? `마감 ${d.next_13f.due} (D-${daysLeft})` : `마감 ${d.next_13f.due} 지남 · 곧 반영`],
+  ];
+  $("#kpis").innerHTML = kpis.map(([l, v, n]) => `<div class="card kpi"><div class="label">${l}</div><div class="value num">${v}</div><div class="note">${n}</div></div>`).join("");
+
+  const top = [...L.positions].sort((a, b) => b.weight - a.weight).slice(0, 15);
+  const maxW = top[0]?.weight || 1;
+  $("#weights").innerHTML = top.map((p) => `
+    <div class="hbar-row" title="${esc(p.name)}">
+      <span class="lab">${esc(label(p))}${p.put_call ? " " + p.put_call[0] : ""}</span>
+      <span class="track"><div class="fill" style="width:${(p.weight / maxW) * 100}%"></div></span>
+      <span class="num" style="text-align:right">${pct(p.weight)}</span>
+    </div>`).join("");
+
+  lineChart($("#total-chart"), d.history.map((h) => ({
+    x: quarter(h.period), y: h.total_value,
+    tip: `${money(h.total_value)} · ${h.count}종목<br><span class="muted">top: ${h.top.slice(0, 3).map((t) => esc(t.label)).join(", ")}</span>`,
+  })), money);
+
+  $("#exits-sub").textContent = L.prev_period ? `${quarter(L.prev_period)} → ${quarter(L.period)}` : "";
+  $("#exits").innerHTML = L.exits.length
+    ? L.exits.map((p) => `<li><span><b>${esc(p.ticker || "—")}</b>${optBadge(p)} <span class="muted">${esc(p.name)}</span></span><span class="num">${money(p.prev_value)}</span></li>`).join("")
+    : '<li class="muted">이번 분기 청산 없음</li>';
+
+  $("#filings").innerHTML = d.recent_filings.slice(0, 12).map((f) => `
+    <li><span><a href="${esc(f.url)}" target="_blank" rel="noopener">${esc(f.form)}</a>${f.period ? ` <span class="muted">${f.period} 기준</span>` : ""}</span><span class="num muted">${f.filed}</span></li>`).join("");
+
+  selectPosition(top[0].key);
+}
+
+document.querySelector("#holdings thead").addEventListener("click", (e) => {
+  const k = e.target.closest("th")?.dataset.sort;
+  if (!k) return;
+  sortDir = k === sortKey ? -sortDir : (k === "ticker" ? 1 : -1);
+  sortKey = k;
+  renderTable();
+});
+document.querySelector("#holdings tbody").addEventListener("click", (e) => {
+  const tr = e.target.closest("tr");
+  if (tr) selectPosition(tr.dataset.key);
+});
+
+fetch("data.json", { cache: "no-store" })
+  .then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); })
+  .then(render)
+  .catch(() => { document.querySelector("main").insertAdjacentHTML("beforeend", '<p class="empty">아직 데이터가 없어요. GitHub Actions의 "Daily update"를 한 번 실행해 주세요.</p>'); });
+</script>
+</body>
+</html>
