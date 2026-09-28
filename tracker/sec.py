@@ -13,11 +13,10 @@ ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT / "data"
 FILINGS_DIR = DATA_DIR / "filings"
 
-# SEC rejects (403) requests whose User-Agent lacks a "Name email" contact;
-# override via the SEC_USER_AGENT secret (e.g. "Your Name you@example.com").
-USER_AGENT = os.environ.get("SEC_USER_AGENT") or (
-    "stanley-druckenmiller-tracker bizar-r@users.noreply.github.com"
-)
+# SEC wants a "Name email" contact in the User-Agent and also refuses some email
+# domains outright (users.noreply.github.com among them); gmail.com is accepted.
+# Set it via the SEC_USER_AGENT secret, e.g. "Your Name you@gmail.com".
+USER_AGENT = os.environ.get("SEC_USER_AGENT") or "Druckenmiller Tracker"
 
 # 13F filings made on/after this date report value in dollars, earlier ones in thousands.
 DOLLAR_VALUES_SINCE = "2023-01-03"
@@ -38,9 +37,11 @@ def _get(url):
             time.sleep(2 ** attempt)
             continue
         break
-    # SEC's 403 page says why (undeclared tool vs. blocked network); surface it.
-    print(f"  ! HTTP {r.status_code} from {url} (User-Agent has contact email: {'@' in USER_AGENT})")
-    print("  ! body:", " ".join(r.text.split())[:400])
+    if r.status_code == 403 and "Undeclared Automated Tool" in r.text:
+        raise SystemExit(
+            "SEC rejected the User-Agent. Set the SEC_USER_AGENT secret to "
+            '"Your Name you@gmail.com"; SEC refuses some email domains.'
+        )
     r.raise_for_status()
 
 

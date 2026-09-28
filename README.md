@@ -22,11 +22,12 @@ docs/index.html     대시보드 (data.json을 읽는 정적 페이지)
 ## 처음 한 번 설정
 
 1. **Settings → Pages → Build and deployment → Source** 를 `GitHub Actions` 로 바꾸기
-2. **Actions** 탭 → `Daily update` → `Run workflow` (첫 실행은 과거 13F 전체를 받느라 몇 분 걸림)
-3. 완료되면 https://bizar-r.github.io/stanley_druckenmiller_tracker/ 에서 확인
+2. **Settings → Secrets and variables → Actions** 에 `SEC_USER_AGENT` 추가: `이름 이메일` 형식 (예: `Your Name you@gmail.com`).
+   SEC는 일부 이메일 도메인을 거부함 (`users.noreply.github.com` 등). gmail.com은 통과 확인됨.
+3. **Actions** 탭 → `Daily update` → `Run workflow` (첫 실행은 과거 13F 전체를 받느라 몇 분 걸림)
+4. 완료되면 https://bizar-r.github.io/stanley_druckenmiller_tracker/ 에서 확인
 
-선택 사항 (Settings → Secrets and variables → Actions):
-- `SEC_USER_AGENT`: SEC가 권장하는 연락처 형식 User-Agent (예: `Your Name you@example.com`)
+선택 사항:
 - `OPENFIGI_API_KEY`: 무료 키가 있으면 티커 변환이 빨라짐
 
 ## 로컬 실행
