@@ -34,10 +34,13 @@ def _get(url):
         if r.status_code == 200:
             time.sleep(0.15)  # stay well under SEC's 10 req/s limit
             return r
-        if r.status_code in (403, 429, 500, 502, 503, 504) and attempt < 4:
+        if r.status_code in (429, 500, 502, 503, 504) and attempt < 4:
             time.sleep(2 ** attempt)
             continue
-        r.raise_for_status()
+        break
+    # SEC's 403 page says why (undeclared tool vs. blocked network); surface it.
+    print(f"  ! HTTP {r.status_code} from {url} (User-Agent has contact email: {'@' in USER_AGENT})")
+    print("  ! body:", " ".join(r.text.split())[:400])
     r.raise_for_status()
 
 
