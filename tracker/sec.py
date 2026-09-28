@@ -13,10 +13,10 @@ ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT / "data"
 FILINGS_DIR = DATA_DIR / "filings"
 
-# SEC asks automated clients to identify themselves; override via the
-# SEC_USER_AGENT secret (e.g. "Your Name you@example.com").
+# SEC rejects (403) requests whose User-Agent lacks a "Name email" contact;
+# override via the SEC_USER_AGENT secret (e.g. "Your Name you@example.com").
 USER_AGENT = os.environ.get("SEC_USER_AGENT") or (
-    "stanley-druckenmiller-tracker github.com/bizar-r/stanley_druckenmiller_tracker"
+    "stanley-druckenmiller-tracker bizar-r@users.noreply.github.com"
 )
 
 # 13F filings made on/after this date report value in dollars, earlier ones in thousands.
