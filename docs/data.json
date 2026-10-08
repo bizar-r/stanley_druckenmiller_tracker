@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-07T01:36:10+00:00",
+ "generated_at": "2026-10-08T01:59:36+00:00",
  "entity": "Duquesne Family Office LLC",
  "cik": 1536411,
  "latest": {
@@ -14,7 +14,7 @@
    }
   ],
   "total_value": 5210856000,
-  "est_total_value": 5595663110.969681,
+  "est_total_value": 5520989854.008812,
   "count": 95,
   "positions": [
    {
@@ -31,10 +31,10 @@
     "change": "add",
     "share_change_pct": 4.005084204692118,
     "prev_shares": 3063606,
-    "price_change_pct": 47.596233516067784,
-    "price_as_of": "2026-10-06",
-    "est_value": 1276593770.814179,
-    "est_weight": 0.22813985500870443
+    "price_change_pct": 45.72111982699249,
+    "price_as_of": "2026-10-07",
+    "est_value": 1260375481.2412183,
+    "est_weight": 0.2282879546185101
    },
    {
     "key": "874039100",
@@ -50,10 +50,10 @@
     "change": "add",
     "share_change_pct": 19.059925698594736,
     "prev_shares": 495280,
-    "price_change_pct": 1.2613517718967904,
-    "price_as_of": "2026-10-06",
-    "est_value": 285165130.5653917,
-    "est_weight": 0.050961811837163126
+    "price_change_pct": -0.859189813383554,
+    "price_as_of": "2026-10-07",
+    "est_value": 279193409.79083616,
+    "est_weight": 0.050569448083320194
    },
    {
     "key": "861012102",
@@ -69,10 +69,10 @@
     "change": "add",
     "share_change_pct": 18.753253115336335,
     "prev_shares": 2612880,
-    "price_change_pct": -21.454747184650145,
-    "price_as_of": "2026-10-06",
-    "est_value": 182519531.2296692,
-    "est_weight": 0.03261803429013798
+    "price_change_pct": -24.852312067380012,
+    "price_as_of": "2026-10-07",
+    "est_value": 174624439.8334257,
+    "est_weight": 0.031629190498625934
    },
    {
     "key": "46137V357-CALL",
@@ -88,10 +88,10 @@
     "change": "same",
     "share_change_pct": 0.0,
     "prev_shares": 821000,
-    "price_change_pct": 0.16832139878011354,
-    "price_as_of": "2026-10-06",
-    "est_value": 174978030.55224505,
-    "est_weight": 0.03127029399057636
+    "price_change_pct": -0.6478174726005315,
+    "price_as_of": "2026-10-07",
+    "est_value": 173552366.52616248,
+    "est_weight": 0.03143500914064268
    },
    {
     "key": "457669307",
@@ -107,10 +107,10 @@
     "change": "add",
     "share_change_pct": 23.447044857853374,
     "prev_shares": 1154090,
-    "price_change_pct": -1.3036947606841043,
-    "price_as_of": "2026-10-06",
-    "est_value": 149919687.65852085,
-    "est_weight": 0.026792121806729182
+    "price_change_pct": -4.577006900301306,
+    "price_as_of": "2026-10-07",
+    "est_value": 144947526.5184423,
+    "est_weight": 0.026253901990635854
    },
    {
     "key": "464286400-CALL",
@@ -126,10 +126,10 @@
     "change": "same",
     "share_change_pct": 0.0,
     "prev_shares": 4228000,
-    "price_change_pct": 24.63768115942029,
-    "price_as_of": "2026-10-06",
-    "est_value": 181804000.0,
-    "est_weight": 0.03249016182614591
+    "price_change_pct": 22.811591106912353,
+    "price_as_of": "2026-10-07",
+    "est_value": 179140355.4840088,
+    "est_weight": 0.03244714448332744
    },
    {
     "key": "457669307-CALL",
@@ -145,10 +145,10 @@
     "change": "new",
     "share_change_pct": null,
     "prev_shares": null,
-    "price_change_pct": -1.3036947606841043,
-    "price_as_of": "2026-10-06",
-    "est_value": 142060500.87231413,
-    "est_weight": 0.02538760787686095
+    "price_change_pct": -4.577006900301306,
+    "price_as_of": "2026-10-07",
+    "est_value": 137348993.5779133,
+    "est_weight": 0.024877602967914112
    },
    {
     "key": "984245100",
@@ -164,10 +164,10 @@
     "change": "reduce",
     "share_change_pct": -2.9995716884190853,
     "prev_shares": 3235962,
-    "price_change_pct": 12.513741970427406,
-    "price_as_of": "2026-10-06",
-    "est_value": 160586363.3647122,
-    "est_weight": 0.02869836160255973
+    "price_change_pct": 8.81899761134688,
+    "price_as_of": "2026-10-07",
+    "est_value": 155313002.53077096,
+    "est_weight": 0.028131368946095345
    },
    {
     "key": "023135106",
@@ -183,10 +183,10 @@
     "change": "add",
     "share_change_pct": 1082.5327510917032,
     "prev_shares": 45800,
-    "price_change_pct": 7.531263104319175,
-    "price_as_of": "2026-10-06",
-    "est_value": 138806730.97821042,
-    "est_weight": 0.024806127214144668
+    "price_change_pct": 9.054299497114249,
+    "price_as_of": "2026-10-07",
+    "est_value": 140772742.50584993,
+    "est_weight": 0.025497736135782663
    },
    {
     "key": "G0896C103",
@@ -202,10 +202,10 @@
     "change": "reduce",
     "share_change_pct": -6.672741108490217,
     "prev_shares": 3109202,
-    "price_change_pct": 30.165596500768068,
-    "price_as_of": "2026-10-06",
-    "est_value": 157389731.0089037,
-    "est_weight": 0.02812709197956512
+    "price_change_pct": 27.213824456174464,
+    "price_as_of": "2026-10-07",
+    "est_value": 153820595.84118336,
+    "est_weight": 0.02786105388864166
    },
    {
     "key": "02079K305",
@@ -221,10 +221,10 @@
     "change": "new",
     "share_change_pct": null,
     "prev_shares": null,
-    "price_change_pct": -2.6489436952491063,
-    "price_as_of": "2026-10-06",
-    "est_value": 117000393.50930181,
-    "est_weight": 0.020909120365008294
+    "price_change_pct": -1.8593363045936617,
+    "price_as_of": "2026-10-07",
+    "est_value": 117949375.25568715,
+    "est_weight": 0.021363809457110965
    },
    {
     "key": "464286400",
@@ -240,10 +240,10 @@
     "change": "same",
     "share_change_pct": 0.0,
     "prev_shares": 3436170,
-    "price_change_pct": 24.63768115942029,
-    "price_as_of": "2026-10-06",
-    "est_value": 147755478.26086956,
-    "est_weight": 0.02640535631446633
+    "price_change_pct": 22.811591106912353,
+    "price_as_of": "2026-10-07",
+    "est_value": 145590685.02542245,
+    "est_weight": 0.026370395323169902
    },
    {
     "key": "G7997R103",
@@ -259,10 +259,10 @@
     "change": "add",
     "share_change_pct": 140.6311637080868,
     "prev_shares": 50700,
-    "price_change_pct": -16.448101696580352,
-    "price_as_of": "2026-10-06",
-    "est_value": 98365649.87261595,
-    "est_weight": 0.017578908508587825
+    "price_change_pct": -16.24690401810469,
+    "price_as_of": "2026-10-07",
+    "est_value": 98602519.89948535,
+    "est_weight": 0.01785957274090799
    },
    {
     "key": "35137L105",
@@ -278,10 +278,10 @@
     "change": "new",
     "share_change_pct": null,
     "prev_shares": null,
-    "price_change_pct": 19.544236450755804,
-    "price_as_of": "2026-10-06",
-    "est_value": 137466308.37945312,
-    "est_weight": 0.024566580520182776
+    "price_change_pct": 20.73813620472411,
+    "price_as_of": "2026-10-07",
+    "est_value": 138839197.58453634,
+    "est_weight": 0.025147519060141846
    },
    {
     "key": "023135106-CALL",
@@ -297,10 +297,10 @@
     "change": "add",
     "share_change_pct": 129.65,
     "prev_shares": 200000,
-    "price_change_pct": 7.531263104319175,
-    "price_as_of": "2026-10-06",
-    "est_value": 117714473.7202982,
-    "est_weight": 0.02103673351770087
+    "price_change_pct": 9.054299497114249,
+    "price_as_of": "2026-10-07",
+    "est_value": 119381741.65949097,
+    "est_weight": 0.02162324960130246
    },
    {
     "key": "910047109",
@@ -316,10 +316,10 @@
     "change": "add",
     "share_change_pct": 202.78481494885617,
     "prev_shares": 262495,
-    "price_change_pct": -17.736599582529244,
-    "price_as_of": "2026-10-06",
-    "est_value": 88913573.7072191,
-    "est_weight": 0.015889729589494736
+    "price_change_pct": -18.986694816713324,
+    "price_as_of": "2026-10-07",
+    "est_value": 87562420.77430357,
+    "est_weight": 0.015859913365123133
    },
    {
     "key": "81141R100",
@@ -335,10 +335,10 @@
     "change": "same",
     "share_change_pct": 0.0,
     "prev_shares": 1099905,
-    "price_change_pct": 0.7304569914088788,
-    "price_as_of": "2026-10-06",
-    "est_value": 106173930.88722461,
-    "est_weight": 0.01897432507669776
+    "price_change_pct": -1.2209100976622977,
+    "price_as_of": "2026-10-07",
+    "est_value": 104117111.92066003,
+    "est_weight": 0.018858413921021826
    },
    {
     "key": "12514G108",
@@ -354,10 +354,10 @@
     "change": "new",
     "share_change_pct": null,
     "prev_shares": null,
-    "price_change_pct": -3.0730188783322454,
-    "price_as_of": "2026-10-06",
-    "est_value": 101413731.07778975,
-    "est_weight": 0.01812363058079378
+    "price_change_pct": -2.251415596933748,
+    "price_as_of": "2026-10-07",
+    "est_value": 102273366.37508419,
+    "est_weight": 0.018524461931554378
    },
    {
     "key": "N62509109",
@@ -373,10 +373,10 @@
     "change": "same",
     "share_change_pct": 0.0,
     "prev_shares": 3070146,
-    "price_change_pct": -34.28739787889771,
-    "price_as_of": "2026-10-06",
-    "est_value": 68371991.12894331,
-    "est_weight": 0.01221874687110944
+    "price_change_pct": -34.70050292321304,
+    "price_as_of": "2026-10-07",
+    "est_value": 67942167.72348453,
+    "est_weight": 0.01230615696099341
    },
    {
     "key": "464287655-CALL",
@@ -392,10 +392,10 @@
     "change": "add",
     "share_change_pct": 317.72151898734177,
     "prev_shares": 79000,
-    "price_change_pct": -6.115902031671672,
-    "price_as_of": "2026-10-06",
-    "est_value": 93085144.29461786,
-    "est_weight": 0.016635230257542613
+    "price_change_pct": -7.330576913284792,
+    "price_as_of": "2026-10-07",
+    "est_value": 91880806.29624726,
+    "est_weight": 0.01664208932199581
    },
    {
     "key": "80004C200",
@@ -411,10 +411,10 @@
     "change": "reduce",
     "share_change_pct": -8.530992006290132,
     "prev_shares": 38155,
-    "price_change_pct": -26.97198105312483,
-    "price_as_of": "2026-10-06",
-    "est_value": 57949923.87491386,
-    "est_weight": 0.010356221010037116
+    "price_change_pct": -25.566357549791164,
+    "price_as_of": "2026-10-07",
+    "est_value": 59065328.29351422,
+    "est_weight": 0.01069832219500035
    },
    {
     "key": "76155X100",
@@ -430,10 +430,10 @@
     "change": "add",
     "share_change_pct": 26.507629962641676,
     "prev_shares": 315860,
-    "price_change_pct": 6.722552552302985,
-    "price_as_of": "2026-10-06",
-    "est_value": 79865822.20251594,
-    "est_weight": 0.01427280746154067
+    "price_change_pct": 7.256512402002935,
+    "price_as_of": "2026-10-07",
+    "est_value": 80265411.0560389,
+    "est_weight": 0.014538228321096783
    },
    {
     "key": "78462F103-CALL",
@@ -449,10 +449,10 @@
     "change": "same",
     "share_change_pct": 0.0,
     "prev_shares": 90000,
-    "price_change_pct": 4.587041479591636,
-    "price_as_of": "2026-10-06",
-    "est_value": 70291904.70801875,
-    "est_weight": 0.012561854299308908
+    "price_change_pct": 4.336000350026992,
+    "price_as_of": "2026-10-07",
+    "est_value": 70123182.47524965,
+    "est_weight": 0.012701197489854639
    },
    {
     "key": "G11448100",
@@ -468,10 +468,10 @@
     "change": "new",
     "share_change_pct": null,
     "prev_shares": null,
-    "price_change_pct": -31.25393871401555,
-    "price_as_of": "2026-10-06",
-    "est_value": 44458077.83364614,
-    "est_weight": 0.00794509550556948
+    "price_change_pct": -34.46755076543031,
+    "price_as_of": "2026-10-07",
+    "est_value": 42379834.91999622,
+    "est_weight": 0.007676129831903976
    },
    {
     "key": "G25508105",
@@ -487,10 +487,10 @@
     "change": "add",
     "share_change_pct": 46.61572486127849,
     "prev_shares": 377555,
-    "price_change_pct": -21.55602660802135,
-    "price_as_of": "2026-10-06",
-    "est_value": 46462365.44006895,
-    "est_weight": 0.008303281401802873
+    "price_change_pct": -23.564041658791936,
+    "price_as_of": "2026-10-07",
+    "est_value": 45273018.125497535,
+    "est_weight": 0.008200163253809392
    },
    {
     "key": "247361702",
@@ -506,10 +506,10 @@
     "change": "new",
     "share_change_pct": null,
     "prev_shares": null,
-    "price_change_pct": -10.456364940392216,
-    "price_as_of": "2026-10-06",
-    "est_value": 50571558.77261469,
-    "est_weight": 0.009037634641276871
+    "price_change_pct": -11.194893796463766,
+    "price_as_of": "2026-10-07",
+    "est_value": 50154459.83057116,
+    "est_weight": 0.009084323854381623
    },
    {
     "key": "88160R101-CALL",
@@ -525,10 +525,10 @@
     "change": "new",
     "share_change_pct": null,
     "prev_shares": null,
-    "price_change_pct": -9.491206098059235,
-    "price_as_of": "2026-10-06",
-    "est_value": 47966040.41627253,
-    "est_weight": 0.008572002900289045
+    "price_change_pct": -10.173563462666868,
+    "price_as_of": "2026-10-07",
+    "est_value": 47604418.307325065,
+    "est_weight": 0.008622442635492132
    },
    {
     "key": "343412102",
@@ -544,10 +544,10 @@
     "change": "new",
     "share_change_pct": null,
     "prev_shares": null,
-    "price_change_pct": -0.7444157171062948,
-    "price_as_of": "2026-10-06",
-    "est_value": 51073946.004448615,
-    "est_weight": 0.009127416177775923
+    "price_change_pct": -2.3859515452618663,
+    "price_as_of": "2026-10-07",
+    "est_value": 50229260.9133546,
+    "est_weight": 0.009097872345641595
    },
    {
     "key": "23331A109",
@@ -563,10 +563,10 @@
     "change": "new",
     "share_change_pct": null,
     "prev_shares": null,
-    "price_change_pct": -15.792282604171259,
-    "price_as_of": "2026-10-06",
-    "est_value": 41010000.44894256,
-    "est_weight": 0.007328890184354911
+    "price_change_pct": -17.929034941693377,
+    "price_as_of": "2026-10-07",
+    "est_value": 39969380.69304591,
+    "est_weight": 0.007239531632905282
    },
    {
     "key": "22266T109",
@@ -582,10 +582,10 @@
     "change": "same",
     "share_change_pct": 0.0,
     "prev_shares": 2667485,
-    "price_change_pct": -16.983308119803453,
-    "price_as_of": "2026-10-06",
-    "est_value": 38464954.01577027,
-    "est_weight": 0.006874065370440899
+    "price_change_pct": -14.738055819977047,
+    "price_as_of": "2026-10-07",
+    "est_value": 39505269.216371834,
+    "est_weight": 0.007155468541150625
    },
    {
     "key": "007903107",
@@ -601,10 +601,10 @@
     "change": "new",
     "share_change_pct": null,
     "prev_shares": null,
-    "price_change_pct": 11.79356749459346,
-    "price_as_of": "2026-10-06",
-    "est_value": 47342339.96261044,
-    "est_weight": 0.008460541498611845
+    "price_change_pct": 11.180736294722138,
+    "price_as_of": "2026-10-07",
+    "est_value": 47082818.20608893,
+    "est_weight": 0.008527966805065203
    },
    {
     "key": "697435105",
@@ -620,10 +620,10 @@
     "change": "new",
     "share_change_pct": null,
     "prev_shares": null,
-    "price_change_pct": 23.133545595555894,
-    "price_as_of": "2026-10-06",
-    "est_value": 48982524.43791214,
-    "est_weight": 0.008753658586394755
+    "price_change_pct": 18.928514571020937,
+    "price_as_of": "2026-10-07",
+    "est_value": 47309763.09635213,
+    "est_weight": 0.008569072638668287
    },
    {
     "key": "185899101",
@@ -639,10 +639,10 @@
     "change": "add",
     "share_change_pct": 82.24620751214093,
     "prev_shares": 2313455,
-    "price_change_pct": 30.457929202430712,
-    "price_as_of": "2026-10-06",
-    "est_value": 51648294.17124232,
-    "est_weight": 0.009230057840685858
+    "price_change_pct": 28.43450456519512,
+    "price_as_of": "2026-10-07",
+    "est_value": 50847220.35736075,
+    "est_weight": 0.009209801448999293
    },
    {
     "key": "44812J104",
@@ -658,10 +658,10 @@
     "change": "new",
     "share_change_pct": null,
     "prev_shares": null,
-    "price_change_pct": -20.117803746819483,
-    "price_as_of": "2026-10-06",
-    "est_value": 28970876.11514098,
-    "est_weight": 0.005177380328409473
+    "price_change_pct": -22.647145144597005,
+    "price_as_of": "2026-10-07",
+    "est_value": 28053559.870409004,
+    "est_weight": 0.005081255465455929
    },
    {
     "key": "12514G108-CALL",
@@ -677,10 +677,10 @@
     "change": "new",
     "share_change_pct": null,
     "prev_shares": null,
-    "price_change_pct": -3.0730188783322454,
-    "price_as_of": "2026-10-06",
-    "est_value": 34079526.562378384,
-    "est_weight": 0.0060903463783531266
+    "price_change_pct": -2.251415596933748,
+    "price_as_of": "2026-10-07",
+    "est_value": 34368402.27611809,
+    "est_weight": 0.00622504354924019
    },
    {
     "key": "142152107",
@@ -696,10 +696,10 @@
     "change": "same",
     "share_change_pct": 0.0,
     "prev_shares": 1894450,
-    "price_change_pct": 54.06846461215318,
-    "price_as_of": "2026-10-06",
-    "est_value": 52011972.96841679,
-    "est_weight": 0.009295050816489122
+    "price_change_pct": 52.07632348804621,
+    "price_as_of": "2026-10-07",
+    "est_value": 51339446.04632952,
+    "est_weight": 0.009298956782007442
    },
    {
     "key": "37950E259",
@@ -715,10 +715,10 @@
     "change": "reduce",
     "share_change_pct": -15.126484254001033,
     "prev_shares": 387400,
-    "price_change_pct": -1.7634179151547857,
-    "price_as_of": "2026-10-06",
-    "est_value": 29489639.576049685,
-    "est_weight": 0.005270088458012866
+    "price_change_pct": -3.811613626081467,
+    "price_as_of": "2026-10-07",
+    "est_value": 28874791.705586605,
+    "est_weight": 0.005230002675085612
    },
    {
     "key": "35137L204",
@@ -734,10 +734,10 @@
     "change": "new",
     "share_change_pct": null,
     "prev_shares": null,
-    "price_change_pct": 19.24509240167085,
-    "price_as_of": "2026-10-06",
-    "est_value": 35333513.32953909,
-    "est_weight": 0.006314446139595436
+    "price_change_pct": 20.103274525797033,
+    "price_as_of": "2026-10-07",
+    "est_value": 35587801.274738915,
+    "est_weight": 0.006445909558935066
    },
    {
     "key": "980745103",
@@ -753,10 +753,10 @@
     "change": "reduce",
     "share_change_pct": -68.20799129426793,
     "prev_shares": 211355,
-    "price_change_pct": -21.761965189890454,
-    "price_as_of": "2026-10-06",
-    "est_value": 22365907.011166018,
-    "est_weight": 0.003997007426576507
+    "price_change_pct": -23.71697446050074,
+    "price_as_of": "2026-10-07",
+    "est_value": 21807028.510976654,
+    "est_weight": 0.003949840352476375
    },
    {
     "key": "30303M102-CALL",
@@ -772,10 +772,10 @@
     "change": "new",
     "share_change_pct": null,
     "prev_shares": null,
-    "price_change_pct": 31.275751179423672,
-    "price_as_of": "2026-10-06",
-    "est_value": 36973815.31968468,
-    "est_weight": 0.006607584228436052
+    "price_change_pct": 28.154113167199203,
+    "price_as_of": "2026-10-07",
+    "est_value": 36094605.973541655,
+    "est_weight": 0.00653770554338788
    },
    {
     "key": "67080N101",
@@ -791,10 +791,10 @@
     "change": "same",
     "share_change_pct": 0.0,
     "prev_shares": 4539800,
-    "price_change_pct": -14.084502430904156,
-    "price_as_of": "2026-10-06",
-    "est_value": 22154170.203167055,
-    "est_weight": 0.00395916797773909
+    "price_change_pct": -14.436614781801238,
+    "price_as_of": "2026-10-07",
+    "est_value": 22063374.512364734,
+    "est_weight": 0.0039962715193806115
    },
    {
     "key": "74366E102",
@@ -810,10 +810,10 @@
     "change": "add",
     "share_change_pct": 30.807764558547273,
     "prev_shares": 159700,
-    "price_change_pct": 13.14243789338092,
-    "price_as_of": "2026-10-06",
-    "est_value": 28972384.07135805,
-    "est_weight": 0.005177649815007785
+    "price_change_pct": 14.961654481917574,
+    "price_as_of": "2026-10-07",
+    "est_value": 29438230.863184635,
+    "est_weight": 0.005332056685778805
    },
    {
     "key": "77543R102",
@@ -829,10 +829,10 @@
     "change": "reduce",
     "share_change_pct": -75.46554872765566,
     "prev_shares": 750190,
-    "price_change_pct": 10.076732467387295,
-    "price_as_of": "2026-10-06",
-    "est_value": 27987009.22983322,
-    "est_weight": 0.005001553645173486
+    "price_change_pct": 10.558134340747749,
+    "price_as_of": "2026-10-07",
+    "est_value": 28109405.656135116,
+    "est_weight": 0.0050913706417563456
    },
    {
     "key": "149568107",
@@ -848,10 +848,10 @@
     "change": "new",
     "share_change_pct": null,
     "prev_shares": null,
-    "price_change_pct": -6.767801158791742,
-    "price_as_of": "2026-10-06",
-    "est_value": 22625590.01478442,
-    "est_weight": 0.004043415331853958
+    "price_change_pct": -12.018624673430423,
+    "price_as_of": "2026-10-07",
+    "est_value": 21351320.164251905,
+    "est_weight": 0.003867299293938863
    },
    {
     "key": "000899104",
@@ -867,10 +867,10 @@
     "change": "add",
     "share_change_pct": 80.13017514120638,
     "prev_shares": 1545610,
-    "price_change_pct": 21.62485596612167,
-    "price_as_of": "2026-10-06",
-    "est_value": 28342240.185785335,
-    "est_weight": 0.0050650369087130165
+    "price_change_pct": 21.14695916325504,
+    "price_as_of": "2026-10-07",
+    "est_value": 28230875.893813323,
+    "est_weight": 0.005113372174251466
    },
    {
     "key": "44916Y106",
@@ -886,10 +886,10 @@
     "change": "new",
     "share_change_pct": null,
     "prev_shares": null,
-    "price_change_pct": 58.831006121571306,
-    "price_as_of": "2026-10-06",
-    "est_value": 36769377.917143755,
-    "est_weight": 0.006571049255102839
+    "price_change_pct": 49.04701032791734,
+    "price_as_of": "2026-10-07",
+    "est_value": 34504382.89091286,
+    "est_weight": 0.006249673301945863
    },
    {
     "key": "750917106",
@@ -905,10 +905,10 @@
     "change": "new",
     "share_change_pct": null,
     "prev_shares": null,
-    "price_change_pct": -14.050028916289214,
-    "price_as_of": "2026-10-06",
-    "est_value": 19737551.359663345,
-    "est_weight": 0.0035272944364663503
+    "price_change_pct": -16.01627335876925,
+    "price_as_of": "2026-10-07",
+    "est_value": 19286022.98589223,
+    "est_weight": 0.0034932183350941267
    },
    {
     "key": "76243J105",
@@ -924,10 +924,10 @@
     "change": "new",
     "share_change_pct": null,
     "prev_shares": null,
-    "price_change_pct": -18.247322668626598,
-    "price_as_of": "2026-10-06",
-    "est_value": 18482645.2910769,
-    "est_weight": 0.0033030303870230696
+    "price_change_pct": -20.336847770248777,
+    "price_as_of": "2026-10-07",
+    "est_value": 18010245.456102155,
+    "est_weight": 0.003262140654546729
    },
    {
     "key": "830830105",
@@ -943,10 +943,10 @@
     "change": "new",
     "share_change_pct": null,
     "prev_shares": null,
-    "price_change_pct": -2.530643766939844,
-    "price_as_of": "2026-10-06",
-    "est_value": 21850680.280327424,
-    "est_weight": 0.0039049313454006147
+    "price_change_pct": -8.045850824216139,
+    "price_as_of": "2026-10-07",
+    "est_value": 20614281.162227225,
+    "est_weight": 0.0037338016745781764
    },
    {
     "key": "234264109",
@@ -962,10 +962,10 @@
     "change": "add",
     "share_change_pct": 99.61520483011249,
     "prev_shares": 562637,
-    "price_change_pct": -8.74232684643006,
-    "price_as_of": "2026-10-06",
-    "est_value": 20047485.638376243,
-    "est_weight": 0.0035826827385435976
+    "price_change_pct": -8.94683051012899,
+    "price_as_of": "2026-10-07",
+    "est_value": 20002560.273534864,
+    "est_weight": 0.0036230025416567153
    },
    {
     "key": "74623V103",
@@ -981,10 +981,10 @@
     "change": "add",
     "share_change_pct": 178.38928808364713,
     "prev_shares": 963189,
-    "price_change_pct": -50.61651930967147,
-    "price_as_of": "2026-10-06",
-    "est_value": 10738931.710918842,
-    "est_weight": 0.001919152654109278
+    "price_change_pct": -53.144264942260364,
+    "price_as_of": "2026-10-07",
+    "est_value": 10189248.14565606,
+    "est_weight": 0.0018455473411633982
    },
    {
     "key": "84265V105",
@@ -1000,10 +1000,10 @@
     "change": "add",
     "share_change_pct": 0.9988263585105424,
     "prev_shares": 121843,
-    "price_change_pct": 19.277928511919875,
-    "price_as_of": "2026-10-06",
-    "est_value": 25577958.990096096,
-    "est_weight": 0.00457103268778875
+    "price_change_pct": 17.123154991824705,
+    "price_as_of": "2026-10-07",
+    "est_value": 25115889.356446892,
+    "est_weight": 0.00454916419348428
    },
    {
     "key": "G54950103",
@@ -1019,10 +1019,10 @@
     "change": "same",
     "share_change_pct": 0.0,
     "prev_shares": 41200,
-    "price_change_pct": -5.275461817083327,
-    "price_as_of": "2026-10-06",
-    "est_value": 20252106.263507586,
-    "est_weight": 0.003619250455554689
+    "price_change_pct": -6.429672643684126,
+    "price_as_of": "2026-10-07",
+    "est_value": 20005335.988780335,
+    "est_weight": 0.0036235052984664303
    },
    {
     "key": "29362U104",
@@ -1038,10 +1038,10 @@
     "change": "new",
     "share_change_pct": null,
     "prev_shares": null,
-    "price_change_pct": -7.132568004171402,
-    "price_as_of": "2026-10-06",
-    "est_value": 19759403.50575245,
-    "est_weight": 0.003531199629766188
+    "price_change_pct": -7.449745184158473,
+    "price_as_of": "2026-10-07",
+    "est_value": 19691917.717166603,
+    "est_weight": 0.0035667368058769798
    },
    {
     "key": "881624209",
@@ -1057,10 +1057,10 @@
     "change": "reduce",
     "share_change_pct": -73.70954681495908,
     "prev_shares": 2377285,
-    "price_change_pct": 15.495867280065756,
-    "price_as_of": "2026-10-06",
-    "est_value": 24456249.896553922,
-    "est_weight": 0.004370572247033625
+    "price_change_pct": 15.643444716560007,
+    "price_as_of": "2026-10-07",
+    "est_value": 24487499.41873158,
+    "est_weight": 0.0044353458467146275
    },
    {
     "key": "91332U101",
@@ -1076,10 +1076,10 @@
     "change": "same",
     "share_change_pct": 0.0,
     "prev_shares": 738785,
-    "price_change_pct": 57.277819744341876,
-    "price_as_of": "2026-10-06",
-    "est_value": 33207638.86082034,
-    "est_weight": 0.005934531475942579
+    "price_change_pct": 58.992297928658076,
+    "price_as_of": "2026-10-07",
+    "est_value": 33569633.78465687,
+    "est_weight": 0.006080365056328047
    },
    {
     "key": "00835Q202",
@@ -1095,10 +1095,10 @@
     "change": "new",
     "share_change_pct": null,
     "prev_shares": null,
-    "price_change_pct": -49.26880207810685,
-    "price_as_of": "2026-10-06",
-    "est_value": 10492733.66618516,
-    "est_weight": 0.0018751546435337237
+    "price_change_pct": -50.06963615796487,
+    "price_as_of": "2026-10-07",
+    "est_value": 10327097.153448125,
+    "est_weight": 0.0018705155101760567
    },
    {
     "key": "767292105",
@@ -1114,10 +1114,10 @@
     "change": "new",
     "share_change_pct": null,
     "prev_shares": null,
-    "price_change_pct": -30.861939790337935,
-    "price_as_of": "2026-10-06",
-    "est_value": 14288071.522928763,
-    "est_weight": 0.0025534188244675728
+    "price_change_pct": -32.28633497515327,
+    "price_as_of": "2026-10-07",
+    "est_value": 13993706.014034826,
+    "est_weight": 0.0025346371545808843
    },
    {
     "key": "74743L100",
@@ -1133,10 +1133,10 @@
     "change": "same",
     "share_change_pct": 0.0,
     "prev_shares": 125655,
-    "price_change_pct": -18.119549375797295,
-    "price_as_of": "2026-10-06",
-    "est_value": 16802687.272592638,
-    "est_weight": 0.0030028053761229517
+    "price_change_pct": -20.51536506162742,
+    "price_as_of": "2026-10-07",
+    "est_value": 16311041.935703436,
+    "est_weight": 0.002954369119852652
    },
    {
     "key": "29444U700",
@@ -1152,10 +1152,10 @@
     "change": "new",
     "share_change_pct": null,
     "prev_shares": null,
-    "price_change_pct": 0.9568693952876295,
-    "price_as_of": "2026-10-06",
-    "est_value": 19416025.122101717,
-    "est_weight": 0.003469834537400713
+    "price_change_pct": -0.5458748046160755,
+    "price_as_of": "2026-10-07",
+    "est_value": 19127017.357576236,
+    "est_weight": 0.00346441813213767
    },
    {
     "key": "512807306",
@@ -1171,10 +1171,10 @@
     "change": "new",
     "share_change_pct": null,
     "prev_shares": null,
-    "price_change_pct": -22.866010414762417,
-    "price_as_of": "2026-10-06",
-    "est_value": 14572924.652338937,
-    "est_weight": 0.0026043248786315107
+    "price_change_pct": -23.8778623306392,
+    "price_as_of": "2026-10-07",
+    "est_value": 14381755.469872337,
+    "est_weight": 0.002604923365224026
    },
    {
     "key": "24477V105",
@@ -1190,10 +1190,10 @@
     "change": "new",
     "share_change_pct": null,
     "prev_shares": null,
-    "price_change_pct": -24.27721462877984,
-    "price_as_of": "2026-10-06",
-    "est_value": 12701740.01816847,
-    "est_weight": 0.0022699257918633643
+    "price_change_pct": -25.40391269209117,
+    "price_as_of": "2026-10-07",
+    "est_value": 12512747.685028628,
+    "est_weight": 0.0022663957036514154
    },
    {
     "key": "07782B104",
@@ -1209,10 +1209,10 @@
     "change": "same",
     "share_change_pct": 0.0,
     "prev_shares": 106100,
-    "price_change_pct": 1.0552975897385908,
-    "price_as_of": "2026-10-06",
-    "est_value": 16510414.520211492,
-    "est_weight": 0.002950573362403581
+    "price_change_pct": 1.3605229161276489,
+    "price_as_of": "2026-10-07",
+    "est_value": 16560282.234036935,
+    "est_weight": 0.0029995132525035256
    },
    {
     "key": "46137V357",
@@ -1228,10 +1228,10 @@
     "change": "new",
     "share_change_pct": null,
     "prev_shares": null,
-    "price_change_pct": 0.16832139878011354,
-    "price_as_of": "2026-10-06",
-    "est_value": 15856645.277426893,
-    "est_weight": 0.0028337383725517157
+    "price_change_pct": -0.6478174726005315,
+    "price_as_of": "2026-10-07",
+    "est_value": 15727450.494087337,
+    "est_weight": 0.002848664987614055
    },
    {
     "key": "88025U109",
@@ -1247,10 +1247,10 @@
     "change": "new",
     "share_change_pct": null,
     "prev_shares": null,
-    "price_change_pct": 110.38081205293095,
-    "price_as_of": "2026-10-06",
-    "est_value": 32514354.50278048,
-    "est_weight": 0.005810634746584309
+    "price_change_pct": 98.48721484416703,
+    "price_as_of": "2026-10-07",
+    "est_value": 30676199.054166015,
+    "est_weight": 0.0055562860764708545
    },
    {
     "key": "929740108",
@@ -1266,10 +1266,10 @@
     "change": "reduce",
     "share_change_pct": -40.36039833500185,
     "prev_shares": 94895,
-    "price_change_pct": 8.10850225220121,
-    "price_as_of": "2026-10-06",
-    "est_value": 16495195.27364086,
-    "est_weight": 0.0029478535334451867
+    "price_change_pct": 4.8707420524809475,
+    "price_as_of": "2026-10-07",
+    "est_value": 16001177.822367543,
+    "est_weight": 0.0028982443810776116
    },
    {
     "key": "532457108",
@@ -1285,10 +1285,10 @@
     "change": "new",
     "share_change_pct": null,
     "prev_shares": null,
-    "price_change_pct": -3.3583779969793115,
-    "price_as_of": "2026-10-06",
-    "est_value": 14350314.451228542,
-    "est_weight": 0.002564542247566036
+    "price_change_pct": -0.7509118477372456,
+    "price_as_of": "2026-10-07",
+    "est_value": 14737497.099729497,
+    "est_weight": 0.0026693577581977522
    },
    {
     "key": "98420N105",
@@ -1304,10 +1304,10 @@
     "change": "same",
     "share_change_pct": 0.0,
     "prev_shares": 238600,
-    "price_change_pct": -39.41352000491436,
-    "price_as_of": "2026-10-06",
-    "est_value": 8725664.848892234,
-    "est_weight": 0.0015593620766386972
+    "price_change_pct": -39.67859595884779,
+    "price_as_of": "2026-10-07",
+    "est_value": 8687488.610006742,
+    "est_weight": 0.0015735382313189225
    },
    {
     "key": "68062P106",
@@ -1323,10 +1323,10 @@
     "change": "same",
     "share_change_pct": 0.0,
     "prev_shares": 986827,
-    "price_change_pct": -36.690648030452934,
-    "price_as_of": "2026-10-06",
-    "est_value": 7815539.500640585,
-    "est_weight": 0.0013967137309104762
+    "price_change_pct": -36.53077608352571,
+    "price_as_of": "2026-10-07",
+    "est_value": 7835275.692488751,
+    "est_weight": 0.001419179513035969
    },
    {
     "key": "759916109",
@@ -1342,10 +1342,10 @@
     "change": "new",
     "share_change_pct": null,
     "prev_shares": null,
-    "price_change_pct": 28.158895838077,
-    "price_as_of": "2026-10-06",
-    "est_value": 13533579.40050093,
-    "est_weight": 0.0024185836659769313
+    "price_change_pct": 22.55936545626731,
+    "price_as_of": "2026-10-07",
+    "est_value": 12942268.992181828,
+    "est_weight": 0.0023441935838343186
    },
    {
     "key": "77311W101",
@@ -1361,10 +1361,10 @@
     "change": "new",
     "share_change_pct": null,
     "prev_shares": null,
-    "price_change_pct": -26.41269744388641,
-    "price_as_of": "2026-10-06",
-    "est_value": 7558887.718563988,
-    "est_weight": 0.0013508475347176676
+    "price_change_pct": -27.365082029312372,
+    "price_as_of": "2026-10-07",
+    "est_value": 7461058.773949034,
+    "est_weight": 0.001351398747550954
    },
    {
     "key": "056752108",
@@ -1380,10 +1380,10 @@
     "change": "new",
     "share_change_pct": null,
     "prev_shares": null,
-    "price_change_pct": -23.834104160960536,
-    "price_as_of": "2026-10-06",
-    "est_value": 7677522.300575178,
-    "est_weight": 0.001372048700631073
+    "price_change_pct": -25.365296728973053,
+    "price_as_of": "2026-10-07",
+    "est_value": 7523178.089719516,
+    "est_weight": 0.001362650229153547
    },
    {
     "key": "042068205",
@@ -1399,10 +1399,10 @@
     "change": "reduce",
     "share_change_pct": -73.6738519212746,
     "prev_shares": 106700,
-    "price_change_pct": -14.668474121125275,
-    "price_as_of": "2026-10-06",
-    "est_value": 8499019.977535922,
-    "est_weight": 0.0015188584103418468
+    "price_change_pct": -16.978314849959762,
+    "price_as_of": "2026-10-07",
+    "est_value": 8268959.840944008,
+    "est_weight": 0.0014977313959271062
    },
    {
     "key": "146869102",
@@ -1418,10 +1418,10 @@
     "change": "new",
     "share_change_pct": null,
     "prev_shares": null,
-    "price_change_pct": -2.9474303186019846,
-    "price_as_of": "2026-10-06",
-    "est_value": 9646054.90063415,
-    "est_weight": 0.0017238448257766129
+    "price_change_pct": -4.64904495210996,
+    "price_as_of": "2026-10-07",
+    "est_value": 9476931.422209792,
+    "est_weight": 0.0017165275924802788
    },
    {
     "key": "75734B100",
@@ -1437,10 +1437,10 @@
     "change": "new",
     "share_change_pct": null,
     "prev_shares": null,
-    "price_change_pct": -14.189425407878996,
-    "price_as_of": "2026-10-06",
-    "est_value": 8423166.001962598,
-    "est_weight": 0.0015053025593070302
+    "price_change_pct": -12.023271630968324,
+    "price_as_of": "2026-10-07",
+    "est_value": 8635795.65670415,
+    "est_weight": 0.0015641752448491942
    },
    {
     "key": "013872106",
@@ -1456,10 +1456,10 @@
     "change": "reduce",
     "share_change_pct": -87.56922170364071,
     "prev_shares": 1493390,
-    "price_change_pct": -17.04301108768216,
-    "price_as_of": "2026-10-06",
-    "est_value": 8029406.956823244,
-    "est_weight": 0.001434933947521336
+    "price_change_pct": -18.36893675025464,
+    "price_as_of": "2026-10-07",
+    "est_value": 7901070.611942854,
+    "est_weight": 0.0014310967454877418
    },
    {
     "key": "883556102",
@@ -1475,10 +1475,10 @@
     "change": "new",
     "share_change_pct": null,
     "prev_shares": null,
-    "price_change_pct": 31.060178493140313,
-    "price_as_of": "2026-10-06",
-    "est_value": 12615852.781749686,
-    "est_weight": 0.0022545768984944246
+    "price_change_pct": 32.154039408305835,
+    "price_as_of": "2026-10-07",
+    "est_value": 12721147.833443519,
+    "est_weight": 0.0023041425849038
    },
    {
     "key": "235851102",
@@ -1494,10 +1494,10 @@
     "change": "new",
     "share_change_pct": null,
     "prev_shares": null,
-    "price_change_pct": 13.393591779548263,
-    "price_as_of": "2026-10-06",
-    "est_value": 10864240.02839852,
-    "est_weight": 0.0019415464821497875
+    "price_change_pct": 14.908243683821155,
+    "price_as_of": "2026-10-07",
+    "est_value": 11009358.827346904,
+    "est_weight": 0.001994091479692354
    },
    {
     "key": "315616102",
@@ -1513,10 +1513,10 @@
     "change": "new",
     "share_change_pct": null,
     "prev_shares": null,
-    "price_change_pct": 12.941152561701873,
-    "price_as_of": "2026-10-06",
-    "est_value": 10335244.870921338,
-    "est_weight": 0.0018470098477980615
+    "price_change_pct": 12.186268747647233,
+    "price_as_of": "2026-10-07",
+    "est_value": 10266165.453097198,
+    "est_weight": 0.0018594791377207287
    },
    {
     "key": "92837L109",
@@ -1532,10 +1532,10 @@
     "change": "same",
     "share_change_pct": 0.0,
     "prev_shares": 134700,
-    "price_change_pct": 3.5423171607506854,
-    "price_as_of": "2026-10-06",
-    "est_value": 8898426.736794913,
-    "est_weight": 0.0015902363241544204
+    "price_change_pct": 2.554860638882883,
+    "price_as_of": "2026-10-07",
+    "est_value": 8813564.723305594,
+    "est_weight": 0.0015963740119728767
    },
    {
     "key": "83056P715",
@@ -1551,10 +1551,10 @@
     "change": "new",
     "share_change_pct": null,
     "prev_shares": null,
-    "price_change_pct": 17.591900078397327,
-    "price_as_of": "2026-10-06",
-    "est_value": 9410879.763274139,
-    "est_weight": 0.0016818167170974153
+    "price_change_pct": 14.291070846769793,
+    "price_as_of": "2026-10-07",
+    "est_value": 9146714.399866987,
+    "est_weight": 0.0016567163935694471
    },
    {
     "key": "N4732M103",
@@ -1570,10 +1570,10 @@
     "change": "same",
     "share_change_pct": 0.0,
     "prev_shares": 655900,
-    "price_change_pct": 1.4345997537669408,
-    "price_as_of": "2026-10-06",
-    "est_value": 7883497.092862766,
-    "est_weight": 0.0014088584206236503
+    "price_change_pct": 3.2911339839135634,
+    "price_as_of": "2026-10-07",
+    "est_value": 8027786.933229762,
+    "est_weight": 0.001454048485055765
    },
    {
     "key": "61225M102",
@@ -1589,10 +1589,10 @@
     "change": "new",
     "share_change_pct": null,
     "prev_shares": null,
-    "price_change_pct": -59.21487779176324,
-    "price_as_of": "2026-10-06",
-    "est_value": 2937344.5014372114,
-    "est_weight": 0.000524932334771704
+    "price_change_pct": -57.97520762119742,
+    "price_as_of": "2026-10-07",
+    "est_value": 3026625.547121362,
+    "est_weight": 0.0005482034249571601
    },
    {
     "key": "75943R102",
@@ -1608,10 +1608,10 @@
     "change": "new",
     "share_change_pct": null,
     "prev_shares": null,
-    "price_change_pct": 0.16034574085257436,
-    "price_as_of": "2026-10-06",
-    "est_value": 6540470.576877673,
-    "est_weight": 0.0011688463810581807
+    "price_change_pct": -4.061990158855333,
+    "price_as_of": "2026-10-07",
+    "est_value": 6264752.042626747,
+    "est_weight": 0.0011347153695777734
    },
    {
     "key": "23306J309",
@@ -1627,10 +1627,10 @@
     "change": "same",
     "share_change_pct": 0.0,
     "prev_shares": 383363,
-    "price_change_pct": -39.146342839179226,
-    "price_as_of": "2026-10-06",
-    "est_value": 3825869.425700802,
-    "est_weight": 0.0006837204724138246
+    "price_change_pct": -40.426825091357934,
+    "price_as_of": "2026-10-07",
+    "est_value": 3745365.5065063266,
+    "est_weight": 0.0006783865947130481
    },
    {
     "key": "12510Q100",
@@ -1646,10 +1646,10 @@
     "change": "new",
     "share_change_pct": null,
     "prev_shares": null,
-    "price_change_pct": 28.875974651483773,
-    "price_as_of": "2026-10-06",
-    "est_value": 7786686.3884426495,
-    "est_weight": 0.0013915573961516214
+    "price_change_pct": 26.93799194625712,
+    "price_as_of": "2026-10-07",
+    "est_value": 7669593.473392855,
+    "est_weight": 0.001389169999619531
    },
    {
     "key": "91823B109",
@@ -1665,10 +1665,10 @@
     "change": "new",
     "share_change_pct": null,
     "prev_shares": null,
-    "price_change_pct": -47.598250319939,
-    "price_as_of": "2026-10-06",
-    "est_value": 3099563.4935756084,
-    "est_weight": 0.0005539224631838996
+    "price_change_pct": -50.65502122029501,
+    "price_as_of": "2026-10-07",
+    "est_value": 2918755.49481955,
+    "est_weight": 0.000528665252427557
    },
    {
     "key": "63942X106",
@@ -1684,10 +1684,10 @@
     "change": "new",
     "share_change_pct": null,
     "prev_shares": null,
-    "price_change_pct": -33.203123794269885,
-    "price_as_of": "2026-10-06",
-    "est_value": 3723925.848469454,
-    "est_weight": 0.0006655021531173147
+    "price_change_pct": -36.941963489813624,
+    "price_as_of": "2026-10-07",
+    "est_value": 3515485.5354428906,
+    "est_weight": 0.0006367491389049163
    },
    {
     "key": "83443Q103",
@@ -1703,10 +1703,10 @@
     "change": "same",
     "share_change_pct": 0.0,
     "prev_shares": 62525,
-    "price_change_pct": -30.75436851715296,
-    "price_as_of": "2026-10-06",
-    "est_value": 3836207.9841497256,
-    "est_weight": 0.0006855680744305823
+    "price_change_pct": -31.78282475368889,
+    "price_as_of": "2026-10-07",
+    "est_value": 3779231.5086456356,
+    "est_weight": 0.000684520640062673
    },
    {
     "key": "G3730V105",
@@ -1722,10 +1722,10 @@
     "change": "new",
     "share_change_pct": null,
     "prev_shares": null,
-    "price_change_pct": -33.52360860500979,
-    "price_as_of": "2026-10-06",
-    "est_value": 3632934.789736215,
-    "est_weight": 0.0006492411565332171
+    "price_change_pct": -35.23145635765872,
+    "price_as_of": "2026-10-07",
+    "est_value": 3539600.910053951,
+    "est_weight": 0.0006411170829237865
    },
    {
     "key": "07373V105",
@@ -1741,10 +1741,10 @@
     "change": "new",
     "share_change_pct": null,
     "prev_shares": null,
-    "price_change_pct": -26.486014666132853,
-    "price_as_of": "2026-10-06",
-    "est_value": 3875657.306801476,
-    "est_weight": 0.0006926180561520362
+    "price_change_pct": -27.826338350756973,
+    "price_as_of": "2026-10-07",
+    "est_value": 3804995.442148092,
+    "est_weight": 0.0006891871825095404
    },
    {
     "key": "051774107",
@@ -1760,10 +1760,10 @@
     "change": "new",
     "share_change_pct": null,
     "prev_shares": null,
-    "price_change_pct": -15.689151682245795,
-    "price_as_of": "2026-10-06",
-    "est_value": 3643914.864293337,
-    "est_weight": 0.0006512034037842348
+    "price_change_pct": -16.129037445489715,
+    "price_as_of": "2026-10-07",
+    "est_value": 3624903.0016059345,
+    "est_weight": 0.0006565675897726706
    },
    {
     "key": "Q4982L109",
@@ -1779,10 +1779,10 @@
     "change": "new",
     "share_change_pct": null,
     "prev_shares": null,
-    "price_change_pct": -9.73103172421732,
-    "price_as_of": "2026-10-06",
-    "est_value": 3595413.0064244242,
-    "est_weight": 0.0006425356450383893
+    "price_change_pct": -15.394710225232311,
+    "price_as_of": "2026-10-07",
+    "est_value": 3369828.691728997,
+    "est_weight": 0.0006103667604609256
    },
    {
     "key": "399909100",
@@ -1798,10 +1798,10 @@
     "change": "new",
     "share_change_pct": null,
     "prev_shares": null,
-    "price_change_pct": -23.427144470885985,
-    "price_as_of": "2026-10-06",
-    "est_value": 2279573.909101724,
-    "est_weight": 0.00040738226442418786
+    "price_change_pct": -25.69344640501149,
+    "price_as_of": "2026-10-07",
+    "est_value": 2212106.100522808,
+    "est_weight": 0.00040067200973328886
    },
    {
     "key": "Y95308105",
@@ -1817,10 +1817,10 @@
     "change": "same",
     "share_change_pct": 0.0,
     "prev_shares": 173000,
-    "price_change_pct": -39.41480179701132,
-    "price_as_of": "2026-10-06",
-    "est_value": 608881.2419400362,
-    "est_weight": 0.00010881306287835514
+    "price_change_pct": -39.07056804273446,
+    "price_as_of": "2026-10-07",
+    "est_value": 612340.7911705187,
+    "est_weight": 0.00011091141396064979
    }
   ],
   "exits": [
