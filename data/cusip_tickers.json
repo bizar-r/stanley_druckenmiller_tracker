@@ -311,6 +311,11 @@
   "figi_name": "BARRICK GOLD CORP",
   "security_type": "Common Stock"
  },
+ "06849F108": {
+  "ticker": "B",
+  "figi_name": "BARRICK MINING CORP",
+  "security_type": "Common Stock"
+ },
  "07373V105": {
   "ticker": "BEAM",
   "figi_name": "BEAM THERAPEUTICS INC",
@@ -726,6 +731,11 @@
  "231021106": {
   "ticker": "CMI",
   "figi_name": "CUMMINS INC",
+  "security_type": "Common Stock"
+ },
+ "23255M303": {
+  "ticker": "KRSA",
+  "figi_name": "KORSANA BIOSCIENCES INC",
   "security_type": "Common Stock"
  },
  "233051879": {
@@ -1181,6 +1191,11 @@
   "figi_name": "INGERSOLL-RAND INC",
   "security_type": "Common Stock"
  },
+ "45765U103": {
+  "ticker": "NSIT",
+  "figi_name": "INSIGHT ENTERPRISES INC",
+  "security_type": "Common Stock"
+ },
  "457669307": {
   "ticker": "INSM",
   "figi_name": "INSMED INC",
@@ -1451,6 +1466,11 @@
  "55261F104": {
   "ticker": "MTB",
   "figi_name": "M & T BANK CORP",
+  "security_type": "Common Stock"
+ },
+ "55306N104": {
+  "ticker": "MKSI",
+  "figi_name": "MKS INC",
   "security_type": "Common Stock"
  },
  "556099109": {
@@ -2253,6 +2273,11 @@
   "figi_name": "SOUTHWESTERN ENERGY CO",
   "security_type": "Common Stock"
  },
+ "84615Q103": {
+  "ticker": "SPCX",
+  "figi_name": "SPACE EXPLORATION TECHN-CL A",
+  "security_type": "Common Stock"
+ },
  "848637104": {
   "ticker": "SPLKCHF",
   "figi_name": "SPLUNK INC",
@@ -2325,6 +2350,11 @@
   "figi_name": "SYMANTEC CORP",
   "security_type": "Common Stock"
  },
+ "87162W100": {
+  "ticker": "SNX",
+  "figi_name": "TD SYNNEX CORP",
+  "security_type": "Common Stock"
+ },
  "87165B103": {
   "ticker": "SYF",
   "figi_name": "SYNCHRONY FINANCIAL",
@@ -2348,6 +2378,11 @@
  "872657101": {
   "ticker": "TPG",
   "figi_name": "TPG INC",
+  "security_type": "Common Stock"
+ },
+ "87305R109": {
+  "ticker": "TTMI",
+  "figi_name": "TTM TECHNOLOGIES",
   "security_type": "Common Stock"
  },
  "87336U105": {
@@ -2655,6 +2690,11 @@
  "934423104": {
   "ticker": "WBD",
   "figi_name": "WARNER BROS DISCOVERY INC",
+  "security_type": "Common Stock"
+ },
+ "94352A104": {
+  "ticker": "WVE",
+  "figi_name": "WAVE LIFE SCIENCES INC",
   "security_type": "Common Stock"
  },
  "94419L101": {

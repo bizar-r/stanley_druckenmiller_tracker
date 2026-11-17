@@ -1,0 +1,595 @@
+{
+ "accession": "0001536411-26-000011",
+ "form": "13F-HR",
+ "filed": "2026-11-16",
+ "period": "2026-09-30",
+ "amendment_type": null,
+ "has_table": true,
+ "holdings": [
+  {
+   "name": "Adma Biologics Inc",
+   "title_of_class": "COM",
+   "cusip": "000899104",
+   "value": 22194000,
+   "shares": 2212810,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Agnico Eagle Mines Ltd",
+   "title_of_class": "COM",
+   "cusip": "008474108",
+   "value": 42345000,
+   "shares": 231050,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Amazon Com Inc",
+   "title_of_class": "COM",
+   "cusip": "023135106",
+   "value": 192493000,
+   "shares": 772600,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Amazon Com Inc",
+   "title_of_class": "COM",
+   "cusip": "023135106",
+   "value": 114435000,
+   "shares": 459300,
+   "share_type": "SH",
+   "put_call": "CALL"
+  },
+  {
+   "name": "Applovin Corp",
+   "title_of_class": "COM CL A",
+   "cusip": "03831W108",
+   "value": 31790000,
+   "shares": 109460,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Aurora Innovation Inc",
+   "title_of_class": "CLASS A COM",
+   "cusip": "051774107",
+   "value": 3511000,
+   "shares": 633700,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Barrick Mng Corp",
+   "title_of_class": "COM SHS",
+   "cusip": "06849F108",
+   "value": 42891000,
+   "shares": 1054600,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Bbb Foods Inc",
+   "title_of_class": "CL A COM",
+   "cusip": "G0896C103",
+   "value": 86720000,
+   "shares": 1647408,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Beam Therapeutics Inc",
+   "title_of_class": "COM",
+   "cusip": "07373V105",
+   "value": 17108000,
+   "shares": 699700,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Belite Bio Inc Sponsored",
+   "title_of_class": "ADS",
+   "cusip": "07782B104",
+   "value": 18018000,
+   "shares": 106100,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Bitdeer Technologies Group",
+   "title_of_class": "CL A ORD SHS",
+   "cusip": "G11448100",
+   "value": 39668000,
+   "shares": 3781493,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Cavco Inds Inc Del",
+   "title_of_class": "COM",
+   "cusip": "149568107",
+   "value": 31722000,
+   "shares": 56620,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Cdw Corp",
+   "title_of_class": "COM",
+   "cusip": "12514G108",
+   "value": 73788000,
+   "shares": 575750,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Cdw Corp",
+   "title_of_class": "COM",
+   "cusip": "12514G108",
+   "value": 32040000,
+   "shares": 250000,
+   "share_type": "SH",
+   "put_call": "CALL"
+  },
+  {
+   "name": "Champion Homes Inc",
+   "title_of_class": "COM",
+   "cusip": "830830105",
+   "value": 31812000,
+   "shares": 371200,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Cogent Biosciences Inc",
+   "title_of_class": "COM",
+   "cusip": "19240Q201",
+   "value": 7080000,
+   "shares": 221112,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Coupang Inc",
+   "title_of_class": "CL A",
+   "cusip": "22266T109",
+   "value": 36998000,
+   "shares": 2667485,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Crh Plc",
+   "title_of_class": "ORD",
+   "cusip": "G25508105",
+   "value": 13195000,
+   "shares": 159355,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Daktronics Inc",
+   "title_of_class": "COM",
+   "cusip": "234264109",
+   "value": 31198000,
+   "shares": 1794035,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Dbv Technologies S A",
+   "title_of_class": "SPONSORED ADS",
+   "cusip": "23306J309",
+   "value": 2035000,
+   "shares": 173028,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Eli Lilly & Co",
+   "title_of_class": "COM",
+   "cusip": "532457108",
+   "value": 4397000,
+   "shares": 3800,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Fluor Corp",
+   "title_of_class": "COM",
+   "cusip": "343412102",
+   "value": 34617000,
+   "shares": 723000,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Fox Corp",
+   "title_of_class": "CL A COM",
+   "cusip": "35137L105",
+   "value": 190835000,
+   "shares": 3046050,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Fox Corp",
+   "title_of_class": "CL B COM",
+   "cusip": "35137L204",
+   "value": 35615000,
+   "shares": 632600,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Humana Inc",
+   "title_of_class": "COM",
+   "cusip": "444859102",
+   "value": 24886000,
+   "shares": 65220,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Hyperliquid Strategies Inc",
+   "title_of_class": "COM",
+   "cusip": "44916Y106",
+   "value": 36092000,
+   "shares": 2941500,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Insight Enterprises Inc",
+   "title_of_class": "COM",
+   "cusip": "45765U103",
+   "value": 10489000,
+   "shares": 67100,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Insmed Inc",
+   "title_of_class": "COM PAR $.01",
+   "cusip": "457669307",
+   "value": 124715000,
+   "shares": 1092650,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Insmed Inc",
+   "title_of_class": "COM PAR $.01",
+   "cusip": "457669307",
+   "value": 62777000,
+   "shares": 550000,
+   "share_type": "SH",
+   "put_call": "CALL"
+  },
+  {
+   "name": "Invesco Exchange Traded Fd T",
+   "title_of_class": "S&P500 EQL WGT",
+   "cusip": "46137V357",
+   "value": 15477000,
+   "shares": 74400,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Ishares Inc",
+   "title_of_class": "MSCI BRAZIL ETF",
+   "cusip": "464286400",
+   "value": 125814000,
+   "shares": 3377570,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Jbs N.V.",
+   "title_of_class": "CL A SHS",
+   "cusip": "N4732M103",
+   "value": 15876000,
+   "shares": 1406200,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Korsana Biosciences Inc",
+   "title_of_class": "COM",
+   "cusip": "23255M303",
+   "value": 8914000,
+   "shares": 278561,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Mks Inc.",
+   "title_of_class": "COM",
+   "cusip": "55306N104",
+   "value": 8470000,
+   "shares": 31920,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Moonlake Immunotherapeutics",
+   "title_of_class": "CLASS A ORD",
+   "cusip": "61559X104",
+   "value": 5780000,
+   "shares": 494000,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Natera Inc",
+   "title_of_class": "COM",
+   "cusip": "632307104",
+   "value": 1306335000,
+   "shares": 3160666,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Newamsterdam Pharma Company",
+   "title_of_class": "ORDINARY SHARES",
+   "cusip": "N62509109",
+   "value": 81646000,
+   "shares": 3357146,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Newmont Corp",
+   "title_of_class": "COM",
+   "cusip": "651639106",
+   "value": 43875000,
+   "shares": 380400,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Nuvation Bio Inc",
+   "title_of_class": "COM CL A",
+   "cusip": "67080N101",
+   "value": 12711000,
+   "shares": 2269900,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Olema Pharmaceuticals Inc",
+   "title_of_class": "COM",
+   "cusip": "68062P106",
+   "value": 8526000,
+   "shares": 986827,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Palantir Technologies Inc",
+   "title_of_class": "CL A",
+   "cusip": "69608A108",
+   "value": 14983000,
+   "shares": 80100,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Palo Alto Networks Inc",
+   "title_of_class": "COM",
+   "cusip": "697435105",
+   "value": 11919000,
+   "shares": 30000,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Purecycle Technologies Inc",
+   "title_of_class": "COM",
+   "cusip": "74623V103",
+   "value": 11825000,
+   "shares": 2681415,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Relay Therapeutics Inc",
+   "title_of_class": "COM",
+   "cusip": "75943R102",
+   "value": 15389000,
+   "shares": 852600,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Repligen Corp",
+   "title_of_class": "COM",
+   "cusip": "759916109",
+   "value": 14879000,
+   "shares": 77400,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Revolution Medicines Inc",
+   "title_of_class": "COM",
+   "cusip": "76155X100",
+   "value": 89552000,
+   "shares": 436287,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Rhythm Pharmaceuticals Inc",
+   "title_of_class": "COM",
+   "cusip": "76243J105",
+   "value": 25699000,
+   "shares": 269900,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Riot Platforms Inc",
+   "title_of_class": "COM",
+   "cusip": "767292105",
+   "value": 18248000,
+   "shares": 905600,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Rocket Cos Inc",
+   "title_of_class": "COM CL A",
+   "cusip": "77311W101",
+   "value": 7507000,
+   "shares": 652220,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Roku Inc",
+   "title_of_class": "COM CL A",
+   "cusip": "77543R102",
+   "value": 28028000,
+   "shares": 184055,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Sea Ltd",
+   "title_of_class": "SPONSORD ADS",
+   "cusip": "81141R100",
+   "value": 155072000,
+   "shares": 1592765,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Seagate Technology Hldngs Pl",
+   "title_of_class": "ORD SHS",
+   "cusip": "G7997R103",
+   "value": 315247000,
+   "shares": 341790,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Seagate Technology Hldngs Pl",
+   "title_of_class": "ORD SHS",
+   "cusip": "G7997R103",
+   "value": 90389000,
+   "shares": 98000,
+   "share_type": "SH",
+   "put_call": "CALL"
+  },
+  {
+   "name": "Skeena Res Ltd New",
+   "title_of_class": "COM",
+   "cusip": "83056P715",
+   "value": 8925000,
+   "shares": 300200,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Somnigroup International Inc",
+   "title_of_class": "COM",
+   "cusip": "88023U101",
+   "value": 61712000,
+   "shares": 993600,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Space Exploration Techn Corp",
+   "title_of_class": "CLASS A COM STK",
+   "cusip": "84615Q103",
+   "value": 30493000,
+   "shares": 202125,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Stmicroelectronics N V",
+   "title_of_class": "NY REGISTRY",
+   "cusip": "861012102",
+   "value": 86197000,
+   "shares": 1615380,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Taiwan Semiconductor Manufac",
+   "title_of_class": "SPONSORED ADS",
+   "cusip": "874039100",
+   "value": 14917000,
+   "shares": 32700,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Td Synnex Corporation",
+   "title_of_class": "COM",
+   "cusip": "87162W100",
+   "value": 14512000,
+   "shares": 56500,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Tesla Inc",
+   "title_of_class": "COM",
+   "cusip": "88160R101",
+   "value": 22353000,
+   "shares": 63000,
+   "share_type": "SH",
+   "put_call": "CALL"
+  },
+  {
+   "name": "Ttm Technologies Inc",
+   "title_of_class": "COM",
+   "cusip": "87305R109",
+   "value": 27210000,
+   "shares": 221505,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Unity Software Inc",
+   "title_of_class": "COM",
+   "cusip": "91332U101",
+   "value": 161935000,
+   "shares": 3956385,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Wave Life Sciences Inc",
+   "title_of_class": "SHS",
+   "cusip": "94352A104",
+   "value": 640000,
+   "shares": 173000,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Western Digital Corp",
+   "title_of_class": "COM",
+   "cusip": "958102105",
+   "value": 36793000,
+   "shares": 80960,
+   "share_type": "SH",
+   "put_call": null
+  },
+  {
+   "name": "Ypf Sociedad Anonima",
+   "title_of_class": "SPONSORED ADS",
+   "cusip": "984245100",
+   "value": 177555000,
+   "shares": 3541897,
+   "share_type": "SH",
+   "put_call": null
+  }
+ ]
+}
